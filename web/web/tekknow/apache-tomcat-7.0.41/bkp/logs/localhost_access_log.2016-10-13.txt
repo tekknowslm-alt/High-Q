@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [13/Oct/2016:13:09:04 +0530] "GET /wovenerp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [13/Oct/2016:13:09:04 +0530] "GET /wovenerp/ HTTP/1.1" 200 2883
+0:0:0:0:0:0:0:1 - - [13/Oct/2016:13:09:05 +0530] "GET /wovenerp/images/titleicon.gif HTTP/1.1" 404 1009
+0:0:0:0:0:0:0:1 - - [13/Oct/2016:13:09:11 +0530] "POST /wovenerp/j_security_check HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - admin [13/Oct/2016:13:09:11 +0530] "GET /wovenerp/ HTTP/1.1" 200 9459
+0:0:0:0:0:0:0:1 - admin [13/Oct/2016:13:09:12 +0530] "GET /wovenerp/service/ajax?ic=0&id=usermenu&login_id=admin HTTP/1.1" 200 8712
+0:0:0:0:0:0:0:1 - admin [13/Oct/2016:13:09:13 +0530] "GET /wovenerp/master.do?screencode=100005 HTTP/1.1" 200 2390
+0:0:0:0:0:0:0:1 - admin [13/Oct/2016:13:09:13 +0530] "GET /wovenerp/service/screen?screencode=100005 HTTP/1.1" 200 5827
+0:0:0:0:0:0:0:1 - admin [13/Oct/2016:13:09:13 +0530] "GET /wovenerp/service/report/metadata?id=100005 HTTP/1.1" 200 745
+0:0:0:0:0:0:0:1 - admin [13/Oct/2016:13:09:14 +0530] "GET /wovenerp/service/report/data?id=100005undefined&_search=false&nd=1476344353942&rows=25&page=1&sidx=group_name&sord=asc HTTP/1.1" 200 424
+0:0:0:0:0:0:0:1 - admin [13/Oct/2016:13:09:14 +0530] "GET /wovenerp/GIR.do HTTP/1.1" 200 19366
+0:0:0:0:0:0:0:1 - admin [13/Oct/2016:13:09:14 +0530] "GET /wovenerp/GIR.do HTTP/1.1" 200 19366
+0:0:0:0:0:0:0:1 - - [13/Oct/2016:13:09:14 +0530] "GET /Fruits/images/drag-handle.png HTTP/1.1" 404 1009
+0:0:0:0:0:0:0:1 - admin [13/Oct/2016:13:09:21 +0530] "GET /wovenerp/Sizing.do HTTP/1.1" 200 28410

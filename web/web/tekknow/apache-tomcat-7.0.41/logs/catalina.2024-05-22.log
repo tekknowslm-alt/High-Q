@@ -1,0 +1,49 @@
+May 22, 2024 10:38:07 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 22, 2024 10:38:07 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+May 22, 2024 10:38:07 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 22, 2024 10:38:07 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 655 ms
+May 22, 2024 10:38:07 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 22, 2024 10:38:07 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+May 22, 2024 10:38:08 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\tekknow\apache-tomcat-7.0.41\conf\Catalina\localhost\tekknow.xml
+May 22, 2024 10:38:12 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+May 22, 2024 10:38:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\docs
+May 22, 2024 10:38:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\examples
+May 22, 2024 10:38:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\host-manager
+May 22, 2024 10:38:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\manager
+May 22, 2024 10:38:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\ROOT
+May 22, 2024 10:38:14 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 22, 2024 10:38:14 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+May 22, 2024 10:38:14 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 22, 2024 10:38:14 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6277 ms
+May 22, 2024 5:30:18 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+May 22, 2024 5:30:39 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+May 22, 2024 5:34:06 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+May 22, 2024 5:39:31 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+May 22, 2024 5:55:17 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.

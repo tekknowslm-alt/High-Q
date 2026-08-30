@@ -1,0 +1,34 @@
+Oct 26, 2015 11:05:12 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 26, 2015 11:05:12 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Oct 26, 2015 11:05:12 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 26, 2015 11:05:12 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 321 ms
+Oct 26, 2015 11:05:13 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 26, 2015 11:05:13 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Oct 26, 2015 11:05:13 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\kirthika\apache-tomcat-7.0.41\conf\Catalina\localhost\Trade.xml
+Oct 26, 2015 11:05:15 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 26, 2015 11:05:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\docs
+Oct 26, 2015 11:05:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\examples
+Oct 26, 2015 11:05:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\host-manager
+Oct 26, 2015 11:05:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\manager
+Oct 26, 2015 11:05:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\ROOT
+Oct 26, 2015 11:05:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 26, 2015 11:05:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Oct 26, 2015 11:05:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 26, 2015 11:05:16 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3291 ms

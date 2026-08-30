@@ -1,0 +1,9 @@
+select 'Name of Supliers' col1,'Total Taxable Value' col2,'Integrated Tax' col3, 'Central Tax' col4,'State/UT Tax' col5,'Cess' col6  from company where c_code=1 
+
+union all 
+
+select '1','2','3','4','5','6' from company where c_code=1
+
+union all 
+
+select '(a) Outward Taxable Suppliers (other than zero rated, nil rated and exempted)',format(sum(amount),'##,##,###.00'),format(sum(igst_amount),'##,##,###.00'),format(sum(cgst_amount),'##,##,###.00'),format(sum(sgst_amount),'##,##,###.00'),'0' from v_sales_tax 

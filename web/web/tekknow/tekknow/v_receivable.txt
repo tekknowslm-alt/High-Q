@@ -1,0 +1,30 @@
+alter view  v_receivable as SELECT bill_date dt,bill_date,bill_no,f_invoice.main_ledger_code as ledger_code,total_amt - (select ifnull(sum(adj_amount),0) from advance_mapping_det a1,advance_mapping a2 where a1.mapping_code=a2.mapping_code and ifnull(a2.status,'N')<>'C' and a1.invoice_code=f_invoice.invoice_code and a2.advance_type='R') AS total_amt,0 as paid_amount,0 as discount,c_code from f_invoice,ledger_mast l1 where f_invoice.ledger_code=l1.ledger_code and ifnull(status,'N')<>'C' and f_invoice.ledger_code<>1 and bill_date>=date('2019/04/01')
+
+union all 
+
+SELECT bill_date dt,bill_date,bill_no,sales_ret.main_ledger_code as ledger_code,total_amt*-1 AS total_amt,0 as paid_amount,0 as discount,c_code from sales_ret,ledger_mast l1 where sales_ret.ledger_code=l1.ledger_code and ifnull(status,'N')<>'C' and sales_ret.ledger_code<>1 and bill_date>=date('2019/04/01') 
+
+union all 
+ 
+select bill_date,bill_date,bill_no,case when main_ledger_code is null or main_ledger_code=0 then l1.ledger_code else main_ledger_code end, net_amount ,0,0,c_code from purc_sale p1, purc_sale_det p2,ledger_mast l1 where p2.ledger_code=l1.ledger_code and p1.tran_code=p2.tran_code and tran_type in('S') and ifnull(status,'N')<>'C' and p2.ledger_code<>1 and bill_date>=date('2019-04-01') 
+
+union all 
+
+select rece_date,bill_date,bill_no,case when date(bill_date)>=date('2019/04/01') then (select main_ledger_code from f_invoice f1 where f1.bill_no=r1.bill_no and f1.bill_date=r1.bill_date and f1.c_code=r2.c_code and ifnull(f1.status,'N')<>'C') else  case when main_ledger_code is null or main_ledger_code=0 then r2.party_code else main_ledger_code end end,0,paid_amount,discount,c_code from rece_det r1,rece_mast r2,ledger_mast l1  where r2.party_code=l1.ledger_code and r1.rece_code=r2.rece_code and ifnull(status,'N')<>'C' and paid_amount>0 
+
+union all 
+
+select rece_date,bill_date,bill_no,case when date(bill_date)>=date('2019/04/01') then (select main_ledger_code from sales_ret f1 where f1.bill_no=r1.bill_no and f1.bill_date=r1.bill_date and f1.c_code=r2.c_code and ifnull(f1.status,'N')<>'C') else  case when main_ledger_code is null or main_ledger_code=0 then r2.party_code else main_ledger_code end end,0,paid_amount,discount,c_code from rece_det r1,rece_mast r2,ledger_mast l1  where r2.party_code=l1.ledger_code and r1.rece_code=r2.rece_code and ifnull(status,'N')<>'C' and paid_amount<0 
+
+union all 
+
+select advance_date,advance_date,advance_no,case when main_ledger_code is null or main_ledger_code=0 then party_ledger_code else main_ledger_code end,amount-(select ifnull(sum(adj_amount),0) from advance_mapping_det a1,advance_mapping a2 where a1.mapping_code=a2.mapping_code and a1.advance_code=advance.advance_code and ifnull(a2.status,'N')<>'C'),0,0,c_code from advance,ledger_mast l1 where advance.party_ledger_code=l1.ledger_code and ifnull(status,'N')<>'C' and advance.advance_type='R' 
+
+union all 
+
+
+select bill_date,bill_date,bill_no,case when main_ledger_code is null or main_ledger_code=0 then l1.ledger_code  else l1.main_ledger_code end,net_amount*-1,0,0,c_code from purc_sale p1, purc_sale_det p2,ledger_mast l1 where p2.ledger_code=l1.ledger_code and p1.tran_code=p2.tran_code and tran_type='C' and  ifnull(status,'N')<>'C' and p2.ledger_code<>1 and bill_date>=date('2019-04-01')
+
+union all 
+
+select bill_date,bill_date,bill_no,case when main_ledger_code is null or main_ledger_code=0 then l1.ledger_code else main_ledger_code end, net_amount ,0,0,c_code from purc_sale p1, purc_sale_det p2,ledger_mast l1 where p2.ledger_code=l1.ledger_code and p1.tran_code=p2.tran_code and tran_type in('Z') and  ifnull(status,'N')<>'C' and p2.ledger_code<>1 

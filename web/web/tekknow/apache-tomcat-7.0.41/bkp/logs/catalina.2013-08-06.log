@@ -1,0 +1,302 @@
+Aug 06, 2013 5:58:36 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Aug 06, 2013 5:58:36 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Aug 06, 2013 5:58:38 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Aug 06, 2013 5:58:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 5:58:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 5:58:39 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4593 ms
+Aug 06, 2013 5:58:39 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 06, 2013 5:58:39 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Aug 06, 2013 5:58:39 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Aug 06, 2013 5:58:44 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 06, 2013 5:58:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Aug 06, 2013 5:58:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Aug 06, 2013 5:58:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Aug 06, 2013 5:58:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Aug 06, 2013 5:58:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Aug 06, 2013 5:58:46 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 5:58:46 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 5:58:46 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7563 ms
+Aug 06, 2013 6:05:07 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Aug 06, 2013 6:05:07 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:05:07 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:05:07 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 06, 2013 6:05:07 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:05:07 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:05:07 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:05:07 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:05:10 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Aug 06, 2013 6:05:10 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Aug 06, 2013 6:05:12 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Aug 06, 2013 6:05:12 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:05:12 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:05:12 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1964 ms
+Aug 06, 2013 6:05:12 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 06, 2013 6:05:12 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Aug 06, 2013 6:05:12 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Aug 06, 2013 6:05:17 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 06, 2013 6:05:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Aug 06, 2013 6:05:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Aug 06, 2013 6:05:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Aug 06, 2013 6:05:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Aug 06, 2013 6:05:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Aug 06, 2013 6:05:19 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:05:19 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:05:19 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7019 ms
+Aug 06, 2013 6:07:56 PM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Catalina.stop: 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:499)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:371)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:458)
+
+Aug 06, 2013 6:08:00 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Aug 06, 2013 6:08:00 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Aug 06, 2013 6:08:01 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Aug 06, 2013 6:08:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:08:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:08:01 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1847 ms
+Aug 06, 2013 6:08:01 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 06, 2013 6:08:01 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Aug 06, 2013 6:08:01 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Aug 06, 2013 6:08:05 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 06, 2013 6:08:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Aug 06, 2013 6:08:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Aug 06, 2013 6:08:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Aug 06, 2013 6:08:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Aug 06, 2013 6:08:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Aug 06, 2013 6:08:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:08:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:08:06 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5170 ms
+Aug 06, 2013 6:10:20 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Aug 06, 2013 6:10:20 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:10:20 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:10:20 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 06, 2013 6:10:20 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:10:20 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:10:20 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:10:20 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:10:23 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Aug 06, 2013 6:10:23 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Aug 06, 2013 6:10:24 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Aug 06, 2013 6:10:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:10:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:10:24 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1790 ms
+Aug 06, 2013 6:10:24 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 06, 2013 6:10:24 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Aug 06, 2013 6:10:25 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Aug 06, 2013 6:10:28 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 06, 2013 6:10:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Aug 06, 2013 6:10:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Aug 06, 2013 6:10:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Aug 06, 2013 6:10:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Aug 06, 2013 6:10:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Aug 06, 2013 6:10:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:10:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:10:30 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5235 ms
+Aug 06, 2013 6:13:19 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Aug 06, 2013 6:13:19 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:13:19 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:13:19 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 06, 2013 6:13:20 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:13:20 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:13:20 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:13:20 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:13:23 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Aug 06, 2013 6:13:23 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Aug 06, 2013 6:13:25 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Aug 06, 2013 6:13:25 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:13:25 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:13:25 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2141 ms
+Aug 06, 2013 6:13:25 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 06, 2013 6:13:25 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Aug 06, 2013 6:13:25 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Aug 06, 2013 6:13:29 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 06, 2013 6:13:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Aug 06, 2013 6:13:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Aug 06, 2013 6:13:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Aug 06, 2013 6:13:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Aug 06, 2013 6:13:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Aug 06, 2013 6:13:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:13:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:13:30 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5355 ms
+Aug 06, 2013 6:19:07 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Aug 06, 2013 6:19:07 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:19:07 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:19:08 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 06, 2013 6:19:08 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:19:08 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:19:08 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:19:08 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:19:11 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Aug 06, 2013 6:19:11 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Aug 06, 2013 6:19:13 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Aug 06, 2013 6:19:13 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:19:13 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:19:13 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1936 ms
+Aug 06, 2013 6:19:13 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 06, 2013 6:19:13 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Aug 06, 2013 6:19:13 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Aug 06, 2013 6:19:17 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 06, 2013 6:19:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Aug 06, 2013 6:19:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Aug 06, 2013 6:19:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Aug 06, 2013 6:19:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Aug 06, 2013 6:19:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Aug 06, 2013 6:19:18 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Aug 06, 2013 6:19:18 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Aug 06, 2013 6:19:18 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5130 ms

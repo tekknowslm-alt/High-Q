@@ -1,0 +1,1 @@
+alter view view_vouchers as select branchcode,vh_no,v_type,vh_date,vh_prefix,vh_seq_no,vd_ledger_code,vd_dramount,vd_cramount,vh_status,ledger_name,branch,narration from voucher_detail

@@ -1,0 +1,1 @@
+select bill_date bill_date,bill_no,  sales_amount,cgst_amount,sgst_amount,igst_amount,net_amount, paid_amount  already_paid_amount,  balance,0 as discount,'N' as is_paid,0 as paid_amount,tran_type,tran_type_name  from v_rece_pending where balance<>0 and ledger_code=$(ledger_code) and c_code=$(companycode)

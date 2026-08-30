@@ -1,0 +1,152 @@
+Dec 21, 2024 10:46:40 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 21, 2024 10:46:40 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Dec 21, 2024 10:46:40 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 21, 2024 10:46:40 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 862 ms
+Dec 21, 2024 10:46:40 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 21, 2024 10:46:40 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Dec 21, 2024 10:46:40 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\tekknow\apache-tomcat-7.0.41\conf\Catalina\localhost\tekknow.xml
+Dec 21, 2024 10:46:44 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [109] milliseconds.
+Dec 21, 2024 10:46:45 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Dec 21, 2024 10:46:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\docs
+Dec 21, 2024 10:46:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\examples
+Dec 21, 2024 10:46:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\host-manager
+Dec 21, 2024 10:46:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\manager
+Dec 21, 2024 10:46:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\ROOT
+Dec 21, 2024 10:46:46 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 21, 2024 10:46:47 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Dec 21, 2024 10:46:47 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 21, 2024 10:46:47 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6732 ms
+Dec 21, 2024 10:47:35 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 11:04:56 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 11:12:02 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 11:12:59 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 11:13:50 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 11:26:37 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 11:52:55 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 11:54:10 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:00:29 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:03:05 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:05:43 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:13:24 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:17:25 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:17:54 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:18:38 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:19:27 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:19:48 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:22:56 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:23:03 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:23:24 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:29:22 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:31:53 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:32:24 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:32:27 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:32:54 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:37:35 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:38:13 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:44:51 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:45:02 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:51:28 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 12:52:53 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 1:02:27 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 1:03:17 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 1:07:44 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 1:19:19 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 1:35:16 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 1:36:14 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 1:39:37 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 1:40:21 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 1:43:58 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 1:44:48 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 1:45:58 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 1:46:06 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 2:41:31 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 2:42:12 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 5:19:07 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 5:31:54 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 5:42:16 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 5:42:18 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 5:55:13 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 6:16:16 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 6:37:00 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 6:53:22 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 7:01:51 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 7:08:07 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 7:31:29 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 7:57:32 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Dec 21, 2024 8:01:47 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635

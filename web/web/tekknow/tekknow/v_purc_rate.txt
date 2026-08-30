@@ -1,0 +1,1 @@
+alter view v_purc_rate as   select distinct inward_date  as inward_date, product_code, ifnull( rate ,0) as rate  from inward_det i1,inward i2   where i1.inward_code=i2.inward_code and ifnull(status,'N')<>'C'    order by product_code ,inward_date desc 

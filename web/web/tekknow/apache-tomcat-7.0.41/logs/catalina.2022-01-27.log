@@ -1,0 +1,298 @@
+Jan 27, 2022 10:39:04 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jan 27, 2022 10:39:04 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Jan 27, 2022 10:39:04 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jan 27, 2022 10:39:04 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 610 ms
+Jan 27, 2022 10:39:04 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 27, 2022 10:39:04 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jan 27, 2022 10:39:04 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\tekknow\apache-tomcat-7.0.41\conf\Catalina\localhost\tekknow.xml
+Jan 27, 2022 10:39:09 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [125] milliseconds.
+Jan 27, 2022 10:39:09 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jan 27, 2022 10:39:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\docs
+Jan 27, 2022 10:39:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\examples
+Jan 27, 2022 10:39:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\host-manager
+Jan 27, 2022 10:39:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\manager
+Jan 27, 2022 10:39:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\ROOT
+Jan 27, 2022 10:39:10 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jan 27, 2022 10:39:11 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Jan 27, 2022 10:39:11 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jan 27, 2022 10:39:11 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6328 ms
+Jan 27, 2022 10:53:21 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 10:53:24 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 10:55:07 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 10:55:10 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 10:55:15 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 10:55:18 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 10:58:57 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 10:58:59 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 10:59:01 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 10:59:04 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 11:01:11 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 11:01:13 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 12:47:09 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jan 27, 2022 12:47:09 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Jan 27, 2022 12:47:09 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jan 27, 2022 12:47:09 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 673 ms
+Jan 27, 2022 12:47:09 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 27, 2022 12:47:09 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jan 27, 2022 12:47:09 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\tekknow\apache-tomcat-7.0.41\conf\Catalina\localhost\tekknow.xml
+Jan 27, 2022 12:47:14 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jan 27, 2022 12:47:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\docs
+Jan 27, 2022 12:47:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\examples
+Jan 27, 2022 12:47:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\host-manager
+Jan 27, 2022 12:47:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\manager
+Jan 27, 2022 12:47:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\ROOT
+Jan 27, 2022 12:47:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jan 27, 2022 12:47:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Jan 27, 2022 12:47:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jan 27, 2022 12:47:15 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6141 ms
+Jan 27, 2022 12:47:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jan 27, 2022 12:47:52 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Jan 27, 2022 12:47:52 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jan 27, 2022 12:47:52 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 556 ms
+Jan 27, 2022 12:47:52 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 27, 2022 12:47:52 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jan 27, 2022 12:47:52 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\tekknow\apache-tomcat-7.0.41\conf\Catalina\localhost\tekknow.xml
+Jan 27, 2022 12:47:56 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jan 27, 2022 12:47:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\docs
+Jan 27, 2022 12:47:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\examples
+Jan 27, 2022 12:47:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\host-manager
+Jan 27, 2022 12:47:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\manager
+Jan 27, 2022 12:47:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\ROOT
+Jan 27, 2022 12:47:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jan 27, 2022 12:47:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Jan 27, 2022 12:47:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jan 27, 2022 12:47:58 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6600 ms
+Jan 27, 2022 12:58:57 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 12:58:59 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 12:59:31 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:08:17 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:08:20 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:09:08 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:09:48 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:09:53 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:13:12 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:13:15 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:15:19 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:15:22 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:17:50 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:17:53 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:19:54 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:19:57 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:20:43 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:20:45 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:21:36 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:21:39 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:22:03 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:22:06 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:27:56 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:27:59 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:28:44 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:28:52 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:28:55 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:33:31 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:33:34 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:35:00 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:35:03 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:37:32 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:37:35 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:39:19 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 1:39:22 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 3:53:10 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 3:53:13 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 3:58:06 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 3:58:09 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 3:59:47 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 3:59:50 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 4:12:22 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 4:12:24 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 4:14:47 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 4:14:50 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 5:40:43 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 5:40:45 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 5:41:25 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 5:41:29 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 5:41:32 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 5:43:17 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 5:43:20 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 5:51:00 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 5:51:04 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 5:56:20 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 5:56:23 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 5:57:25 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:16:19 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:16:22 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:16:38 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:18:48 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:18:51 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:27:24 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:27:26 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:33:51 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:33:54 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:37:51 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:37:53 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:48:40 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:48:42 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:57:00 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:57:03 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 7:57:05 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 8:01:02 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 8:01:04 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 8:02:53 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 8:02:56 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 8:03:21 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 8:03:23 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 8:17:20 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 8:17:23 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 8:19:46 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 8:19:49 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 8:23:34 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Jan 27, 2022 8:23:37 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635

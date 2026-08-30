@@ -1,0 +1,180 @@
+Oct 06, 2016 10:02:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 06, 2016 10:02:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Oct 06, 2016 10:02:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 06, 2016 10:02:56 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 560 ms
+Oct 06, 2016 10:02:56 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 06, 2016 10:02:56 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Oct 06, 2016 10:02:56 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+Oct 06, 2016 10:02:59 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [225] milliseconds.
+Oct 06, 2016 10:03:00 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 06, 2016 10:03:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\docs
+Oct 06, 2016 10:03:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\examples
+Oct 06, 2016 10:03:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\host-manager
+Oct 06, 2016 10:03:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\manager
+Oct 06, 2016 10:03:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\ROOT
+Oct 06, 2016 10:03:01 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 06, 2016 10:03:01 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Oct 06, 2016 10:03:01 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 06, 2016 10:03:01 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5596 ms
+Oct 06, 2016 1:22:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 06, 2016 1:22:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Oct 06, 2016 1:22:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 06, 2016 1:22:07 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 556 ms
+Oct 06, 2016 1:22:07 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 06, 2016 1:22:07 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Oct 06, 2016 1:22:07 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+Oct 06, 2016 1:22:10 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [209] milliseconds.
+Oct 06, 2016 1:22:10 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 06, 2016 1:22:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\docs
+Oct 06, 2016 1:22:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\examples
+Oct 06, 2016 1:22:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\host-manager
+Oct 06, 2016 1:22:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\manager
+Oct 06, 2016 1:22:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\ROOT
+Oct 06, 2016 1:22:12 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 06, 2016 1:22:13 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Oct 06, 2016 1:22:13 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 06, 2016 1:22:13 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5850 ms
+Oct 06, 2016 6:56:35 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 06, 2016 6:56:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Oct 06, 2016 6:56:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 06, 2016 6:56:36 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 577 ms
+Oct 06, 2016 6:56:36 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 06, 2016 6:56:36 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Oct 06, 2016 6:56:36 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+Oct 06, 2016 6:56:39 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [157] milliseconds.
+Oct 06, 2016 6:56:39 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 06, 2016 6:56:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\docs
+Oct 06, 2016 6:56:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\examples
+Oct 06, 2016 6:56:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\host-manager
+Oct 06, 2016 6:56:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\manager
+Oct 06, 2016 6:56:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\ROOT
+Oct 06, 2016 6:56:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 06, 2016 6:56:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Oct 06, 2016 6:56:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 06, 2016 6:56:40 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4884 ms
+Oct 06, 2016 10:16:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 06, 2016 10:16:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Oct 06, 2016 10:16:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 06, 2016 10:16:26 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 533 ms
+Oct 06, 2016 10:16:26 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 06, 2016 10:16:26 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Oct 06, 2016 10:16:26 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+Oct 06, 2016 10:16:29 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [172] milliseconds.
+Oct 06, 2016 10:16:30 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 06, 2016 10:16:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\docs
+Oct 06, 2016 10:16:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\examples
+Oct 06, 2016 10:16:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\host-manager
+Oct 06, 2016 10:16:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\manager
+Oct 06, 2016 10:16:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\ROOT
+Oct 06, 2016 10:16:32 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 06, 2016 10:16:32 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Oct 06, 2016 10:16:32 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 06, 2016 10:16:32 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6510 ms
+Oct 06, 2016 10:19:11 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 06, 2016 10:19:11 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Oct 06, 2016 10:19:11 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 06, 2016 10:19:11 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 523 ms
+Oct 06, 2016 10:19:11 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 06, 2016 10:19:11 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Oct 06, 2016 10:19:11 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+Oct 06, 2016 10:19:14 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [203] milliseconds.
+Oct 06, 2016 10:19:14 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 06, 2016 10:19:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\docs
+Oct 06, 2016 10:19:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\examples
+Oct 06, 2016 10:19:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\host-manager
+Oct 06, 2016 10:19:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\manager
+Oct 06, 2016 10:19:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\ROOT
+Oct 06, 2016 10:19:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 06, 2016 10:19:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Oct 06, 2016 10:19:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 06, 2016 10:19:16 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4916 ms

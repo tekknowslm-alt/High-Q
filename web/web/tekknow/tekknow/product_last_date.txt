@@ -1,0 +1,9 @@
+alter  view v_product_movement as select prod_code,i1.product_code,product_name, max(inward_date) as last_inward_date,null as last_invoice_date,0 as stock_pcs,0 as stock_mtrs from product_mast p1,inward_det i1,inward i2 where p1.product_code=i1.product_code and i1.inward_code=i2.inward_code group by prod_code,i1.product_code,product_name 
+ 
+union all 
+ 
+select prod_code,design_code,product_name,null,max(bill_date),0,0 from f_invoice f1,f_invoice_det f2,product_mast p1 where f1.invoice_code=f2.invoice_code and f2.design_code=p1.product_code and f1.c_code<>3 group by prod_code,design_code,product_name 
+
+union all 
+
+select prod_code,p1.product_code,product_name,null,null,sum(qty),sum(mtrs) from v_stock v1,product_mast p1 where v1.product_code=p1.product_code group by prod_code,p1.product_code,product_name  

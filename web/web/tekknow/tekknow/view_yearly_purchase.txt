@@ -1,0 +1,19 @@
+alter view v_yearly_purchase as select mth_code,c_code, mth_name, sum( case when inv_date>= fdate.from_date and inv_date<=fdate.to_date then total_amount else 0 end) as cur_sales, sum( case when inv_date>= fdate.from_date1 and inv_date<=fdate.to_date1 then total_amount else 0 end) as prev_sales,sum( case when inv_date>= fdate.from_date2 and inv_date<=fdate.to_date2 then total_amount else 0 end) as bef_prev_sales from purc_inv,mth1,fdate,fin_date where (fdate.from_date between fin_date.from_date and fin_date.to_date) and month(purc_inv.inv_date)=mth1.mth_no and ifnull(status,'N')<>'C' and transaction_type='B' group by c_code,mth_name,mth_code   
+
+union all 
+
+select mth_code,c_code, mth_name, sum( case when party_inv_date>= fdate.from_date and inv_date<=fdate.to_date then total_amount else 0 end) as cur_sales, sum( case when party_inv_date>= fdate.from_date1 and party_inv_date<=fdate.to_date1 then total_amount else 0 end) as prev_sales,sum( case when party_inv_date>= fdate.from_date2 and party_inv_date<=fdate.to_date2 then total_amount else 0 end) as bef_prev_sales from purc_inv,mth1,fdate,fin_date where (fdate.from_date between fin_date.from_date and fin_date.to_date) and  month(purc_inv.party_inv_date)=mth1.mth_no and ifnull(status,'N')<>'C' and transaction_type='I' and trim(party_inv_no)<>'' group by c_code,mth_name,mth_code   
+
+union all 
+
+
+select mth_code,c_code, mth_name, sum( case when bill_date >= fdate.from_date and bill_date<=fdate.to_date then net_amount else 0 end) as cur_sales, sum( case when bill_date >= fdate.from_date1 and bill_date<=fdate.to_date1 then net_amount else 0 end) as prev_sales,sum( case when bill_date >= fdate.from_date2 and bill_date<=fdate.to_date2 then net_amount else 0 end) as bef_prev_sales  from purc_sale_det,purc_sale,mth1,fdate,fin_date where (fdate.from_date between fin_date.from_date and fin_date.to_date) and  purc_sale.tran_code=purc_sale_det.tran_code and month(purc_sale_det.bill_date)=mth1.mth_no and ifnull(status,'N')<>'C' and tran_type='P' group by c_code,mth_name,mth_code   
+
+union all  
+
+select mth_code,c_code, mth_name, sum( case when bill_date >= fdate.from_date and bill_date<=fdate.to_date then net_amount else 0 end)*-1 as cur_sales, sum( case when bill_date >= fdate.from_date1 and bill_date<=fdate.to_date1 then net_amount else 0 end)*-1 as prev_sales,sum( case when bill_date >= fdate.from_date2 and bill_date<=fdate.to_date2 then net_amount else 0 end)*-1 as bef_prev_sales from purc_sale_det,purc_sale,mth1,fdate,fin_date where (fdate.from_date between fin_date.from_date and fin_date.to_date) and  purc_sale.tran_code=purc_sale_det.tran_code and month(purc_sale_det.bill_date)=mth1.mth_no and ifnull(status,'N')<>'C' and tran_type='D' group by c_code,mth_name,mth_code   
+
+ union all 
+
+
+select mth_code,c_code, mth_name, sum( case when bill_date >= fdate.from_date and bill_date<=fdate.to_date then total_amt else 0 end)*-1 as cur_sales, sum( case when bill_date >= fdate.from_date1 and bill_date<=fdate.to_date1 then total_amt else 0 end)*-1 as prev_sales,sum( case when bill_date >= fdate.from_date2 and bill_date<=fdate.to_date2 then total_amt else 0 end)*-1 as bef_prev_sales from purc_ret,mth1,fdate,fin_date where (fdate.from_date between fin_date.from_date and fin_date.to_date) and    month(purc_ret.bill_date)=mth1.mth_no and ifnull(status,'N')<>'C' group by c_code,mth_name,mth_code   order by mth_code,c_code 

@@ -1,0 +1,986 @@
+May 15, 2016 8:37:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 15, 2016 8:37:27 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+May 15, 2016 8:37:27 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 15, 2016 8:37:27 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 596 ms
+May 15, 2016 8:37:27 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 15, 2016 8:37:27 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+May 15, 2016 8:37:27 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+May 15, 2016 8:37:30 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [325] milliseconds.
+May 15, 2016 8:37:30 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+May 15, 2016 8:37:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\docs
+May 15, 2016 8:37:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\examples
+May 15, 2016 8:37:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\host-manager
+May 15, 2016 8:37:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\manager
+May 15, 2016 8:37:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\ROOT
+May 15, 2016 8:37:32 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 15, 2016 8:37:32 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+May 15, 2016 8:37:32 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 15, 2016 8:37:32 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5126 ms
+May 15, 2016 4:30:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 15, 2016 4:30:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+May 15, 2016 4:30:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 15, 2016 4:30:40 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 600 ms
+May 15, 2016 4:30:40 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 15, 2016 4:30:40 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+May 15, 2016 4:30:40 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+May 15, 2016 4:30:43 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [140] milliseconds.
+May 15, 2016 4:30:44 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+May 15, 2016 4:30:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\docs
+May 15, 2016 4:30:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\examples
+May 15, 2016 4:30:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\host-manager
+May 15, 2016 4:30:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\manager
+May 15, 2016 4:30:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\ROOT
+May 15, 2016 4:30:45 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 15, 2016 4:30:45 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+May 15, 2016 4:30:45 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 15, 2016 4:30:45 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4507 ms
+May 15, 2016 7:25:31 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/wovenerp]
+May 15, 2016 7:25:31 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/wovenerp] has started
+May 15, 2016 7:25:32 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/wovenerp] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+May 15, 2016 7:25:32 PM org.apache.tomcat.util.digester.Digester endElement
+SEVERE: End event threw exception
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:911)
+	at org.apache.catalina.startup.CallMethodMultiRule.end(WebRuleSet.java:1021)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1051)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endNamespaceScope(XMLDTDValidator.java:2054)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleEndElement(XMLDTDValidator.java:2005)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endElement(XMLDTDValidator.java:879)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1883)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1252)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3926)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1270)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: The servlets named [JWYarnReceipt] and [JWYarnReceipt] are both mapped to the url-pattern [/JWYarnReceipt.do] which is not permitted
+	at org.apache.catalina.deploy.WebXml.addServletMapping(WebXml.java:335)
+	... 39 more
+
+May 15, 2016 7:25:32 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/wovenerp/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/wovenerp/WEB-INF/web.xml; lineNumber: 346; columnNumber: 21; Error at (346, 21) : The servlets named [JWYarnReceipt] and [JWYarnReceipt] are both mapped to the url-pattern [/JWYarnReceipt.do] which is not permitted
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2687)
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2719)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1054)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endNamespaceScope(XMLDTDValidator.java:2054)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleEndElement(XMLDTDValidator.java:2005)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endElement(XMLDTDValidator.java:879)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1883)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1252)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3926)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1270)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: The servlets named [JWYarnReceipt] and [JWYarnReceipt] are both mapped to the url-pattern [/JWYarnReceipt.do] which is not permitted
+	at org.apache.catalina.deploy.WebXml.addServletMapping(WebXml.java:335)
+	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:911)
+	at org.apache.catalina.startup.CallMethodMultiRule.end(WebRuleSet.java:1021)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1051)
+	... 33 more
+
+May 15, 2016 7:25:32 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 346 column 21
+May 15, 2016 7:25:32 PM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+May 15, 2016 7:25:32 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+May 15, 2016 7:25:32 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/wovenerp] startup failed due to previous errors
+May 15, 2016 7:25:33 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/wovenerp] is completed
+May 15, 2016 7:25:53 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/wovenerp]
+May 15, 2016 7:25:55 PM org.apache.catalina.startup.HostConfig checkResources
+WARNING: Error during context [/wovenerp] restart
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wovenerp]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1275)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name Warping
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3219)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3198)
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1366)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1346)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+May 15, 2016 7:26:22 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 15, 2016 7:26:22 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+May 15, 2016 7:26:22 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 15, 2016 7:26:22 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 551 ms
+May 15, 2016 7:26:22 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 15, 2016 7:26:22 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+May 15, 2016 7:26:22 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+May 15, 2016 7:26:25 PM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wovenerp]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name Warping
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3219)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3198)
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1366)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1346)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+May 15, 2016 7:26:25 PM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wovenerp]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 15, 2016 7:26:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\docs
+May 15, 2016 7:26:25 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [170] milliseconds.
+May 15, 2016 7:26:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\examples
+May 15, 2016 7:26:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\host-manager
+May 15, 2016 7:26:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\manager
+May 15, 2016 7:26:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\ROOT
+May 15, 2016 7:26:25 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 15, 2016 7:26:25 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+May 15, 2016 7:26:25 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 15, 2016 7:26:25 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3392 ms
+May 15, 2016 7:27:15 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/wovenerp]
+May 15, 2016 7:27:15 PM org.apache.catalina.deploy.NamingResources cleanUp
+WARNING: Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wovenerp]] so no cleanup was performed for that container
+javax.naming.NameNotFoundException: Name [comp/env] is not bound in this Context. Unable to find [comp].
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:820)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:168)
+	at org.apache.catalina.deploy.NamingResources.cleanUp(NamingResources.java:988)
+	at org.apache.catalina.deploy.NamingResources.stopInternal(NamingResources.java:970)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5590)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:141)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1275)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 15, 2016 7:27:17 PM org.apache.catalina.startup.HostConfig checkResources
+WARNING: Error during context [/wovenerp] restart
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wovenerp]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1275)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name Warping
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3219)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3198)
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1366)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1346)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+May 15, 2016 7:27:27 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/wovenerp]
+May 15, 2016 7:27:27 PM org.apache.catalina.deploy.NamingResources cleanUp
+WARNING: Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wovenerp]] so no cleanup was performed for that container
+javax.naming.NameNotFoundException: Name [comp/env] is not bound in this Context. Unable to find [comp].
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:820)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:168)
+	at org.apache.catalina.deploy.NamingResources.cleanUp(NamingResources.java:988)
+	at org.apache.catalina.deploy.NamingResources.stopInternal(NamingResources.java:970)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5590)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:141)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1275)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 15, 2016 7:27:30 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+May 15, 2016 10:53:56 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 15, 2016 10:53:56 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+May 15, 2016 10:53:56 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 15, 2016 10:53:56 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 560 ms
+May 15, 2016 10:53:56 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 15, 2016 10:53:56 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+May 15, 2016 10:53:56 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+May 15, 2016 10:54:00 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [156] milliseconds.
+May 15, 2016 10:54:00 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+May 15, 2016 10:54:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\docs
+May 15, 2016 10:54:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\examples
+May 15, 2016 10:54:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\host-manager
+May 15, 2016 10:54:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\manager
+May 15, 2016 10:54:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\ROOT
+May 15, 2016 10:54:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 15, 2016 10:54:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+May 15, 2016 10:54:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 15, 2016 10:54:01 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4857 ms
+May 15, 2016 10:55:01 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/wovenerp]
+May 15, 2016 10:55:01 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/wovenerp] has started
+May 15, 2016 10:55:01 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/wovenerp] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+May 15, 2016 10:55:02 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at org.glassfish.hk2.utilities.ServiceLocatorUtilities$2.loadClass(ServiceLocatorUtilities.java:99)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.loadClass(ServiceLocatorImpl.java:1707)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:368)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.HttpHeadersInjectee$$EnhancerByCGLIB$$f47b3c9a.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+May 15, 2016 10:55:02 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2585)
+	at java.lang.Class.getDeclaredConstructors(Class.java:1906)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.HttpHeadersInjectee$$EnhancerByCGLIB$$f47b3c9a.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+May 15, 2016 10:55:02 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.jvnet.hk2.internal.ErrorResults.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at org.jvnet.hk2.internal.NarrowResults.addError(NarrowResults.java:63)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1772)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.HttpHeadersInjectee$$EnhancerByCGLIB$$f47b3c9a.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+May 15, 2016 10:55:02 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2585)
+	at java.lang.Class.getDeclaredConstructors(Class.java:1906)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.UriInfoInjectee$$EnhancerByCGLIB$$d2c34862.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+May 15, 2016 10:55:02 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2585)
+	at java.lang.Class.getDeclaredConstructors(Class.java:1906)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.RequestInjectee$$EnhancerByCGLIB$$94c4458.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+May 15, 2016 10:55:02 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2585)
+	at java.lang.Class.getDeclaredConstructors(Class.java:1906)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.SecurityContextInjectee$$EnhancerByCGLIB$$94de0ad8.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+May 15, 2016 10:55:02 PM org.apache.tomcat.util.digester.Digester endElement
+SEVERE: End event threw exception
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:911)
+	at org.apache.catalina.startup.CallMethodMultiRule.end(WebRuleSet.java:1021)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1051)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endNamespaceScope(XMLDTDValidator.java:2054)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleEndElement(XMLDTDValidator.java:2005)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endElement(XMLDTDValidator.java:879)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1883)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1252)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3926)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1270)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: The servlets named [Warping] and [Warping] are both mapped to the url-pattern [/Warping.do] which is not permitted
+	at org.apache.catalina.deploy.WebXml.addServletMapping(WebXml.java:335)
+	... 39 more
+
+May 15, 2016 10:55:02 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/wovenerp/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/wovenerp/WEB-INF/web.xml; lineNumber: 362; columnNumber: 21; Error at (362, 21) : The servlets named [Warping] and [Warping] are both mapped to the url-pattern [/Warping.do] which is not permitted
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2687)
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2719)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1054)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endNamespaceScope(XMLDTDValidator.java:2054)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleEndElement(XMLDTDValidator.java:2005)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endElement(XMLDTDValidator.java:879)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1883)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1252)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3926)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1270)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: The servlets named [Warping] and [Warping] are both mapped to the url-pattern [/Warping.do] which is not permitted
+	at org.apache.catalina.deploy.WebXml.addServletMapping(WebXml.java:335)
+	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:911)
+	at org.apache.catalina.startup.CallMethodMultiRule.end(WebRuleSet.java:1021)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1051)
+	... 33 more
+
+May 15, 2016 10:55:02 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 362 column 21
+May 15, 2016 10:55:02 PM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+May 15, 2016 10:55:02 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+May 15, 2016 10:55:02 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/wovenerp] startup failed due to previous errors
+May 15, 2016 10:55:03 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/wovenerp] is completed
+May 15, 2016 10:55:13 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/wovenerp]
+May 15, 2016 10:55:13 PM org.apache.tomcat.util.digester.Digester endElement
+SEVERE: End event threw exception
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:911)
+	at org.apache.catalina.startup.CallMethodMultiRule.end(WebRuleSet.java:1021)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1051)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endNamespaceScope(XMLDTDValidator.java:2054)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleEndElement(XMLDTDValidator.java:2005)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endElement(XMLDTDValidator.java:879)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1883)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1252)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1275)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: The servlets named [Warping] and [Warping] are both mapped to the url-pattern [/Warping.do] which is not permitted
+	at org.apache.catalina.deploy.WebXml.addServletMapping(WebXml.java:335)
+	... 38 more
+
+May 15, 2016 10:55:13 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/wovenerp/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/wovenerp/WEB-INF/web.xml; lineNumber: 362; columnNumber: 21; Error at (362, 21) : The servlets named [Warping] and [Warping] are both mapped to the url-pattern [/Warping.do] which is not permitted
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2687)
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2719)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1054)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endNamespaceScope(XMLDTDValidator.java:2054)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleEndElement(XMLDTDValidator.java:2005)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endElement(XMLDTDValidator.java:879)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1883)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1252)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1275)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: The servlets named [Warping] and [Warping] are both mapped to the url-pattern [/Warping.do] which is not permitted
+	at org.apache.catalina.deploy.WebXml.addServletMapping(WebXml.java:335)
+	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:911)
+	at org.apache.catalina.startup.CallMethodMultiRule.end(WebRuleSet.java:1021)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1051)
+	... 32 more
+
+May 15, 2016 10:55:13 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 362 column 21
+May 15, 2016 10:55:13 PM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+May 15, 2016 10:55:13 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+May 15, 2016 10:55:13 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/wovenerp] startup failed due to previous errors
+May 15, 2016 10:55:33 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/wovenerp]
+May 15, 2016 10:55:35 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+May 15, 2016 10:55:56 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/wovenerp]
+May 15, 2016 10:55:56 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/wovenerp] has started
+May 15, 2016 10:55:57 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at org.glassfish.hk2.utilities.ServiceLocatorUtilities$2.loadClass(ServiceLocatorUtilities.java:99)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.loadClass(ServiceLocatorImpl.java:1707)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:368)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.SecurityContextInjectee$$EnhancerByCGLIB$$cb0b9812.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+May 15, 2016 10:55:57 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2585)
+	at java.lang.Class.getDeclaredConstructors(Class.java:1906)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.SecurityContextInjectee$$EnhancerByCGLIB$$cb0b9812.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+May 15, 2016 10:55:57 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.jvnet.hk2.internal.ErrorResults.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at org.jvnet.hk2.internal.NarrowResults.addError(NarrowResults.java:63)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1772)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.SecurityContextInjectee$$EnhancerByCGLIB$$cb0b9812.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+May 15, 2016 10:55:57 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2585)
+	at java.lang.Class.getDeclaredConstructors(Class.java:1906)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.HttpHeadersInjectee$$EnhancerByCGLIB$$2aa8c9d4.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+May 15, 2016 10:55:57 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2585)
+	at java.lang.Class.getDeclaredConstructors(Class.java:1906)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.UriInfoInjectee$$EnhancerByCGLIB$$8f0d59c.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+May 15, 2016 10:55:57 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2585)
+	at java.lang.Class.getDeclaredConstructors(Class.java:1906)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.RequestInjectee$$EnhancerByCGLIB$$3f79d192.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+May 15, 2016 10:55:58 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+May 15, 2016 10:55:59 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/wovenerp] is completed

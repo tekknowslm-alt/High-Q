@@ -1,0 +1,138 @@
+Jan 16, 2016 8:24:18 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jan 16, 2016 8:24:18 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Jan 16, 2016 8:24:18 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jan 16, 2016 8:24:18 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 556 ms
+Jan 16, 2016 8:24:18 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 16, 2016 8:24:18 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jan 16, 2016 8:24:18 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\kirthika\apache-tomcat-7.0.41\conf\Catalina\localhost\Trade.xml
+Jan 16, 2016 8:24:21 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [156] milliseconds.
+Jan 16, 2016 8:24:21 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jan 16, 2016 8:24:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\docs
+Jan 16, 2016 8:24:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\examples
+Jan 16, 2016 8:24:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\host-manager
+Jan 16, 2016 8:24:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\manager
+Jan 16, 2016 8:24:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\ROOT
+Jan 16, 2016 8:24:23 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jan 16, 2016 8:24:23 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Jan 16, 2016 8:24:23 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jan 16, 2016 8:24:23 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5374 ms
+Jan 16, 2016 9:29:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jan 16, 2016 9:29:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Jan 16, 2016 9:29:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jan 16, 2016 9:29:56 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 573 ms
+Jan 16, 2016 9:29:56 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 16, 2016 9:29:56 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jan 16, 2016 9:29:56 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\kirthika\apache-tomcat-7.0.41\conf\Catalina\localhost\Trade.xml
+Jan 16, 2016 9:30:00 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jan 16, 2016 9:30:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\docs
+Jan 16, 2016 9:30:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\examples
+Jan 16, 2016 9:30:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\host-manager
+Jan 16, 2016 9:30:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\manager
+Jan 16, 2016 9:30:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\ROOT
+Jan 16, 2016 9:30:02 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jan 16, 2016 9:30:02 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Jan 16, 2016 9:30:02 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jan 16, 2016 9:30:02 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5404 ms
+Jan 16, 2016 10:44:29 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jan 16, 2016 10:44:29 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Jan 16, 2016 10:44:29 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jan 16, 2016 10:44:29 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 619 ms
+Jan 16, 2016 10:44:29 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 16, 2016 10:44:29 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jan 16, 2016 10:44:29 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\kirthika\apache-tomcat-7.0.41\conf\Catalina\localhost\Trade.xml
+Jan 16, 2016 10:44:32 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jan 16, 2016 10:44:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\docs
+Jan 16, 2016 10:44:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\examples
+Jan 16, 2016 10:44:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\host-manager
+Jan 16, 2016 10:44:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\manager
+Jan 16, 2016 10:44:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\ROOT
+Jan 16, 2016 10:44:33 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jan 16, 2016 10:44:33 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Jan 16, 2016 10:44:33 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jan 16, 2016 10:44:33 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4490 ms
+Jan 16, 2016 5:29:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jan 16, 2016 5:29:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Jan 16, 2016 5:29:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jan 16, 2016 5:29:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 599 ms
+Jan 16, 2016 5:29:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 16, 2016 5:29:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jan 16, 2016 5:29:50 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\kirthika\apache-tomcat-7.0.41\conf\Catalina\localhost\Trade.xml
+Jan 16, 2016 5:29:54 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jan 16, 2016 5:29:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\docs
+Jan 16, 2016 5:29:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\examples
+Jan 16, 2016 5:29:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\host-manager
+Jan 16, 2016 5:29:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\manager
+Jan 16, 2016 5:29:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kirthika\apache-tomcat-7.0.41\webapps\ROOT
+Jan 16, 2016 5:29:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jan 16, 2016 5:29:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Jan 16, 2016 5:29:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jan 16, 2016 5:29:55 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4928 ms

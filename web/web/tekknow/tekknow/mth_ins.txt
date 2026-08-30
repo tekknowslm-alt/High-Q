@@ -1,0 +1,32 @@
+insert into mth(mth_code,mth_no,mth_name,year)values(1,4,'April',2018);
+insert into mth(mth_code,mth_no,mth_name,year)values(2,5,'May',2018);
+insert into mth(mth_code,mth_no,mth_name,year)values(3,6,'June',2018);
+insert into mth(mth_code,mth_no,mth_name,year)values(4,7,'July',2018);
+insert into mth(mth_code,mth_no,mth_name,year)values(5,8,'August',2018);
+insert into mth(mth_code,mth_no,mth_name,year)values(6,9,'September',2018);
+insert into mth(mth_code,mth_no,mth_name,year)values(7,10,'October',2018);
+insert into mth(mth_code,mth_no,mth_name,year)values(8,11,'November',2018);
+insert into mth(mth_code,mth_no,mth_name,year)values(9,12,'December',2018);
+
+insert into mth(mth_code,mth_no,mth_name,year)values(10,1,'January',2019);
+insert into mth(mth_code,mth_no,mth_name,year)values(11,2,'February',2019);
+insert into mth(mth_code,mth_no,mth_name,year)values(12,3,'March',2019);
+insert into mth(mth_code,mth_no,mth_name,year)values(13,4,'April',2019);
+insert into mth(mth_code,mth_no,mth_name,year)values(14,5,'May',2019);
+insert into mth(mth_code,mth_no,mth_name,year)values(15,6,'June',2019);
+insert into mth(mth_code,mth_no,mth_name,year)values(16,7,'July',2019);
+insert into mth(mth_code,mth_no,mth_name,year)values(17,8,'August',2019);
+insert into mth(mth_code,mth_no,mth_name,year)values(18,9,'September',2019);
+insert into mth(mth_code,mth_no,mth_name,year)values(19,10,'October',2019);
+insert into mth(mth_code,mth_no,mth_name,year)values(20,11,'November',2019);
+insert into mth(mth_code,mth_no,mth_name,year)values(21,12,'December',2019);
+insert into mth(mth_code,mth_no,mth_name,year)values(22,1,'January',2020);
+insert into mth(mth_code,mth_no,mth_name,year)values(23,2,'Fabruary',2020);
+insert into mth(mth_code,mth_no,mth_name,year)values(24,3,'March',2020);
+
+
+
+select m1.mth_code,m1.mth_name,m1.year,0 as purc_value,(select ifnull(sum(taxable_amt),0) from f_invoice_det f1,f_invoice f2 where f1.invoice_code=f2.invoice_code and (month(f2.bill_date)=m1.mth_no and year(f2.bill_date)=m1.year and f2.c_code=$(companycode) and $(fromdate) $(todate))) as purc_value, (select ifnull(sum(amount),0) from purc_sale_det f1,purc_sale f2 where f1.tran_code=f2.tran_code and (month(f1.bill_date)=m1.mth_no and year(f1.bill_date)=m1.year and f2.c_code=$(companycode) and $(fromdate) $(todate))) as sales_value  from mth m1 group by m1.mth_code,m1.mth_name,m1.year
+
+
+

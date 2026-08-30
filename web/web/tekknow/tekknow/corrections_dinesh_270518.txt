@@ -1,0 +1,4 @@
+1. shift+tab
+2. purc/sales amount column overwrite required
+3. new barcodesticker
+4. scanning app

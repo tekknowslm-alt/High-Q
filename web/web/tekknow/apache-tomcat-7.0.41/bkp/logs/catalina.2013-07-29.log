@@ -1,0 +1,417 @@
+Jul 29, 2013 1:00:48 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Jul 29, 2013 1:00:48 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jul 29, 2013 1:00:49 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Jul 29, 2013 1:00:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jul 29, 2013 1:00:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jul 29, 2013 1:00:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3174 ms
+Jul 29, 2013 1:00:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 29, 2013 1:00:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jul 29, 2013 1:00:51 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Jul 29, 2013 1:00:56 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jul 29, 2013 1:00:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Jul 29, 2013 1:00:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Jul 29, 2013 1:00:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Jul 29, 2013 1:00:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Jul 29, 2013 1:00:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Jul 29, 2013 1:00:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jul 29, 2013 1:00:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jul 29, 2013 1:00:58 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8126 ms
+Jul 29, 2013 11:01:49 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Jul 29, 2013 11:01:49 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jul 29, 2013 11:01:51 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Jul 29, 2013 11:01:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jul 29, 2013 11:01:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jul 29, 2013 11:01:51 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3031 ms
+Jul 29, 2013 11:01:51 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 29, 2013 11:01:51 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jul 29, 2013 11:01:52 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Jul 29, 2013 11:01:57 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jul 29, 2013 11:01:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Jul 29, 2013 11:01:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Jul 29, 2013 11:01:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Jul 29, 2013 11:01:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Jul 29, 2013 11:01:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Jul 29, 2013 11:01:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jul 29, 2013 11:01:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jul 29, 2013 11:01:59 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7499 ms
+Jul 29, 2013 11:08:10 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Jul 29, 2013 11:08:10 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jul 29, 2013 11:08:12 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Jul 29, 2013 11:08:13 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jul 29, 2013 11:08:13 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jul 29, 2013 11:08:13 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4485 ms
+Jul 29, 2013 11:08:13 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 29, 2013 11:08:13 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jul 29, 2013 11:08:14 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Jul 29, 2013 11:08:21 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jul 29, 2013 11:08:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Jul 29, 2013 11:08:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Jul 29, 2013 11:08:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Jul 29, 2013 11:08:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Jul 29, 2013 11:08:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Jul 29, 2013 11:08:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jul 29, 2013 11:08:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jul 29, 2013 11:08:23 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 10040 ms
+Jul 29, 2013 11:18:44 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/Base]
+Jul 29, 2013 11:18:44 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/Base] has started
+Jul 29, 2013 11:18:47 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jul 29, 2013 11:18:49 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/Base] is completed
+Jul 29, 2013 11:22:20 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/Base]
+Jul 29, 2013 11:22:20 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/Base] has started
+Jul 29, 2013 11:22:22 PM org.apache.catalina.core.StandardContext reload
+SEVERE: Exception starting Context with name [/Base]
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Base]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3926)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1270)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name purchase
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3219)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3198)
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1366)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1346)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 11 more
+
+Jul 29, 2013 11:22:22 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/Base] is completed
+Jul 29, 2013 11:22:32 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/Base]
+Jul 29, 2013 11:22:32 PM org.apache.catalina.deploy.NamingResources cleanUp
+WARNING: Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Base]] so no cleanup was performed for that container
+javax.naming.NameNotFoundException: Name [comp/env] is not bound in this Context. Unable to find [comp].
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:820)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:168)
+	at org.apache.catalina.deploy.NamingResources.cleanUp(NamingResources.java:988)
+	at org.apache.catalina.deploy.NamingResources.stopInternal(NamingResources.java:970)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5590)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:141)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1275)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+
+Jul 29, 2013 11:22:34 PM org.apache.catalina.startup.HostConfig checkResources
+WARNING: Error during context [/Base] restart
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Base]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1275)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name purchase
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3219)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3198)
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1366)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1346)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 29, 2013 11:22:47 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Jul 29, 2013 11:22:47 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jul 29, 2013 11:22:48 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Jul 29, 2013 11:22:48 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jul 29, 2013 11:22:48 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jul 29, 2013 11:22:48 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1938 ms
+Jul 29, 2013 11:22:49 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 29, 2013 11:22:49 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jul 29, 2013 11:22:49 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Jul 29, 2013 11:22:51 PM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Base]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name purchase
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3219)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3198)
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1366)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1346)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 11 more
+
+Jul 29, 2013 11:22:51 PM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Base]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Jul 29, 2013 11:22:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Jul 29, 2013 11:22:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Jul 29, 2013 11:22:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Jul 29, 2013 11:22:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Jul 29, 2013 11:22:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Jul 29, 2013 11:22:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jul 29, 2013 11:22:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jul 29, 2013 11:22:52 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3416 ms
+Jul 29, 2013 11:24:57 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Jul 29, 2013 11:24:57 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jul 29, 2013 11:24:58 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Jul 29, 2013 11:24:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jul 29, 2013 11:24:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jul 29, 2013 11:24:58 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1917 ms
+Jul 29, 2013 11:24:58 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 29, 2013 11:24:58 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jul 29, 2013 11:24:59 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Jul 29, 2013 11:25:01 PM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Base]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name purchase
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3219)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3198)
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1366)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1346)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 11 more
+
+Jul 29, 2013 11:25:02 PM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Base]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Jul 29, 2013 11:25:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Jul 29, 2013 11:25:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Jul 29, 2013 11:25:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Jul 29, 2013 11:25:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Jul 29, 2013 11:25:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Jul 29, 2013 11:25:02 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jul 29, 2013 11:25:02 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jul 29, 2013 11:25:02 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3862 ms
+Jul 29, 2013 11:26:52 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/Base]
+Jul 29, 2013 11:26:52 PM org.apache.catalina.deploy.NamingResources cleanUp
+WARNING: Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Base]] so no cleanup was performed for that container
+javax.naming.NameNotFoundException: Name [comp/env] is not bound in this Context. Unable to find [comp].
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:820)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:168)
+	at org.apache.catalina.deploy.NamingResources.cleanUp(NamingResources.java:988)
+	at org.apache.catalina.deploy.NamingResources.stopInternal(NamingResources.java:970)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5590)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:141)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1275)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+
+Jul 29, 2013 11:26:55 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jul 29, 2013 11:27:13 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Jul 29, 2013 11:27:13 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jul 29, 2013 11:27:15 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Jul 29, 2013 11:27:15 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jul 29, 2013 11:27:15 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jul 29, 2013 11:27:15 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2013 ms
+Jul 29, 2013 11:27:15 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 29, 2013 11:27:15 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jul 29, 2013 11:27:15 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Jul 29, 2013 11:27:19 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jul 29, 2013 11:27:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Jul 29, 2013 11:27:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Jul 29, 2013 11:27:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Jul 29, 2013 11:27:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Jul 29, 2013 11:27:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Jul 29, 2013 11:27:20 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jul 29, 2013 11:27:20 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jul 29, 2013 11:27:20 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5003 ms

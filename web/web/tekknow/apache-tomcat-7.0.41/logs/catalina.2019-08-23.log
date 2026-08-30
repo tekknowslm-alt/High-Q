@@ -1,0 +1,601 @@
+Aug 23, 2019 4:49:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 4:49:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 4:49:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 4:49:01 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3555 ms
+Aug 23, 2019 4:49:01 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 23, 2019 4:49:01 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Aug 23, 2019 4:49:01 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\apache-tomcat-7.0.41\conf\Catalina\localhost\kannika.xml
+Aug 23, 2019 4:49:09 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [338] milliseconds.
+Aug 23, 2019 4:49:10 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 23, 2019 4:49:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\docs
+Aug 23, 2019 4:49:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\examples
+Aug 23, 2019 4:49:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\host-manager
+Aug 23, 2019 4:49:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\manager
+Aug 23, 2019 4:49:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\ROOT
+Aug 23, 2019 4:49:20 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 4:49:21 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 4:49:21 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 4:49:21 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 19666 ms
+Aug 23, 2019 5:06:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 5:06:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 5:06:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 5:06:39 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1053 ms
+Aug 23, 2019 5:06:40 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 23, 2019 5:06:40 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Aug 23, 2019 5:06:40 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\apache-tomcat-7.0.41\conf\Catalina\localhost\kannika.xml
+Aug 23, 2019 5:06:43 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [126] milliseconds.
+Aug 23, 2019 5:06:44 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 23, 2019 5:06:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\docs
+Aug 23, 2019 5:06:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\examples
+Aug 23, 2019 5:06:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\host-manager
+Aug 23, 2019 5:06:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\manager
+Aug 23, 2019 5:06:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\ROOT
+Aug 23, 2019 5:06:49 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 5:06:49 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 5:06:49 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 5:06:49 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9923 ms
+Aug 23, 2019 5:29:13 PM org.apache.catalina.loader.WebappClassLoader modified
+SEVERE:     Resource '/WEB-INF/classes/com/hiq/trade/resource/InvoiceResource.class' is missing
+Aug 23, 2019 5:29:13 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/kannika] has started
+Aug 23, 2019 5:29:14 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/kannika] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+Aug 23, 2019 5:29:17 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 23, 2019 5:29:20 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/kannika] is completed
+Aug 23, 2019 8:17:47 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 8:17:47 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 8:17:47 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 8:17:47 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 778 ms
+Aug 23, 2019 8:17:47 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 23, 2019 8:17:47 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Aug 23, 2019 8:17:47 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\apache-tomcat-7.0.41\conf\Catalina\localhost\kannika.xml
+Aug 23, 2019 8:17:51 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [194] milliseconds.
+Aug 23, 2019 8:17:52 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 23, 2019 8:17:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\docs
+Aug 23, 2019 8:17:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\examples
+Aug 23, 2019 8:18:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\host-manager
+Aug 23, 2019 8:18:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\manager
+Aug 23, 2019 8:18:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\ROOT
+Aug 23, 2019 8:18:00 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 8:18:00 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 8:18:00 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 8:18:00 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 13313 ms
+Aug 23, 2019 8:22:51 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/kannika] has started
+Aug 23, 2019 8:22:51 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/kannika] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+Aug 23, 2019 8:22:55 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 23, 2019 8:22:57 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/kannika] is completed
+Aug 23, 2019 8:32:39 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/kannika] has started
+Aug 23, 2019 8:32:42 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 23, 2019 8:32:42 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/kannika] is completed
+Aug 23, 2019 8:35:53 PM org.apache.catalina.loader.WebappClassLoader modified
+SEVERE:     Resource '/WEB-INF/classes/com/hiq/trade/transaction/ProcessReportData.class' is missing
+Aug 23, 2019 8:35:53 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/kannika] has started
+Aug 23, 2019 8:35:56 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 23, 2019 8:35:57 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/kannika] is completed
+Aug 23, 2019 8:38:17 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/kannika] has started
+Aug 23, 2019 8:38:20 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 23, 2019 8:38:21 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/kannika] is completed
+Aug 23, 2019 8:39:11 PM org.apache.catalina.loader.WebappClassLoader modified
+SEVERE:     Resource '/WEB-INF/classes/com/hiq/trade/transaction/ProcessReportData.class' is missing
+Aug 23, 2019 8:39:11 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/kannika] has started
+Aug 23, 2019 8:39:14 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 23, 2019 8:39:15 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/kannika] is completed
+Aug 23, 2019 8:39:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 8:39:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 8:39:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 8:39:59 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 898 ms
+Aug 23, 2019 8:39:59 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 23, 2019 8:39:59 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Aug 23, 2019 8:39:59 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\apache-tomcat-7.0.41\conf\Catalina\localhost\kannika.xml
+Aug 23, 2019 8:40:04 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [233] milliseconds.
+Aug 23, 2019 8:40:05 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 23, 2019 8:40:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\docs
+Aug 23, 2019 8:40:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\examples
+Aug 23, 2019 8:40:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\host-manager
+Aug 23, 2019 8:40:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\manager
+Aug 23, 2019 8:40:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\ROOT
+Aug 23, 2019 8:40:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 8:40:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 8:40:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 8:40:06 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7081 ms
+Aug 23, 2019 8:40:34 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 8:40:34 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 8:40:34 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 8:40:34 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1073 ms
+Aug 23, 2019 8:40:34 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 23, 2019 8:40:34 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Aug 23, 2019 8:40:34 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\apache-tomcat-7.0.41\conf\Catalina\localhost\kannika.xml
+Aug 23, 2019 8:40:39 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [177] milliseconds.
+Aug 23, 2019 8:40:40 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 23, 2019 8:40:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\docs
+Aug 23, 2019 8:40:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\examples
+Aug 23, 2019 8:40:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\host-manager
+Aug 23, 2019 8:40:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\manager
+Aug 23, 2019 8:40:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\apache-tomcat-7.0.41\webapps\ROOT
+Aug 23, 2019 8:40:42 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 8:40:42 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 8:40:42 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 8:40:42 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7479 ms
+Aug 23, 2019 8:48:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 8:48:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 8:48:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 8:48:49 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 775 ms
+Aug 23, 2019 8:48:49 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 23, 2019 8:48:49 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Aug 23, 2019 8:48:49 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\kannika\apache-tomcat-7.0.41\conf\Catalina\localhost\kannika.xml
+Aug 23, 2019 8:48:49 PM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base E:\web\kannika\kannika\kannika\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5002)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5182)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 23, 2019 8:48:49 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+Aug 23, 2019 8:48:49 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Aug 23, 2019 8:48:49 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/kannika] startup failed due to previous errors
+Aug 23, 2019 8:48:49 PM org.apache.catalina.deploy.NamingResources cleanUp
+WARNING: Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/kannika]] so no cleanup was performed for that container
+javax.naming.NameNotFoundException: Name [comp/env] is not bound in this Context. Unable to find [comp].
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:820)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:168)
+	at org.apache.catalina.deploy.NamingResources.cleanUp(NamingResources.java:988)
+	at org.apache.catalina.deploy.NamingResources.stopInternal(NamingResources.java:970)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5590)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 23, 2019 8:48:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\docs
+Aug 23, 2019 8:48:49 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [160] milliseconds.
+Aug 23, 2019 8:48:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\examples
+Aug 23, 2019 8:48:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\host-manager
+Aug 23, 2019 8:48:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\manager
+Aug 23, 2019 8:48:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\ROOT
+Aug 23, 2019 8:48:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 8:48:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 8:48:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 8:48:50 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1066 ms
+Aug 23, 2019 8:50:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 8:50:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 8:50:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 8:50:29 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 961 ms
+Aug 23, 2019 8:50:29 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 23, 2019 8:50:29 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Aug 23, 2019 8:50:29 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\kannika\apache-tomcat-7.0.41\conf\Catalina\localhost\kannika.xml
+Aug 23, 2019 8:50:34 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [251] milliseconds.
+Aug 23, 2019 8:50:35 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 23, 2019 8:50:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\docs
+Aug 23, 2019 8:50:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\examples
+Aug 23, 2019 8:50:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\host-manager
+Aug 23, 2019 8:50:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\manager
+Aug 23, 2019 8:50:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\ROOT
+Aug 23, 2019 8:50:39 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 8:50:39 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 8:50:39 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 8:50:39 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9521 ms
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 8:51:02 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Aug 23, 2019 9:01:20 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/kannika]
+Aug 23, 2019 9:01:20 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/kannika] has started
+Aug 23, 2019 9:01:21 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/kannika] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+Aug 23, 2019 9:01:21 PM org.apache.tomcat.util.digester.Digester endElement
+SEVERE: End event threw exception
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:911)
+	at org.apache.catalina.startup.CallMethodMultiRule.end(WebRuleSet.java:1021)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1051)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endNamespaceScope(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1883)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1252)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3926)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1270)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: The servlets named [DeliveryChallan] and [DeliveryChallan] are both mapped to the url-pattern [/DeliveryChallan.do] which is not permitted
+	at org.apache.catalina.deploy.WebXml.addServletMapping(WebXml.java:335)
+	... 39 more
+
+Aug 23, 2019 9:01:21 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/kannika/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/kannika/WEB-INF/web.xml; lineNumber: 804; columnNumber: 21; Error at (804, 21) : The servlets named [DeliveryChallan] and [DeliveryChallan] are both mapped to the url-pattern [/DeliveryChallan.do] which is not permitted
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2687)
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2719)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1054)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endNamespaceScope(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1883)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1252)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3926)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1270)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: The servlets named [DeliveryChallan] and [DeliveryChallan] are both mapped to the url-pattern [/DeliveryChallan.do] which is not permitted
+	at org.apache.catalina.deploy.WebXml.addServletMapping(WebXml.java:335)
+	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:911)
+	at org.apache.catalina.startup.CallMethodMultiRule.end(WebRuleSet.java:1021)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1051)
+	... 33 more
+
+Aug 23, 2019 9:01:21 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 804 column 21
+Aug 23, 2019 9:01:21 PM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+Aug 23, 2019 9:01:21 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Aug 23, 2019 9:01:21 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/kannika] startup failed due to previous errors
+Aug 23, 2019 9:01:22 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/kannika] is completed
+Aug 23, 2019 9:02:22 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/kannika]
+Aug 23, 2019 9:02:35 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 9:02:35 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 9:02:35 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 9:02:35 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 767 ms
+Aug 23, 2019 9:02:36 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 23, 2019 9:02:36 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Aug 23, 2019 9:02:36 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\kannika\apache-tomcat-7.0.41\conf\Catalina\localhost\kannika.xml
+Aug 23, 2019 9:02:41 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [205] milliseconds.
+Aug 23, 2019 9:02:41 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 23, 2019 9:02:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\docs
+Aug 23, 2019 9:02:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\examples
+Aug 23, 2019 9:02:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\host-manager
+Aug 23, 2019 9:02:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\manager
+Aug 23, 2019 9:02:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\ROOT
+Aug 23, 2019 9:02:46 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 9:02:46 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 9:02:46 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 9:02:46 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 10732 ms
+Aug 23, 2019 9:04:12 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 9:04:12 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 9:04:12 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 9:04:12 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 23, 2019 9:04:12 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/kannika] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+Aug 23, 2019 9:04:12 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 9:04:12 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 9:04:12 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 9:04:12 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 9:04:12 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 9:04:12 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 9:04:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 9:04:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 9:04:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 9:04:46 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 854 ms
+Aug 23, 2019 9:04:46 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 23, 2019 9:04:46 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Aug 23, 2019 9:04:46 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\kannika\apache-tomcat-7.0.41\conf\Catalina\localhost\kannika.xml
+Aug 23, 2019 9:04:49 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [148] milliseconds.
+Aug 23, 2019 9:04:50 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Aug 23, 2019 9:05:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\docs
+Aug 23, 2019 9:05:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\examples
+Aug 23, 2019 9:05:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\host-manager
+Aug 23, 2019 9:05:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\manager
+Aug 23, 2019 9:05:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\ROOT
+Aug 23, 2019 9:05:00 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 23, 2019 9:05:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Aug 23, 2019 9:05:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 23, 2019 9:05:01 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 14966 ms

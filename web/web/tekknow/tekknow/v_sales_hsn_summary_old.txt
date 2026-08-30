@@ -1,0 +1,15 @@
+alter view v_sales_hsn_summary as select bill_date,p1.hsn_code as hsn_code,'Fabric' as description,sum(pcs) as total_qty ,
+round(sum(amount)-((discount)/(select sum(pcs) from f_invoice_det f3 where f3.invoice_code=s1.invoice_code)*sum(pcs))+
+(sum(amount)-((discount)/(select sum(pcs) from f_invoice_det f3 where f3.invoice_code=s1.invoice_code)*sum(pcs)))*igst_per/100 +
+(sum(amount)-((discount)/(select sum(pcs) from f_invoice_det f3 where f3.invoice_code=s1.invoice_code)*sum(pcs)))*cgst_per/100 +
+(sum(amount)-((discount)/(select sum(pcs) from f_invoice_det f3 where f3.invoice_code=s1.invoice_code)*sum(pcs)))*sgst_per/100  
+,2)
+as total_value, 
+
+round(sum(amount)-((discount)/(select sum(pcs) from f_invoice_det f3 where f3.invoice_code=s1.invoice_code)*sum(pcs)),2) as taxable_value,
+round((sum(amount)-((discount)/(select sum(pcs) from f_invoice_det f3 where f3.invoice_code=s1.invoice_code)*sum(pcs)))*igst_per/100,2) as igst_amount,
+round((sum(amount)-((discount)/(select sum(pcs) from f_invoice_det f3 where f3.invoice_code=s1.invoice_code)*sum(pcs)))*cgst_per/100,2)  as cgst_amount,
+round((sum(amount)-((discount)/(select sum(pcs) from f_invoice_det f3 where f3.invoice_code=s1.invoice_code)*sum(pcs)))*sgst_per/100,2)  as sgst_amount, 
+
+0 as cess,s1.c_code from f_invoice s1,f_invoice_det s2,product_mast p1 
+where s1.invoice_code=s2.invoice_code and s2.design_code=p1.product_code and ifnull(s1.status,'N')='N' group by p1.hsn_code,c_code ,bill_date ,discount,cgst_per,sgst_per,igst_per,total_amt,cgst_amount,sgst_amount,igst_amount

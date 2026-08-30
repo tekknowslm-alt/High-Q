@@ -1,0 +1,13 @@
+alter view v_sales as 
+SELECT  f1.invoice_code as invoice_code,1 as row_type,bill_date  as bill_dt,bill_no bill_no, ledger_name as ledger_name, l1.branch,p1.place_of_supply as place_of_supply,l1.gstin_no,l1.state,5 as tax_perc,
+ tot  -discount sale_amount,freight,
+cgst_per,cgst_amount,sgst_per,sgst_amount,igst_per,igst_amount,total_amt,f1.c_code from f_invoice  f1,ledger_mast l1,place_of_supply_mast p1,company
+ WHERE f1.ledger_code=l1.ledger_code and l1.place_of_supply_code=p1.place_of_supply_code and f1.c_code=company.c_code and ifnull(f1.status,'N')<>'C'  
+
+union all 
+
+
+SELECT  f1.invoice_code,2,bill_date  as bill_dt,bill_no bill_no, ledger_name as ledger_name, l1.branch,p1.place_of_supply as place_of_supply,l1.gstin_no,l1.state,5 as tax_perc,
+( tot  -discount)*-1 sale_amount,freight*-1,
+cgst_per,cgst_amount*-1,sgst_per,sgst_amount*-1,igst_per,igst_amount*-1,total_amt*-1,f1.c_code from sales_ret f1,ledger_mast l1,place_of_supply_mast p1,company
+ WHERE f1.ledger_code=l1.ledger_code and l1.place_of_supply_code=p1.place_of_supply_code and f1.c_code=company.c_code and ifnull(f1.status,'N')<>'C'  

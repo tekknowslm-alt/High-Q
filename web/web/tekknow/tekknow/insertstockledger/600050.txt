@@ -1,0 +1,2 @@
+insert into stock_ledger(sno,dt,inward_no,product_code,party,inward_qty,inward_mtrs,outward_qty,outward_mtrs,sold_qty,sold_mtrs,purc_rate,sales_rate,disc_rate,vh_ref_type,vh_ref_code)select 1 as sno,inward_date as dt,inward_no,product_code,'' as party,qty as inward_qty,mtrs as inward_mtrs,0 as outward_qty,0 as outward_mtrs,0 as sold_qty,0 as sold_mtrs,rate as purc_rate,0 as sales_rate,0 as disc_rate,'600050', i1.inward_code from inward_det i1,inward i2 where i1.inward_code=i2.inward_code and ifnull(status,'N')<>'C' 
+					

@@ -1,0 +1,36 @@
+Oct 03, 2020 5:30:08 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 03, 2020 5:30:08 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Oct 03, 2020 5:30:08 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 03, 2020 5:30:08 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1921 ms
+Oct 03, 2020 5:30:09 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 03, 2020 5:30:09 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Oct 03, 2020 5:30:09 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\kannika\apache-tomcat-7.0.41\conf\Catalina\localhost\kannika.xml
+Oct 03, 2020 5:30:13 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [314] milliseconds.
+Oct 03, 2020 5:30:13 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 03, 2020 5:30:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\docs
+Oct 03, 2020 5:30:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\examples
+Oct 03, 2020 5:30:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\host-manager
+Oct 03, 2020 5:30:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\manager
+Oct 03, 2020 5:30:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\ROOT
+Oct 03, 2020 5:30:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 03, 2020 5:30:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Oct 03, 2020 5:30:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 03, 2020 5:30:16 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7334 ms

@@ -1,0 +1,1 @@
+insert into stock(dt,product_code,qty,mtrs,vh_ref_type,vh_ref_code)select outward_date as dt, product_code as product_code, qty * -1 as qty,mtrs * -1 as mtrs,'600051' vh_ref_type,f1.outward_code vh_ref_code from outward f1,outward_det f2 where f1.outward_code=f2.outward_code  and ifnull(status,'N')<>'C' 

@@ -1,0 +1,25 @@
+CREATE VIEW `emp_vouchers` AS  
+ 
+
+select c_code `branchcode`,pay_no `vh_no`,'SALARY' v_type,pay_date `vh_date`,'SALARY' `vh_prefix`,pay_no `vh_seq_no`,s2.emp_det_code `vd_ledger_code`,s2.salary `vd_dramount`,0 `vd_cramount`,'Y' `vh_status`,ledger_name ledger_name,l1.branch branch,notes  narration  from salary s1,salary_det s2,emp_det e1,ledger_mast l1,account_settings a1 where s1.salary_code=s2.salary_code and s2.emp_det_code=e1.emp_det_code and s1.ledger_code=l1.ledger_code and salary<>0 and  ifnull(status,'N')<>'C'
+
+union all 
+
+select c_code,pay_no,'W.BETA',pay_date,'W.BETA',pay_no,s2.emp_det_code,s2.beta,0,'Y',ledger_name,l1.branch,notes from salary s1,salary_det s2,emp_det e1,ledger_mast l1,account_settings a1 where s1.salary_code=s2.salary_code and s2.emp_det_code=e1.emp_det_code and s1.ledger_code=l1.ledger_code and beta<>0 and  ifnull(status,'N')<>'C'
+
+union all 
+
+select c_code,pay_no,'INCENTIVE',pay_date,'INCENTIVE',pay_no,s2.emp_det_code,s2.incentive,0,'Y',ledger_name,l1.branch,notes from salary s1,salary_det s2,emp_det e1,ledger_mast l1,account_settings a1 where s1.salary_code=s2.salary_code and s2.emp_det_code=e1.emp_det_code and s1.ledger_code=l1.ledger_code and incentive<>0 and  ifnull(status,'N')<>'C'
+
+union all 
+
+select c_code,pay_no,'BONUS',pay_date,'BONUS',pay_no,s2.emp_det_code,s2.bonus,0,'Y',ledger_name,l1.branch,notes from salary s1,salary_det s2,emp_det e1,ledger_mast l1,account_settings a1 where s1.salary_code=s2.salary_code and s2.emp_det_code=e1.emp_det_code and s1.ledger_code=l1.ledger_code and bonus<>0 and  ifnull(status,'N')<>'C'
+
+union all 
+
+select c_code,pay_no,'ADV.PAID',pay_date,'ADV.PAID',pay_no,s2.emp_det_code,s2.advance,0,'Y',ledger_name,l1.branch,notes from salary s1,salary_det s2,emp_det e1,ledger_mast l1,account_settings a1 where s1.salary_code=s2.salary_code and s2.emp_det_code=e1.emp_det_code and s1.ledger_code=l1.ledger_code and s2.advance >0 and  ifnull(status,'N')<>'C'
+
+union all 
+
+select c_code,pay_no,'ADV.PAID',pay_date,'ADV.DED',pay_no,s2.emp_det_code,0,s2.advance*-1,'Y',ledger_name,l1.branch,notes from salary s1,salary_det s2,emp_det e1,ledger_mast l1,account_settings a1 where s1.salary_code=s2.salary_code and s2.emp_det_code=e1.emp_det_code and s1.ledger_code=l1.ledger_code and s2.advance <0 and  ifnull(status,'N')<>'C'
+

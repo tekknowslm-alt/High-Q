@@ -1,0 +1,24 @@
+insert into voucher_detail(branchcode,vh_no,v_type,vh_date,vh_prefix,vh_seq_no,vd_ledger_code,vd_dramount,vd_cramount,vh_status,ledger_name,branch,narration,vh_ref_code,vh_ref_type)
+
+select `h`.`c_code` AS `branchcode`,`h`.`pay_no` AS `vh_no`,'Payment' AS `v_type`,`h`.`pay_date` AS `vh_date`,'Payment' AS `vh_prefix`,`h`.`pay_no` AS `vh_seq_no`,`h`.`party_code` AS `vd_ledger_code`,(`h`.`amount` - (`h`.`exp_amount` + `h`.`exp2_amount`)) AS `vd_dramount`,0 AS `vd_cramount`,'Y' AS `vh_status`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,concat(ifnull(`h`.`narration`,''),' Chq.No.',`h`.`cheque_no`) AS narration,h.pay_code,600043 reftype from (`pay_mast` `h` join `ledger_mast` `l1`) where ((`h`.`ledger_code` = `l1`.`ledger_code`) and (ifnull(`h`.`status`,'N') <> 'C') and (`h`.`pay_date` >= cast('2019-04-01' as date))) 
+
+union all 
+
+select `h`.`c_code` AS `branchcode`,`h`.`pay_no` AS `vh_no`,'Payment',`h`.`pay_date` AS `vh_date`,'Payment' AS `vh_prefix`,`h`.`pay_no` AS `vh_seq_no`,`h`.`ledger_code` AS `vd_ledger_code`,0 AS `vd_dramount`,`h`.`amount` AS `vd_cramount`,'Y' AS `vh_status`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,concat(ifnull(`h`.`narration`,''),' Chq.No.',`h`.`cheque_no`) AS narration,h.pay_code,600043 reftype from (`pay_mast` `h` join `ledger_mast` `l1`) where ((`h`.`party_code` = `l1`.`ledger_code`) and (ifnull(`h`.`status`,'N') <> 'C') and (`h`.`pay_date` >= cast('2019-04-01' as date)))  
+
+union all 
+
+
+select `h`.`c_code` AS `branchcode`,`h`.`pay_no` AS `vh_no`,'Payment',`h`.`pay_date` AS `vh_date`,'Payment' AS `vh_prefix`,`h`.`pay_no` AS `vh_seq_no`,`h`.`party_code` AS `vd_ledger_code`,0 AS `vd_dramount`,`r1`.`discount` AS `vd_cramount`,'Y' AS `vh_status`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,`h`.`narration` AS `narration`,h.pay_code,600043 reftype from ((`pay_mast` `h` join `pay_det` `r1`) join `ledger_mast` `l1`) where ((`h`.`pay_code` = `r1`.`pay_code`) and (`h`.`ledger_code` = `l1`.`ledger_code`) and (ifnull(`h`.`status`,'N') <> 'C') and (`r1`.`discount` <> 0) and (`h`.`pay_date` >= cast('2019-04-01' as date)))  
+
+union all 
+
+select `h`.`c_code` AS `branchcode`,`h`.`pay_no` AS `vh_no`,'Payment',`h`.`pay_date` AS `vh_date`,'Payment' ,`h`.`pay_no` AS `vh_seq_no`,`a1`.`allowance_recd_ledger_code` AS `vd_ledger_code`,0 AS `vd_dramount`,`r1`.`discount` AS `vd_cramount`,'Y' AS `vh_status`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,`h`.`narration` AS `narration`,h.pay_code,600043 reftype from (((`pay_mast` `h` join `pay_det` `r1`) join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`h`.`pay_code` = `r1`.`pay_code`) and (`h`.`party_code` = `l1`.`ledger_code`) and (ifnull(`h`.`status`,'N') <> 'C') and (`r1`.`discount` <> 0) and (`h`.`pay_date` >= cast('2019-04-01' as date)))  
+
+union all 
+
+select `p1`.`c_code` AS `c_code`,`p1`.`pay_no` AS `pay_no`,'Payment' ,`p1`.`pay_date` AS `pay_date`,'Payment' ,`p1`.`pay_no` AS `pay_no`,`p1`.`exp_ledger_code` AS `exp_ledger_code`,(case when (`p1`.`exp_amount` > 0) then `p1`.`exp_amount` else 0 end) AS `case when exp_amount>0 then exp_amount else 0 end`,(case when (`p1`.`exp_amount` < 0) then (`p1`.`exp_amount` * -(1)) else 0 end) AS `case when exp_amount<0 then exp_amount*-1 else 0 end`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,`p1`.`narration` AS `narration`,p1.pay_code,600043 reftype from (`pay_mast` `p1` join `ledger_mast` `l1`) where ((`p1`.`ledger_code` = `l1`.`ledger_code`) and (ifnull(`p1`.`status`,'N') <> 'C') and (`p1`.`pay_date` >= cast('2019-04-01' as date)) and (`p1`.`exp_amount` <> 0))  
+
+union all 
+
+select `p1`.`c_code` AS `c_code`,`p1`.`pay_no` AS `pay_no`,'Payment' ,`p1`.`pay_date` AS `pay_date`,'Payment' ,`p1`.`pay_no` AS `pay_no`,`p1`.`exp_ledger_code` AS `exp_ledger_code`,(case when (`p1`.`exp2_amount` > 0) then `p1`.`exp2_amount` else 0 end) AS `case when exp2_amount>0 then exp2_amount else 0 end`,(case when (`p1`.`exp2_amount` < 0) then (`p1`.`exp2_amount` * -(1)) else 0 end) AS `case when exp2_amount<0 then exp2_amount*-1 else 0 end`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,`p1`.`narration` AS `narration`,p1.pay_code,600043 reftype from (`pay_mast` `p1` join `ledger_mast` `l1`) where ((`p1`.`ledger_code` = `l1`.`ledger_code`) and (ifnull(`p1`.`status`,'N') <> 'C') and (`p1`.`pay_date` >= cast('2019-04-01' as date)) and (`p1`.`exp_amount` <> 0))  

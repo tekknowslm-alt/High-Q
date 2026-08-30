@@ -1,0 +1,13 @@
+alter view v_journal as select r1.jou_code as jou_code,r1.jou_date vou_date,r1.jou_no vou_no,ledger_name,branch,r1.amount debit,0 credit,c_code from journal r1,ledger_mast l1 where r2.ledger_code=l1.ledger_code and tran_type='D' and  ifnull(status,'N')<>'C' 
+
+union all 
+
+select r1.jou_code as jou_code,r1.jou_date vou_date,r1.jou_no vou_no,ledger_name,branch,0 debit,r2.amount credit,c_code from journal r1,journal_det r2,ledger_mast l1 where r1.jou_code=r2.jou_code and r1.ledger_code=l1.ledger_code and tran_type='D' and  ifnull(status,'N')<>'C' 
+
+union all 
+
+select r1.jou_code as jou_code,r1.jou_date vou_date,r1.jou_no vou_no,ledger_name,branch,r1.amount debit,0 credit,c_code from journal r1,ledger_mast l1 where  r1.ledger_code=l1.ledger_code and tran_type='C' and  ifnull(status,'N')<>'C'  
+
+union all 
+
+select r1.jou_code as jou_code,r1.jou_date vou_date,r1.jou_no vou_no,ledger_name,branch,0 debit,r2.amount credit,c_code from journal r1,journal_det r2,ledger_mast l1 where r1.jou_code=r2.jou_code and r2.ledger_code=l1.ledger_code and tran_type='C' and  ifnull(status,'N')<>'C'  

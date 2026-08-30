@@ -1,0 +1,4 @@
+select m1.mth_code,m1.mth_name,m1.year,0 as purc_value,(select ifnull(sum(taxable_amt),0) from f_invoice_det f1,f_invoice f2 where f1.invoice_code=f2.invoice_code and (month(f2.bill_date)=m1.mth_no and year(f2.bill_date)=m1.year and f2.c_code=$(companycode) and $(fromdate) $(todate))) as purc_value, (select ifnull(sum(amount),0) from purc_sale_det f1,purc_sale f2 where f1.tran_code=f2.tran_code and (month(f1.bill_date)=m1.mth_no and year(f1.bill_date)=m1.year and f2.c_code=$(companycode) and $(fromdate) $(todate))) as sales_value  from mth m1 group by m1.mth_code,m1.mth_name,m1.year
+
+
+

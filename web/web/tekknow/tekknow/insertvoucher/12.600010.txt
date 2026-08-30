@@ -1,0 +1,31 @@
+insert into voucher_detail(branchcode,vh_no,v_type,vh_date,vh_prefix,vh_seq_no,vd_ledger_code,vd_dramount,vd_cramount,vh_status,ledger_name,branch,narration,vh_ref_code,vh_ref_type)
+
+select `h`.`c_code` AS `branchcode`,`h`.`bill_no` AS `vh_no`,'Purchase Return' ,`h`.`bill_date` AS `vh_date`,'Purchase Return' AS `vh_prefix`,`h`.`bill_no` AS `vh_seq_no`,`h`.`ledger_code` AS `vd_ledger_code`,`h`.`total_amt` AS `vd_dramount`,0 AS `vd_cramount`,'Y' AS `vh_status`,'Purchase Return' AS `ledger_name`,'' AS `branch`,'' AS `narration`,h.invoice_code refcode, 600010 reftype from (`purc_ret` `h` join `ledger_mast` `l1`) where ((`h`.`ledger_code` = `l1`.`ledger_code`) and (ifnull(`h`.`status`,'N') <> 'C') and (`h`.`bill_date` >= cast('2019-04-01' as date))) 
+
+union all 
+
+select `f1`.`c_code` AS `c_code`,`f1`.`bill_no` AS `bill_no`,'Purchase Return' ,`f1`.`bill_date` AS `bill_date`,'Purchase Return' AS `SALES`,`f1`.`bill_no` AS `bill_no`,`a1`.`cgst_ledger_code` AS `cgst_ledger_code`,0 AS `0`,`f1`.`cgst_amount` AS `cgst_amount`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,'' AS `Name_exp_286`,f1.invoice_code refcode,600010 reftype from ((`purc_ret` `f1` join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`f1`.`ledger_code` = `l1`.`ledger_code`) and (ifnull(`f1`.`status`,'N') <> 'C') and (`f1`.`bill_date` >= cast('2019-04-01' as date))) 
+
+
+union all 
+
+select `f1`.`c_code` AS `c_code`,`f1`.`bill_no` AS `bill_no`,'Purchase Return' ,`f1`.`bill_date` AS `bill_date`,'Purchase Return' AS `SALES`,`f1`.`bill_no` AS `bill_no`,`a1`.`sgst_ledger_code` AS `sgst_ledger_code`,0 AS `0`,`f1`.`sgst_amount` AS `sgst_amount`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,'' AS `Name_exp_299`,f1.invoice_code refcode, 600010 reftype from ((`purc_ret` `f1` join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`f1`.`ledger_code` = `l1`.`ledger_code`) and (ifnull(`f1`.`status`,'N') <> 'C') and (`f1`.`bill_date` >= cast('2019-04-01' as date))) 
+
+
+union all 
+
+
+select `f1`.`c_code` AS `c_code`,`f1`.`bill_no` AS `bill_no`,'Purchase Return' ,`f1`.`bill_date` AS `bill_date`,'Purchase Return' AS `SALES`,`f1`.`bill_no` AS `bill_no`,`a1`.`igst_ledger_code` AS `igst_ledger_code`,0 AS `0`,`f1`.`igst_amount` AS `igst_amount`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,'' AS `Name_exp_312`,f1.invoice_code refcode, 600010 reftype from ((`purc_ret` `f1` join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`f1`.`ledger_code` = `l1`.`ledger_code`) and (ifnull(`f1`.`status`,'N') <> 'C') and (`f1`.`bill_date` >= cast('2019-04-01' as date))) 
+
+union all 
+
+select `f1`.`c_code` AS `c_code`,`f1`.`bill_no` AS `bill_no`,'Purchase Return' ,`f1`.`bill_date` AS `bill_date`,'Purchase Return' AS `S`,`f1`.`bill_no` AS `bill_no`,`account_settings`.`sales_ledger_code` AS `SALES_ledger_code`,0 AS `0`,(sum(`f2`.`amount`) - `f1`.`discount`) AS `sum(amount)-discount`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,'' AS `Name_exp_611`,f1.invoice_code refcode,
+600010 reftype from (((`purc_ret` `f1` join `purc_ret_det` `f2`) join `account_settings`) join `ledger_mast` `l1`) where ((`f1`.`invoice_code` = `f2`.`invoice_code`) and (`f1`.`ledger_code` = `l1`.`ledger_code`) and (ifnull(`f1`.`status`,'N') <> 'C') and (`f1`.`bill_date` >= cast('2019-04-01' as date)))  group by `f1`.`c_code`,`f1`.`bill_no`,`f1`.`bill_date`,`account_settings`.`sales_ledger_code`,`f1`.`discount`,`l1`.`ledger_name`  
+union all 
+
+select `f1`.`c_code` AS `c_code`,`f1`.`bill_no` AS `bill_no`,'Purchase Return' ,`f1`.`bill_date` AS `bill_date`,'Purchase Return' AS `S`,`f1`.`bill_no` AS `bill_no`,`account_settings`.`freight_outward_ledger_code` AS `freight_outward_ledger_code`,0 AS `0`,`f1`.`courier_charges` AS `courier_charges`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,'' AS `Name_exp_637`,f1.invoice_code refcode,600010 reftype from ((`purc_ret` `f1` join `account_settings`) join `ledger_mast` `l1`) where ((`f1`.`ledger_code` = `l1`.`ledger_code`) and (ifnull(`f1`.`status`,'N') <> 'C') and (`f1`.`paid_to_pay` = 'P') and (`f1`.`courier_charges` <> 0) and (`f1`.`bill_date` >= cast('2019-04-01' as date))) 
+
+
+union all
+
+select `p1`.`c_code` AS `c_code`,`p1`.`bill_no` AS `bill_no`,'Purchase Return' ,`p1`.`bill_date` AS `bill_date`,'Purchase Return' AS `SALES`,`p1`.`bill_no` AS `bill_no`,`a1`.`roundoff_ledger_code` AS `roundoff_ledger_code`,(case when (`p1`.`round_off` < 0) then (`p1`.`round_off` * -(1)) else 0 end) AS `case when round_off<0 then round_off*-1 else 0 end`,(case when (`p1`.`round_off` > 0) then `p1`.`round_off` else 0 end) AS `case when round_off>0 then round_off else 0 end`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,'' AS `Name_exp_988`,p1.invoice_code refcode,600010 reftype from ((`purc_ret` `p1` join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`p1`.`ledger_code` = `l1`.`ledger_code`) and (ifnull(`p1`.`status`,'N') <> 'C') and (`p1`.`bill_date` >= cast('2019-04-01' as date)) and (`p1`.`round_off` <> 0)) 

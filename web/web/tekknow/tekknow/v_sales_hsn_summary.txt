@@ -1,0 +1,16 @@
+alter view v_sales_hsn_summary as select bill_no, bill_date,p1.hsn_code as hsn_code,'Fabric' as description,unit_name,sum(pcs) as total_qty , sum(mtrs) as total_mtrs , 
+round(sum(taxable_amt),2)+ round(sum(taxable_amt)*igst_per/100,2)+ round(sum(taxable_amt)*cgst_per/100,2)+ round(sum(taxable_amt)*sgst_per/100,2) as total_value, round(sum(taxable_amt),2) as taxable_value,round(sum(taxable_amt)*igst_per/100,2) as igst_amount, round(sum(taxable_amt)*cgst_per/100,2) as cgst_amount, round(sum(taxable_amt)*sgst_per/100,2) as sgst_amount, 0 as cess,0 as freight,0 as round_off,s1.c_code from f_invoice s1,f_invoice_det s2,product_mast p1,unit_mast u1 where p1.unit_code=u1.unit_code and s1.invoice_code=s2.invoice_code and s2.design_code=p1.product_code and ifnull(s1.status,'N')='N' group by p1.hsn_code,c_code ,bill_date ,discount,cgst_per,sgst_per,igst_per,total_amt,round_off,courier_charges,bill_no,unit_name
+
+union all 
+
+select bill_no,bill_date,p1.hsn_code as hsn_code,'Fabric' as description,unit_name,sum(pcs)*-1 as total_qty ,sum(mtrs)*-1 as total_mtrs,  
+round(sum(taxable_amt),2) + round(sum(taxable_amt)*igst_per/100,2)+ round(sum(taxable_amt)*cgst_per/100,2)+ round(sum(taxable_amt)*sgst_per/100,2) *-1  as total_value, round(sum(taxable_amt),2)*-1 as taxable_value, round(sum(taxable_amt)*igst_per/100,2) *-1 as igst_amount, round(sum(taxable_amt)*cgst_per/100,2) *-1 as cgst_amount,round(sum(taxable_amt)*sgst_per/100,2) *-1 as sgst_amount, 0 as cess,0,0,s1.c_code from sales_ret s1,sales_ret_det s2,product_mast p1,unit_mast u1 where p1.unit_code=u1.unit_code and s1.invoice_code=s2.invoice_code and s2.design_code=p1.product_code and ifnull(s1.status,'N')='N' group by p1.hsn_code,c_code ,bill_date ,discount,cgst_per,sgst_per,igst_per,total_amt,round_off,courier_charges,bill_no,unit_name 
+
+
+union all 
+
+select bill_no,bill_date,hsn_code,'Fabric',unit_name,0,0,0,0,0,0,0,0,courier_charges,round_off,c_code from f_invoice f1,f_invoice_det f2,unit_mast u1 where f1.invoice_code=f2.invoice_code and f2.unit_code=u1.unit_code and f2.sno=1 and ifnull(status,'N')<>'C' and (courier_charges<>0 or round_off<>0)
+
+union all 
+
+select bill_no,bill_date,hsn_code,'Fabric',unit_name,0,0,0,0,0,0,0,0,courier_charges*-1,round_off*-1,c_code from sales_ret f1,sales_ret_det f2,unit_mast u1 where f1.invoice_code=f2.invoice_code and f2.unit_code=u1.unit_code and f2.sno=1 and ifnull(status,'N')<>'C' and (courier_charges<>0 or round_off<>0)

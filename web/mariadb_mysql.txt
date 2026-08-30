@@ -1,0 +1,49 @@
+MariaDB is supported by Wampserver 3.0.8 and more
+
+To avoid interfering with MySQL, the default port used by MariaDB is port 3307, if both SGDBs are used
+To allow the use of MariaDB, the relevant option must be validated in the Wampserver settings:
+Right-click Wampmanager icon -> Wamp settings -> Allow MariaDB
+And, of course, to have a version of MariaDB installed on Wampserver.
+If this is not the case, different MariaDB addons exist on Sourceforge and on the secondary repository.
+
+Once the MariaDB item appears in the Wampmanager menus, you can use it.
+--- Some details about using MariaDB with Wampserver
+
+--- PhpMyAdmin
+PhpMyAdmin is set to use either MySQL or MariaDB.
+When calling PhpMyAdmin, there will be the choice of the server: MySQL or MariaDB.
+
+--- Connecting to database with MySQL and MariaDB
+
+For your connections to a database server to be done with MariaDB instead of MySQL, you must specify the port number.
+Indeed, without specifying the port, it will be the default port that will be used, therefore 3306, so the default port assigned to MySQL.
+Connection scripts use, for example:
+$mysqli = new mysqli('127.0.0.1', 'user', 'password', 'database');
+Or, in procedural terms :
+$mysqli = mysqli_connect('127.0.0.1', 'user', 'password', 'database');
+
+To connect with MariaDB, it is imperative to specify the port number:
+$mysqli = new mysqli('127.0.0.1', 'user', 'password', 'database', '3307');
+Or, in procedural terms :
+$mysqli = mysqli_connect('127.0.0.1', 'user', 'password', 'database', '3307');
+
+To check the connections on MariaDB, use the script:
+wamp\www\testmysql.php by 'http://localhost/testmysql.php'
+By having previously modified the script according to your settings, for example, if you did not set a password to root under MariaDB, the script must be:
+
+--- Replace MySQL by MariaDB ---
+- There is a tool to reverse the default DBMS with a single click if both are activated (MySQL AND MariaDB):
+- If MySQL is the default DBMS
+Right-click Wampmanager icon -> Tools -> Invert default DBMS MySQL <-> MariaDB
+or
+- If MariaDB is the default DBMS
+Right-click Wampmanager icon -> Tools -> Invert default DBMS MariaDB <-> MySQL
+
+There you go ! MariaDB is now the default database manager.
+Of course, you still have to import your previously backed up databases.
+
+--- No use of MariaDB and MySQL
+You are not required to keep using both MySQL and MariaDB managers, you can keep only the one that suits you and you can even completely disable both database managers by:
+Right-click Wampmanager Icon -> Wamp Settings -> Allow MariaDB to uncheck
+Right-click Wampmanager Icon -> Wamp Settings -> Allow MySQL to uncheck
+

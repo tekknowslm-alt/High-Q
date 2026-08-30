@@ -1,0 +1,38 @@
+Jan 27, 2020 6:25:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jan 27, 2020 6:29:43 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jan 27, 2020 6:29:43 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Jan 27, 2020 6:29:43 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jan 27, 2020 6:29:43 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1008 ms
+Jan 27, 2020 6:29:44 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 27, 2020 6:29:44 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jan 27, 2020 6:29:44 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\kannika\apache-tomcat-7.0.41\conf\Catalina\localhost\kannika.xml
+Jan 27, 2020 6:30:01 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [496] milliseconds.
+Jan 27, 2020 6:30:02 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jan 27, 2020 6:30:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\docs
+Jan 27, 2020 6:30:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\examples
+Jan 27, 2020 6:30:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\host-manager
+Jan 27, 2020 6:30:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\manager
+Jan 27, 2020 6:30:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\kannika\apache-tomcat-7.0.41\webapps\ROOT
+Jan 27, 2020 6:30:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jan 27, 2020 6:30:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Jan 27, 2020 6:30:10 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jan 27, 2020 6:30:10 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 26516 ms

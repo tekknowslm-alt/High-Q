@@ -1,0 +1,15 @@
+ alter view v_sales_tax as select f1.bill_no as bill_no, f1.bill_date bill_date,ledger_name,branch,tot as amount,discount,tot-discount as  taxable_amount,courier_charges as freight,cgst_amount,sgst_amount,igst_amount,total_amt ,c_code  from 
+
+ledger_mast l1,f_invoice f1 where  f1.ledger_code=l1.ledger_code and ifnull(status,'N')<>'C' 
+
+union all  
+
+select bill_no, bill_date,ledger_name,branch,amount*-1 as  amount,0,amount*-1,freight*-1,cgst_amount*-1,sgst_amount*-1,igst_amount*-1,net_amount*-1 ,c_code  from 
+
+ledger_mast l1,purc_sale p1,purc_sale_det p2  where  p1.tran_code=p2.tran_code and p2.ledger_code=l1.ledger_code and tran_type='C' and ifnull(status,'N')<>'C'  
+
+union all 
+
+select bill_no, bill_date,ledger_name,branch,amount as  amount,0,amount,freight,cgst_amount,sgst_amount,igst_amount,net_amount ,c_code  from 
+
+ledger_mast l1,purc_sale p1,purc_sale_det p2  where  p1.tran_code=p2.tran_code and p2.ledger_code=l1.ledger_code and tran_type='S' and ifnull(status,'N')<>'C'  

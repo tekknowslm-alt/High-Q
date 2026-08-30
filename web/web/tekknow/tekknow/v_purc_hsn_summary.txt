@@ -1,0 +1,26 @@
+alter view v_purc_hsn_summary as select bill_date,bill_no,hsn_code as hsn_code,qty as total_qty,net_amount as total_value,amount as taxable_value,igst_amount,cgst_amount,sgst_amount,0 as cess,0 as round_off, c_code from purc_sale_det p1,purc_sale p2 where p1.tran_code=p2.tran_code and  ifnull(p2.status,'N')<>'C' and tran_type='P' 
+
+union all 
+
+select inv_date,inv_no ,hsn_code as hsn_code,sum(qty) as total_qty,round(sum(amount+(amount*cgst_per/100)+(amount*sgst_per/100)+(amount*igst_per/100)),2) as total_value,round(sum(amount),2) as taxable_value,round(sum(amount*igst_per/100),2),round(sum(amount*cgst_per/100),2),round(sum(amount*sgst_per/100),2),0,0,c_code from purc_inv_det p1,purc_inv p2 where p1.inv_code=p2.inv_code and  ifnull(p2.status,'N')<>'C' and transaction_type='B' group by inv_date,hsn_code , party_inv_no 
+
+union all 
+
+select party_inv_date,party_inv_no,hsn_code as hsn_code,sum(qty) as total_qty,round(sum(amount+(amount*cgst_per/100)+(amount*sgst_per/100)+(amount*igst_per/100)),2) as total_value,round(sum(amount),2) as taxable_value,round(sum(amount*igst_per/100),2),round(sum(amount*cgst_per/100),2),round(sum(amount*sgst_per/100),2),0,0,c_code from purc_inv_det p1,purc_inv p2 where p1.inv_code=p2.inv_code and  ifnull(p2.status,'N')<>'C' and transaction_type='I' and trim(party_inv_no)<>'' group by inv_date,hsn_code ,party_inv_no 
+
+union all 
+
+select bill_date,bill_no,hsn_code as hsn_code,pcs*-1 as total_qty,total_amt*-1 as total_value,amount*-1 as taxable_value,igst_amount*-1,cgst_amount*-1,sgst_amount*-1,0,0,c_code from purc_ret_det p1,purc_ret p2 where p1.invoice_code=p2.invoice_code and  ifnull(p2.status,'N')<>'C' 
+
+
+union all 
+
+select inv_date,inv_no,hsn_code,0,0,0,0,0,0,0,round_off,c_code from purc_inv f1,purc_inv_det f2 where f1.inv_code=f2.inv_code and f2.sno=1 and ifnull(status,'N')<>'C' and    transaction_type='B'
+
+union all 
+
+select party_inv_date,party_inv_no,hsn_code,0,0,0,0,0,0,0,round_off,c_code from purc_inv f1,purc_inv_det f2 where f1.inv_code=f2.inv_code and f2.sno=1 and ifnull(status,'N')<>'C' and    transaction_type='I' and trim(party_inv_no)<>'' 
+
+union all 
+
+select bill_date,bill_no,hsn_code,0,0,0,0,0,0,0,round_off*1,c_code from purc_ret f1,purc_ret_det f2 where f1.invoice_code=f2.invoice_code and f2.sno=1 and ifnull(status,'N')<>'C'  

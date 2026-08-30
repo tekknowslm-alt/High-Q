@@ -1,0 +1,6 @@
+create view v_sales_order_pending as SELECT  order_date order_date,order_no,ledger_name,branch,p1.product_code product_code,prod_code,product_name,sum(qty) qty, sum(mtrs) mtrs from sale_order s1,sale_order_det s2,ledger_mast l1,product_mast P1 where s1.order_code=s2.order_code and s1.ledger_code=l1.ledger_code and s2.product_code=p1.product_code and ifnull(s1.status,'N')<>'C' group by ledger_name,product_name,s2.order_det_code  
+
+
+union all 
+
+SELECT  order_date  order_date,order_no,ledger_name,branch,p1.product_code product_code,prod_code,product_name,sum(f1.pcs)*-1 qty, sum(f1.mtrs)*-1 mtrs from sale_order s1,sale_order_det s2,f_invoice_det f1,f_invoice f2,ledger_mast l1,product_mast P1 where f1.invoice_code=f2.invoice_code and s2.order_det_code=f1.order_det_code and s1.order_code=s2.order_code and s1.ledger_code=l1.ledger_code and s2.product_code=p1.product_code and ifnull(f2.status,'N')<>'C' group by ledger_name,product_name,s2.order_det_code  

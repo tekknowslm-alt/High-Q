@@ -1,0 +1,17 @@
+insert into voucher_detail(branchcode,vh_no,v_type,vh_date,vh_prefix,vh_seq_no,vd_ledger_code,vd_dramount,vd_cramount,vh_status,ledger_name,branch,narration,vh_ref_code,vh_ref_type)
+
+select `a1`.`c_code` AS `c_code`,`a1`.`advance_no` AS `advance_no`,'ADVANCE' AS `ADVANCE`,`a1`.`advance_date` AS `advance_date`,'ADVANCE' AS `ADVANCE`,`a1`.`advance_no` AS `advance_no`,`a1`.`ledger_code` AS `ledger_code`,`a1`.`amount` AS `amount`,0 AS `0`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,'' AS `Name_exp_1066`,a1.advance_code,600052 reftype from (`advance` `a1` join `ledger_mast` `l1`) where ((`a1`.`party_ledger_code` = `l1`.`ledger_code`) and (ifnull(`a1`.`status`,'N') <> 'C') and (`a1`.`advance_date` >= cast('2019-04-01' as date)) and (`a1`.`amount` <> 0) and (`a1`.`advance_type` = 'R')) 
+
+union all 
+
+select `a1`.`c_code` AS `c_code`,`a1`.`advance_no` AS `advance_no`,'ADVANCE' AS `ADVANCE`,`a1`.`advance_date` AS `advance_date`,'ADVANCE' AS `ADVANCE`,`a1`.`advance_no` AS `advance_no`,`a1`.`party_ledger_code` AS `party_ledger_code`,0 AS `0`,`a1`.`amount` AS `amount`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,'' AS `Name_exp_1079`,a1.advance_code,600052 reftype from (`advance` `a1` join `ledger_mast` `l1`) where ((`a1`.`ledger_code` = `l1`.`ledger_code`) and (ifnull(`a1`.`status`,'N') <> 'C') and (`a1`.`advance_date` >= cast('2019-04-01' as date)) and (`a1`.`amount` <> 0) and (`a1`.`advance_type` = 'R')) 
+
+union all 
+
+select `a1`.`c_code` AS `c_code`,`a1`.`advance_no` AS `advance_no`,'ADVANCE' AS `ADVANCE`,`a1`.`advance_date` AS `advance_date`,'ADVANCE' AS `ADVANCE`,`a1`.`advance_no` AS `advance_no`,`a1`.`ledger_code` AS `ledger_code`,0 AS `0`,`a1`.`amount` AS `amount`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,'' AS `Name_exp_1092`,a1.advance_code,600052 reftype from (`advance` `a1` join `ledger_mast` `l1`) where ((`a1`.`party_ledger_code` = `l1`.`ledger_code`) and (ifnull(`a1`.`status`,'N') <> 'C') and (`a1`.`advance_date` >= cast('2019-04-01' as date)) and (`a1`.`amount` <> 0) and (`a1`.`advance_type` = 'I')) 
+
+union all 
+
+select `a1`.`c_code` AS `c_code`,`a1`.`advance_no` AS `advance_no`,'ADVANCE' AS `ADVANCE`,`a1`.`advance_date` AS `advance_date`,'ADVANCE' AS `ADVANCE`,`a1`.`advance_no` AS `advance_no`,`a1`.`party_ledger_code` AS `party_ledger_code`,`a1`.`amount` AS `amount`,0 AS `0`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,'' AS `Name_exp_1105`,a1.advance_code,600052 reftype from (`advance` `a1` join `ledger_mast` `l1`) where ((`a1`.`ledger_code` = `l1`.`ledger_code`) and (ifnull(`a1`.`status`,'N') <> 'C') and (`a1`.`advance_date` >= cast('2019-04-01' as date)) and (`a1`.`amount` <> 0) and (`a1`.`advance_type` = 'I')) 
+
+

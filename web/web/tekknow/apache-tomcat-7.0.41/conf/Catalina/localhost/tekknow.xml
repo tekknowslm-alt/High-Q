@@ -1,0 +1,14 @@
+<Context 
+  docBase="${catalina.home}/../tekknow/web" 
+  path="/tekknow" 
+  reloadable="true" 
+>
+<Resource name="jdbc/mydb" auth="Container" type="javax.sql.DataSource"
+    username="root"
+    password=""
+    driverClassName="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://localhost:3306/tekknow"
+    maxActive="20"
+    maxIdle="10"
+    validationQuery="select 1" />
+</Context>

@@ -1,0 +1,5 @@
+insert into stock_ledger(sno,dt,inward_no,product_code,party,inward_qty,inward_mtrs,outward_qty,outward_mtrs,sold_qty,sold_mtrs,purc_rate,sales_rate,disc_rate,vh_ref_type,vh_ref_code)select 2,outward_date,outward_no,o1.product_code,'',0,0,qty,mtrs,0,0,p1.purc_rate,0,0,'600051',o1.outward_code from outward_det o1,outward o2,product_mast p1 where o1.product_code=p1.product_code and  o1.outward_code=o2.outward_code and ifnull(status,'N')<>'C' ;
+
+
+
+

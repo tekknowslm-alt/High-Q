@@ -1,0 +1,21 @@
+select product_name,p1.product_code, case unit_code when 1 then (select sum(qty) from v_stock v1 where v1.product_code=p1.product_code and $(fromdate)) -max_qty  when 2 then 0  end as  stk ,case unit_code when 2 then (select sum(mtrs) from v_stock v1 where v1.product_code=p1.product_code and $(fromdate)) -max_qty  when 1 then 0  end as stk_mtrs,v2.rate,(case unit_code when 1 then (select sum(qty) from v_stock v1 where v1.product_code=p1.product_code and $(fromdate)) -max_qty  when 2 then (select sum(mtrs) from v_stock v1 where v1.product_code=p1.product_code and $(fromdate)) -max_qty   end)*v2.rate as  amount  from  product_mast p1,v_purc_rate v2  where 
+p1.product_code=v2.product_code and $(fromdate)
+
+
+
+
+
+
+
+
+
+select product_name,p1.product_code, case unit_code when 1 then (select sum(qty) from v_stock v1 where v1.product_code=p1.product_code and date(dt)<='2018-05-29') -max_qty  when 2 then 0  end as  stk ,case unit_code when 2 then (select sum(mtrs) from v_stock v1 where v1.product_code=p1.product_code and date(dt)<='2018-05-29') -max_qty  when 1 then 0  end as stk_mtrs,v2.rate,(case unit_code when 1 then (select sum(qty) from v_stock v1 where v1.product_code=p1.product_code and date(dt)<='2018-05-29') -max_qty  when 2 then (select sum(mtrs) from v_stock v1 where v1.product_code=p1.product_code and date(dt)<='2018-05-29') -max_qty   end)*v2.rate as  amount  from  product_mast p1,v_purc_rate v2  where
+p1.product_code=v2.product_code   and case unit_code when 1 then (select sum(qty) from v_stock v1 where v1.product_code=p1.product_code and $(fromdate)) -max_qty >0 
+
+
+
+
+
+
+select product_name,p1.product_code, case unit_code when 1 then (select sum(qty) from v_stock v1 where v1.product_code=p1.product_code and date(dt)<='2018-05-29') -max_qty  when 2 then 0  end as  stk ,case unit_code when 2 then (select sum(mtrs) from v_stock v1 where v1.product_code=p1.product_code and date(dt)<='2018-05-29') -max_qty  when 1 then 0  end as stk_mtrs,v2.rate,(case unit_code when 1 then (select sum(qty) from v_stock v1 where v1.product_code=p1.product_code and date(dt)<='2018-05-29') -max_qty  when 2 then (select sum(mtrs) from v_stock v1 where v1.product_code=p1.product_code and date(dt)<='2018-05-29') -max_qty   end)*v2.rate as  amount  from  product_mast p1,v_purc_rate v2  where
+p1.product_code=v2.product_code  and  (case unit_code when 1 then (select sum(qty) from v_stock v1 where v1.product_code=p1.product_code and date(dt)<='2018-05-29') -max_qty  when 2 then 0  end >0  or case unit_code when 2 then (select sum(mtrs) from v_stock v1 where v1.product_code=p1.product_code and date(dt)<='2018-05-29') -max_qty  when 1 then 0  end >0)

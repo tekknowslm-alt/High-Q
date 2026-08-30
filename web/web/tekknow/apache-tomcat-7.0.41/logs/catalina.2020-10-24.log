@@ -1,0 +1,412 @@
+Oct 24, 2020 8:12:02 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 8:12:02 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 8:12:02 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 8:12:02 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 854 ms
+Oct 24, 2020 8:12:02 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 24, 2020 8:12:02 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Oct 24, 2020 8:12:02 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\tekknow\apache-tomcat-7.0.41\conf\Catalina\localhost\tekknow.xml
+Oct 24, 2020 8:12:06 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [451] milliseconds.
+Oct 24, 2020 8:12:06 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 8:12:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\docs
+Oct 24, 2020 8:12:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\examples
+Oct 24, 2020 8:12:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\host-manager
+Oct 24, 2020 8:12:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\manager
+Oct 24, 2020 8:12:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\ROOT
+Oct 24, 2020 8:12:10 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 8:12:10 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 8:12:10 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 8:12:10 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8117 ms
+Oct 24, 2020 9:33:50 AM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Oct 24, 2020 9:55:52 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Oct 24, 2020 10:03:51 AM org.apache.catalina.core.StandardWrapper unload
+INFO: Waiting for 2 instance(s) to be deallocated for Servlet [BasicServices]
+Oct 24, 2020 10:03:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 10:03:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 10:03:52 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 10:03:52 AM org.apache.catalina.core.StandardWrapper unload
+INFO: Waiting for 2 instance(s) to be deallocated for Servlet [BasicServices]
+Oct 24, 2020 10:03:52 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 24, 2020 10:03:52 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/tekknow] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+Oct 24, 2020 10:03:54 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 10:03:55 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Oct 24, 2020 10:03:55 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 10:03:55 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 10:03:55 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 10:03:55 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 10:03:55 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 10:03:55 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 10:06:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 10:06:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 10:06:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 10:06:26 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 517 ms
+Oct 24, 2020 10:06:26 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 24, 2020 10:06:26 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Oct 24, 2020 10:06:26 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\tekknow\apache-tomcat-7.0.41\conf\Catalina\localhost\tekknow.xml
+Oct 24, 2020 10:06:29 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [364] milliseconds.
+Oct 24, 2020 10:06:29 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 10:06:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\docs
+Oct 24, 2020 10:06:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\examples
+Oct 24, 2020 10:06:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\host-manager
+Oct 24, 2020 10:06:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\manager
+Oct 24, 2020 10:06:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\ROOT
+Oct 24, 2020 10:06:31 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 10:06:31 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 10:06:31 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 10:06:31 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5215 ms
+Oct 24, 2020 10:15:02 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Oct 24, 2020 10:15:02 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/tekknow] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+Oct 24, 2020 10:15:07 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 10:15:08 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Oct 24, 2020 10:15:35 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 10:15:36 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 10:15:36 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 10:15:36 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 24, 2020 10:15:36 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 10:15:36 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 10:15:36 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 10:15:36 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 10:15:36 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 10:15:36 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 10:21:45 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 10:21:45 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 10:21:45 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 10:21:45 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 478 ms
+Oct 24, 2020 10:21:45 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 24, 2020 10:21:45 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Oct 24, 2020 10:21:45 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\tekknow\apache-tomcat-7.0.41\conf\Catalina\localhost\tekknow.xml
+Oct 24, 2020 10:21:49 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [590] milliseconds.
+Oct 24, 2020 10:21:50 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 10:21:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\docs
+Oct 24, 2020 10:21:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\examples
+Oct 24, 2020 10:21:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\host-manager
+Oct 24, 2020 10:21:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\manager
+Oct 24, 2020 10:21:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\ROOT
+Oct 24, 2020 10:21:52 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 10:21:52 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 10:21:52 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 10:21:52 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7616 ms
+Oct 24, 2020 10:26:23 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Oct 24, 2020 10:26:37 AM org.apache.catalina.core.StandardWrapper unload
+INFO: Waiting for 1 instance(s) to be deallocated for Servlet [BasicServices]
+Oct 24, 2020 10:26:37 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/tekknow] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+Oct 24, 2020 10:26:42 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 10:26:44 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Oct 24, 2020 10:27:54 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Oct 24, 2020 10:28:14 AM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load java.lang.StackTraceElement.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at org.apache.commons.logging.impl.Jdk14Logger.log(Jdk14Logger.java:84)
+	at org.apache.commons.logging.impl.Jdk14Logger.warn(Jdk14Logger.java:260)
+	at org.apache.pdfbox.cos.COSDocument.finalize(COSDocument.java:586)
+	at java.lang.System$2.invokeFinalize(Unknown Source)
+	at java.lang.ref.Finalizer.runFinalizer(Unknown Source)
+	at java.lang.ref.Finalizer.access$100(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+Oct 24, 2020 10:28:16 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 10:28:17 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Oct 24, 2020 10:32:07 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Oct 24, 2020 10:32:09 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 10:32:10 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Oct 24, 2020 10:35:51 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Oct 24, 2020 10:35:53 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 10:35:54 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Oct 24, 2020 10:36:55 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Oct 24, 2020 10:36:57 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 10:36:58 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Oct 24, 2020 10:37:18 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Oct 24, 2020 10:37:21 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 10:37:22 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Oct 24, 2020 10:37:42 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Oct 24, 2020 10:37:44 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 10:37:45 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Oct 24, 2020 10:39:15 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Oct 24, 2020 10:39:18 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 10:39:19 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Oct 24, 2020 11:43:45 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Oct 24, 2020 11:43:47 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 11:43:48 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Oct 24, 2020 11:48:08 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Oct 24, 2020 11:48:11 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 11:48:12 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Oct 24, 2020 11:52:12 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Oct 24, 2020 11:52:15 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 11:52:15 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Oct 24, 2020 11:53:05 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Oct 24, 2020 11:53:07 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 11:53:08 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Oct 24, 2020 11:55:48 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Oct 24, 2020 11:55:50 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 11:55:51 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Oct 24, 2020 2:15:32 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 2:15:32 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 2:15:32 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 2:15:32 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1685 ms
+Oct 24, 2020 2:15:32 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 24, 2020 2:15:32 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Oct 24, 2020 2:15:32 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\tekknow\apache-tomcat-7.0.41\conf\Catalina\localhost\tekknow.xml
+Oct 24, 2020 2:15:38 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [234] milliseconds.
+Oct 24, 2020 2:15:39 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 2:15:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\docs
+Oct 24, 2020 2:15:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\examples
+Oct 24, 2020 2:15:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\host-manager
+Oct 24, 2020 2:15:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\manager
+Oct 24, 2020 2:15:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\ROOT
+Oct 24, 2020 2:15:42 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 2:15:42 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 2:15:42 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 2:15:42 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9674 ms
+Oct 24, 2020 2:20:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 2:20:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 2:20:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 2:20:14 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 621 ms
+Oct 24, 2020 2:20:14 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 24, 2020 2:20:14 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Oct 24, 2020 2:20:15 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\tekknow\apache-tomcat-7.0.41\conf\Catalina\localhost\tekknow.xml
+Oct 24, 2020 2:20:19 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 2:20:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\docs
+Oct 24, 2020 2:20:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\examples
+Oct 24, 2020 2:20:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\host-manager
+Oct 24, 2020 2:20:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\manager
+Oct 24, 2020 2:20:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\ROOT
+Oct 24, 2020 2:20:21 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 2:20:21 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 2:20:21 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 2:20:21 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6669 ms
+Oct 24, 2020 2:22:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 2:22:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 2:22:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 2:22:07 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 578 ms
+Oct 24, 2020 2:22:07 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 24, 2020 2:22:07 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Oct 24, 2020 2:22:07 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\tekknow\apache-tomcat-7.0.41\conf\Catalina\localhost\tekknow.xml
+Oct 24, 2020 2:22:11 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 2:22:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\docs
+Oct 24, 2020 2:22:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\examples
+Oct 24, 2020 2:22:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\host-manager
+Oct 24, 2020 2:22:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\manager
+Oct 24, 2020 2:22:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\ROOT
+Oct 24, 2020 2:22:13 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 2:22:13 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 2:22:13 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 2:22:13 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6009 ms
+Oct 24, 2020 3:11:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 3:11:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 3:11:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 3:11:17 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 636 ms
+Oct 24, 2020 3:11:17 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 24, 2020 3:11:17 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Oct 24, 2020 3:11:17 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\tekknow\apache-tomcat-7.0.41\conf\Catalina\localhost\tekknow.xml
+Oct 24, 2020 3:11:22 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Oct 24, 2020 3:11:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\docs
+Oct 24, 2020 3:11:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\examples
+Oct 24, 2020 3:11:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\host-manager
+Oct 24, 2020 3:11:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\manager
+Oct 24, 2020 3:11:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\ROOT
+Oct 24, 2020 3:11:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 24, 2020 3:11:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Oct 24, 2020 3:11:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 24, 2020 3:11:23 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6081 ms
+Oct 24, 2020 8:55:45 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+Oct 24, 2020 8:55:46 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+Oct 24, 2020 8:55:46 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.

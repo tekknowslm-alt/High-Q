@@ -1,0 +1,93 @@
+Jul 15, 2016 6:40:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jul 15, 2016 6:40:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jul 15, 2016 6:40:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@4dcf4da3')
+Jul 15, 2016 7:15:13 PM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet /wovenerp threw load() exception
+javax.servlet.ServletException: missing jspFile: [/pages/Vendors.jsp]
+	at org.apache.jasper.servlet.JspServlet.init(JspServlet.java:123)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5407)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1275)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 15, 2016 7:16:15 PM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet /wovenerp threw load() exception
+javax.servlet.ServletException: missing jspFile: [/pages/VendorsMast.jsp]
+	at org.apache.jasper.servlet.JspServlet.init(JspServlet.java:123)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5407)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3926)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1270)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 15, 2016 7:16:28 PM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet /wovenerp threw load() exception
+javax.servlet.ServletException: missing jspFile: [/pages/VendorsMast.jsp]
+	at org.apache.jasper.servlet.JspServlet.init(JspServlet.java:123)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5407)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3926)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1270)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 15, 2016 7:16:41 PM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet /wovenerp threw load() exception
+javax.servlet.ServletException: missing jspFile: [/pages/VendorsMast.jsp]
+	at org.apache.jasper.servlet.JspServlet.init(JspServlet.java:123)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5407)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3926)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1270)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1439)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+

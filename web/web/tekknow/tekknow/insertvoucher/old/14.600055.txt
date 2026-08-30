@@ -1,0 +1,16 @@
+insert into voucher_detail(branchcode,vh_no,v_type,vh_date,vh_prefix,vh_seq_no,vd_ledger_code,vd_dramount,vd_cramount,vh_status,ledger_name,branch,narration,vh_ref_code,vh_ref_type)
+
+select `r1`.`c_code` AS `c_code`,`r1`.`mapping_no` AS `mapping_no`,'R' AS `R`,`r1`.`mapping_date` AS `mapping_date`,'R' AS `R`,`r1`.`mapping_no` AS `mapping_no`,`r1`.`exp_ledger_code` AS `exp_ledger_code`,`r1`.`exp_amount` AS `exp_amount`,0 AS `0`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,'' AS `Name_exp_1118`,r1.mapping_code,600055 reftype from (`advance_mapping` `r1` join `ledger_mast` `l1`) where ((`r1`.`ledger_code` = `l1`.`ledger_code`) and (`r1`.`exp_amount` <> 0) and (ifnull(`r1`.`status`,'N') <> 'C') and (`r1`.`advance_type` = 'R')) 
+
+union all 
+
+select `r1`.`c_code` AS `c_code`,`r1`.`mapping_no` AS `mapping_no`,'R' AS `R`,`r1`.`mapping_date` AS `mapping_date`,'R' AS `R`,`r1`.`mapping_no` AS `mapping_no`,`r1`.`exp_ledger_code` AS `exp_ledger_code`,0 AS `0`,`r1`.`exp_amount` AS `exp_amount`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,'' AS `Name_exp_1131`,r1.mapping_code,600055 reftype from (`advance_mapping` `r1` join `ledger_mast` `l1`) where ((`r1`.`ledger_code` = `l1`.`ledger_code`) and (`r1`.`exp_amount` <> 0) and (ifnull(`r1`.`status`,'N') <> 'C') and (`r1`.`advance_type` = 'I')) 
+
+union all 
+
+select `r1`.`c_code` AS `c_code`,`r1`.`mapping_no` AS `mapping_no`,'R' AS `R`,`r1`.`mapping_date` AS `mapping_date`,'R' AS `R`,`r1`.`mapping_no` AS `mapping_no`,`r1`.`exp2_ledger_code` AS `exp2_ledger_code`,`r1`.`exp2_amount` AS `exp2_amount`,0 AS `0`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,'' AS `Name_exp_1144`,r1.mapping_code,600055 reftype from (`advance_mapping` `r1` join `ledger_mast` `l1`) where ((`r1`.`ledger_code` = `l1`.`ledger_code`) and (`r1`.`exp2_amount` <> 0) and (ifnull(`r1`.`status`,'N') <> 'C') and (`r1`.`advance_type` = 'R')) 
+
+union all 
+
+select `r1`.`c_code` AS `c_code`,`r1`.`mapping_no` AS `mapping_no`,'R' AS `R`,`r1`.`mapping_date` AS `mapping_date`,'R' AS `R`,`r1`.`mapping_no` AS `mapping_no`,`r1`.`exp2_ledger_code` AS `exp2_ledger_code`,0 AS `0`,`r1`.`exp2_amount` AS `exp2_amount`,'Y' AS `Y`,`l1`.`ledger_name` AS `ledger_name`,`l1`.`branch` AS `branch`,'' AS `Name_exp_1157`,r1.mapping_code,600055 reftype from (`advance_mapping` `r1` join `ledger_mast` `l1`) where ((`r1`.`ledger_code` = `l1`.`ledger_code`) and (`r1`.`exp2_amount` <> 0) and (ifnull(`r1`.`status`,'N') <> 'C') and (`r1`.`advance_type` = 'I')) 
+

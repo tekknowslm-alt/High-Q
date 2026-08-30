@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+	<link rel="shortcut icon" href="images/titleicon.gif">
+  	<link rel="icon" href="images/titleicon.gif">
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/icomoon.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.css" rel="stylesheet">
+        <link href="assets/css/custom.css" rel="stylesheet">
+
+<body onload="setFocus()">	
+<%@page import="com.core.servlet.InitProjectServlet"%>
+<%String error=(String) request.getParameter("error"); 
+	if(error==null){
+		error="";
+	}
+	String host=request.getHeader("host");
+	if (InitProjectServlet.isMultiTenant){
+		host=host.replaceAll(":8080","");
+		host=host.replaceAll(":8443","");
+	}else{
+		host="";
+	}
+%>
+		<div id="error"><%=error%></div>
+		
+		<div class="">
+    <div class="container">
+    <img src="images/login_bg.jpg" class="bg"></div>
+    
+    </div>
+    <div class="logiMt">
+    
+    <div class="logiLft">Tekknow Engineering, Industrial Store Suppliers <br> Created & Support by High-Q Systems<br>www.highqsystems.in</div>
+    <div class="">
+    <div class="loginBg">
+    <div class="loginInr">
+    <div class="loginLog0Dw text-center"><img src="images/login_lgo.png"></div>
+    <form method="post" action="j_security_check" name="loginform" onsubmit="return false" >
+    <input type="hidden" name="j_username" id="j_username" value=""/>
+    <div class="logInpB"><span class="icon-user logInpBIc"></span><input type="text" class="form-control logInpBPad"  name="t_username" id="t_username" value="" placeholder="User Name" /> </div>
+    <div class="logInpB"><span class="fa fa-lock logInpBIc"></span><input type="password" class="form-control logInpBPad" name="j_password" id="j_password" value="" placeholder="Password" onkeydown='return handleElementKeyDown(this,event)'/></div>
+    <div class=" pull-right"><a href="#" class="logFor">Forgot Password</a><button type="button" onclick="submit_page();" class="btn btn-default loginButt">Login</button></div>
+    </form>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class=""></div>
+    <div>
+    <div class="footerTXT"><br> COPYRIGHT © 2014 CISSOL Technologies</div></div>
+    <div class="footerTXT">
+    
+    <p></p>
+    </div>
+    </div>
+		
+		
+		
+		<%--<div class="log_wrapper">
+    	<div class="log_comp_log"></div>
+    	<div class="log_bck">
+    	<div class="log_ico_top"></div>
+		<form method="post" action="j_security_check" name="loginform" onsubmit="return false" >
+						<ul id="log_txt_box">						
+	  					<li><input type="hidden" name="j_username" id="j_username" value=""/></li>
+	  					<li><input type="text" class="form_feild"  name="t_username" id="t_username" value="" placeholder="User Name" /></li>
+	  					<li><input type="password" class="form_feild" name="j_password" id="j_password" value="" placeholder="Password" onkeydown='return handleElementKeyDown(this,event)'/></li>
+					     <li><a href="#" onclick="submit_page();" class="log_butt">SIGN IN</a></li>
+					     </ul>  
+					</form>
+		</div>
+		</div>--%>
+					
+</body>
+<script>
+function handleElementKeyDown(t,e){
+	var key=e.which || e.keyCode;
+	if(key==13){
+		submit_page();
+		e.stopPropagation();
+		e.preventDefault();
+	}
+	return true;	
+}
+var usrObj=document.getElementById('t_username');
+var usrPasswd=document.getElementById('j_password');
+ function submit_page(){
+        if(usrObj.value.length==0){
+		var enter_the_username="Enter the username";
+         	alert(strToUnicode(enter_the_username));
+         	usrObj.focus();
+         	return;
+        }
+ 	document.loginform.j_username.value=usrObj.value;
+	document.loginform.onsubmit='';
+	document.loginform.submit();
+}
+function setFocus(){
+		document.loginform.t_username.focus();
+} 
+</script>
+</html>

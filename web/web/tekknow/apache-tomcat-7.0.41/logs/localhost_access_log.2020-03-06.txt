@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:18:09:37 +0530] "GET /kannika HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:18:09:38 +0530] "GET /kannika/ HTTP/1.1" 200 2883
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:18:09:38 +0530] "GET /kannika/assets/css/custom.css HTTP/1.1" 200 19261
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:18:09:39 +0530] "GET /kannika/images/login_bg.jpg HTTP/1.1" 200 79466
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:18:09:39 +0530] "GET /kannika/assets/css/bootstrap.css HTTP/1.1" 200 127419
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:18:09:39 +0530] "GET /kannika/images/login_lgo.png HTTP/1.1" 200 13598
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:18:09:39 +0530] "GET /kannika/assets/css/icomoon.css HTTP/1.1" 200 2373
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:18:09:39 +0530] "GET /kannika/assets/css/font-awesome.css HTTP/1.1" 200 25197
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:18:09:39 +0530] "GET /kannika/assets/fonts/fontawesome-webfont.woff?v=4.1.0 HTTP/1.1" 200 83760
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:18:09:39 +0530] "GET /kannika/assets/fonts/icomoon.woff?-92jn4g HTTP/1.1" 200 6060
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:18:09:46 +0530] "POST /kannika/j_security_check HTTP/1.1" 200 2931

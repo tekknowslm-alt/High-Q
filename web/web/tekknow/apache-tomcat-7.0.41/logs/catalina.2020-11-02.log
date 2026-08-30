@@ -1,0 +1,85 @@
+Nov 02, 2020 10:45:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 02, 2020 10:45:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Nov 02, 2020 10:45:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 02, 2020 10:45:34 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 679 ms
+Nov 02, 2020 10:45:34 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 02, 2020 10:45:34 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Nov 02, 2020 10:45:34 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\tekknow\apache-tomcat-7.0.41\conf\Catalina\localhost\tekknow.xml
+Nov 02, 2020 10:45:39 AM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Nov 02, 2020 10:45:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\docs
+Nov 02, 2020 10:45:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\examples
+Nov 02, 2020 10:45:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\host-manager
+Nov 02, 2020 10:45:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\manager
+Nov 02, 2020 10:45:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\tekknow\apache-tomcat-7.0.41\webapps\ROOT
+Nov 02, 2020 10:45:40 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Nov 02, 2020 10:45:40 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Nov 02, 2020 10:45:40 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 02, 2020 10:45:40 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5955 ms
+Nov 02, 2020 5:17:53 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] has started
+Nov 02, 2020 5:17:53 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/tekknow] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 02, 2020 5:17:54 PM org.apache.catalina.startup.ContextConfig processAnnotationsFile
+SEVERE: Unable to process file [E:\web\tekknow\tekknow\web\WEB-INF\classes\com\hiq\trade\util\BarcodePrint.class] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: null is not a Java .class file
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readID(ClassParser.java:238)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:114)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2118)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsFile(ContextConfig.java:2093)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsFile(ContextConfig.java:2086)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsFile(ContextConfig.java:2086)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsFile(ContextConfig.java:2086)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsFile(ContextConfig.java:2086)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1293)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5269)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3926)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:426)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 02, 2020 5:17:59 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Nov 02, 2020 5:18:01 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/tekknow] is completed
+Nov 02, 2020 5:20:41 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Nov 02, 2020 5:20:41 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Nov 02, 2020 5:20:41 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Nov 02, 2020 5:20:41 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Nov 02, 2020 5:20:41 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Nov 02, 2020 5:20:41 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Nov 02, 2020 5:52:14 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document
+Nov 02, 2020 5:52:14 PM org.apache.pdfbox.cos.COSDocument finalize
+WARNING: Warning: You did not close a PDF Document

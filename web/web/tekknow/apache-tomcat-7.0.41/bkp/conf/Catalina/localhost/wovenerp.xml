@@ -1,0 +1,14 @@
+<Context 
+  docBase="${catalina.home}/../wovenerp/web" 
+  path="/Trade" 
+  reloadable="true" 
+>
+<Resource name="jdbc/mydb" auth="Container" type="javax.sql.DataSource"
+    username="root"
+    password=""
+    driverClassName="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://localhost:3306/wovenerp"
+    maxActive="20"
+    maxIdle="10"
+    validationQuery="select 1" />
+</Context>

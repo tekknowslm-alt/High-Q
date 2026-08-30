@@ -1,0 +1,526 @@
+Feb 01, 2016 3:24:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 01, 2016 3:24:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Feb 01, 2016 3:24:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 01, 2016 3:24:14 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 736 ms
+Feb 01, 2016 3:24:14 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 01, 2016 3:24:14 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Feb 01, 2016 3:24:14 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+Feb 01, 2016 3:24:20 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [188] milliseconds.
+Feb 01, 2016 3:24:20 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Feb 01, 2016 3:24:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\docs
+Feb 01, 2016 3:24:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\examples
+Feb 01, 2016 3:24:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\host-manager
+Feb 01, 2016 3:24:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\manager
+Feb 01, 2016 3:24:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\ROOT
+Feb 01, 2016 3:24:24 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 01, 2016 3:24:24 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Feb 01, 2016 3:24:24 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 01, 2016 3:24:24 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 10465 ms
+Feb 01, 2016 3:25:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 01, 2016 3:25:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Feb 01, 2016 3:25:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 01, 2016 3:25:41 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 566 ms
+Feb 01, 2016 3:25:41 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 01, 2016 3:25:41 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Feb 01, 2016 3:25:41 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+Feb 01, 2016 3:25:41 PM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base E:\web\wovenerp\Trade\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5002)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5182)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 01, 2016 3:25:41 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+Feb 01, 2016 3:25:41 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Feb 01, 2016 3:25:41 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/wovenerp] startup failed due to previous errors
+Feb 01, 2016 3:25:41 PM org.apache.catalina.deploy.NamingResources cleanUp
+WARNING: Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wovenerp]] so no cleanup was performed for that container
+javax.naming.NameNotFoundException: Name [comp/env] is not bound in this Context. Unable to find [comp].
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:820)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:168)
+	at org.apache.catalina.deploy.NamingResources.cleanUp(NamingResources.java:988)
+	at org.apache.catalina.deploy.NamingResources.stopInternal(NamingResources.java:970)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5590)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 01, 2016 3:25:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\docs
+Feb 01, 2016 3:25:41 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [187] milliseconds.
+Feb 01, 2016 3:25:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\examples
+Feb 01, 2016 3:25:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\host-manager
+Feb 01, 2016 3:25:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\manager
+Feb 01, 2016 3:25:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\ROOT
+Feb 01, 2016 3:25:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 01, 2016 3:25:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Feb 01, 2016 3:25:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 01, 2016 3:25:41 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 805 ms
+Feb 01, 2016 3:26:54 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/wovenerp]
+Feb 01, 2016 3:26:55 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+Feb 01, 2016 3:26:55 PM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base E:\web\wovenerp\Trade\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5002)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5182)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 01, 2016 3:26:55 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+Feb 01, 2016 3:26:55 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Feb 01, 2016 3:26:55 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/wovenerp] startup failed due to previous errors
+Feb 01, 2016 3:26:55 PM org.apache.catalina.deploy.NamingResources cleanUp
+WARNING: Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wovenerp]] so no cleanup was performed for that container
+javax.naming.NameNotFoundException: Name [comp/env] is not bound in this Context. Unable to find [comp].
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:820)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:168)
+	at org.apache.catalina.deploy.NamingResources.cleanUp(NamingResources.java:988)
+	at org.apache.catalina.deploy.NamingResources.stopInternal(NamingResources.java:970)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5590)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 01, 2016 3:27:22 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 01, 2016 3:27:22 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Feb 01, 2016 3:27:22 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 01, 2016 3:27:22 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 571 ms
+Feb 01, 2016 3:27:22 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 01, 2016 3:27:22 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Feb 01, 2016 3:27:22 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+Feb 01, 2016 3:27:22 PM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base E:\web\wovenerp\Trade\web does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:138)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5002)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5182)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 01, 2016 3:27:22 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+Feb 01, 2016 3:27:22 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Feb 01, 2016 3:27:22 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/wovenerp] startup failed due to previous errors
+Feb 01, 2016 3:27:22 PM org.apache.catalina.deploy.NamingResources cleanUp
+WARNING: Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wovenerp]] so no cleanup was performed for that container
+javax.naming.NameNotFoundException: Name [comp/env] is not bound in this Context. Unable to find [comp].
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:820)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:168)
+	at org.apache.catalina.deploy.NamingResources.cleanUp(NamingResources.java:988)
+	at org.apache.catalina.deploy.NamingResources.stopInternal(NamingResources.java:970)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5590)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:656)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1635)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 01, 2016 3:27:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\docs
+Feb 01, 2016 3:27:22 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [203] milliseconds.
+Feb 01, 2016 3:27:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\examples
+Feb 01, 2016 3:27:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\host-manager
+Feb 01, 2016 3:27:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\manager
+Feb 01, 2016 3:27:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\ROOT
+Feb 01, 2016 3:27:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 01, 2016 3:27:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Feb 01, 2016 3:27:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 01, 2016 3:27:23 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 927 ms
+Feb 01, 2016 3:28:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 01, 2016 3:28:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Feb 01, 2016 3:28:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 01, 2016 3:28:36 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 557 ms
+Feb 01, 2016 3:28:36 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 01, 2016 3:28:36 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Feb 01, 2016 3:28:36 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+Feb 01, 2016 3:28:40 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [187] milliseconds.
+Feb 01, 2016 3:28:40 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Feb 01, 2016 3:28:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\docs
+Feb 01, 2016 3:28:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\examples
+Feb 01, 2016 3:28:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\host-manager
+Feb 01, 2016 3:28:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\manager
+Feb 01, 2016 3:28:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\ROOT
+Feb 01, 2016 3:28:43 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 01, 2016 3:28:43 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Feb 01, 2016 3:28:43 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 01, 2016 3:28:44 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7248 ms
+Feb 01, 2016 3:41:15 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/wovenerp] has started
+Feb 01, 2016 3:41:15 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/wovenerp] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+Feb 01, 2016 3:41:16 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at org.glassfish.hk2.utilities.ServiceLocatorUtilities$2.loadClass(ServiceLocatorUtilities.java:99)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.loadClass(ServiceLocatorImpl.java:1707)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:368)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.SecurityContextInjectee$$EnhancerByCGLIB$$3465b529.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+Feb 01, 2016 3:41:16 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2585)
+	at java.lang.Class.getDeclaredConstructors(Class.java:1906)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.SecurityContextInjectee$$EnhancerByCGLIB$$3465b529.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+Feb 01, 2016 3:41:16 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.jvnet.hk2.internal.ErrorResults.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at org.jvnet.hk2.internal.NarrowResults.addError(NarrowResults.java:63)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1772)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.SecurityContextInjectee$$EnhancerByCGLIB$$3465b529.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+Feb 01, 2016 3:41:16 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2585)
+	at java.lang.Class.getDeclaredConstructors(Class.java:1906)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.RequestInjectee$$EnhancerByCGLIB$$a8d3eea9.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+Feb 01, 2016 3:41:16 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2585)
+	at java.lang.Class.getDeclaredConstructors(Class.java:1906)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.UriInfoInjectee$$EnhancerByCGLIB$$724af2b3.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+Feb 01, 2016 3:41:16 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2585)
+	at java.lang.Class.getDeclaredConstructors(Class.java:1906)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.HttpHeadersInjectee$$EnhancerByCGLIB$$9402e6eb.finalize(<generated>)
+	at java.lang.System$2.invokeFinalize(System.java:1213)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+
+Feb 01, 2016 3:41:18 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Feb 01, 2016 3:41:18 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/wovenerp] is completed
+Feb 01, 2016 3:48:40 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Feb 01, 2016 3:48:40 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Feb 01, 2016 3:48:40 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Feb 01, 2016 3:48:40 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Feb 01, 2016 3:48:40 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Feb 01, 2016 3:48:40 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8443"]
+Feb 01, 2016 3:48:40 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Feb 01, 2016 3:48:40 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Feb 01, 2016 3:48:40 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8443"]
+Feb 01, 2016 3:48:40 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Feb 01, 2016 3:53:20 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 01, 2016 3:53:20 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Feb 01, 2016 3:53:20 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 01, 2016 3:53:20 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 555 ms
+Feb 01, 2016 3:53:20 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 01, 2016 3:53:20 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Feb 01, 2016 3:53:20 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\web\wovenerp\apache-tomcat-7.0.41\conf\Catalina\localhost\wovenerp.xml
+Feb 01, 2016 3:53:24 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [191] milliseconds.
+Feb 01, 2016 3:53:24 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Feb 01, 2016 3:53:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\docs
+Feb 01, 2016 3:53:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\examples
+Feb 01, 2016 3:53:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\host-manager
+Feb 01, 2016 3:53:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\manager
+Feb 01, 2016 3:53:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\web\wovenerp\apache-tomcat-7.0.41\webapps\ROOT
+Feb 01, 2016 3:53:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 01, 2016 3:53:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Feb 01, 2016 3:53:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 01, 2016 3:53:28 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7462 ms

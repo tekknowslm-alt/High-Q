@@ -1,0 +1,813 @@
+Jul 26, 2013 3:27:25 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Jul 26, 2013 3:27:25 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jul 26, 2013 3:27:27 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Jul 26, 2013 3:27:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:27:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:27:27 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2594 ms
+Jul 26, 2013 3:27:27 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 26, 2013 3:27:27 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jul 26, 2013 3:27:27 PM org.apache.catalina.realm.JDBCRealm startInternal
+SEVERE: Exception opening database connection
+java.sql.SQLException: net.sourceforge.jtds.jdbc.Driver
+	at org.apache.catalina.realm.JDBCRealm.open(JDBCRealm.java:706)
+	at org.apache.catalina.realm.JDBCRealm.startInternal(JDBCRealm.java:794)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1109)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:302)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:732)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:684)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:456)
+Caused by: java.lang.ClassNotFoundException: net.sourceforge.jtds.jdbc.Driver
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.catalina.realm.JDBCRealm.open(JDBCRealm.java:702)
+	... 16 more
+
+Jul 26, 2013 3:27:27 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Jul 26, 2013 3:27:31 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jul 26, 2013 3:27:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Jul 26, 2013 3:27:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Jul 26, 2013 3:27:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Jul 26, 2013 3:27:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Jul 26, 2013 3:27:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Jul 26, 2013 3:27:35 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:27:35 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:27:35 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7858 ms
+Jul 26, 2013 3:28:21 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jul 26, 2013 3:28:21 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:28:22 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:28:22 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 26, 2013 3:28:22 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:28:22 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:28:22 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:28:22 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:28:24 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Jul 26, 2013 3:28:24 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jul 26, 2013 3:28:25 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Jul 26, 2013 3:28:25 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:28:25 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:28:25 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1805 ms
+Jul 26, 2013 3:28:25 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 26, 2013 3:28:25 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jul 26, 2013 3:28:25 PM org.apache.catalina.realm.JDBCRealm startInternal
+SEVERE: Exception opening database connection
+java.sql.SQLException: Unknown server host name 'hiq-lap3\sqlexpress'.
+	at net.sourceforge.jtds.jdbc.ConnectionJDBC2.<init>(ConnectionJDBC2.java:364)
+	at net.sourceforge.jtds.jdbc.ConnectionJDBC3.<init>(ConnectionJDBC3.java:50)
+	at net.sourceforge.jtds.jdbc.Driver.connect(Driver.java:178)
+	at org.apache.catalina.realm.JDBCRealm.open(JDBCRealm.java:716)
+	at org.apache.catalina.realm.JDBCRealm.startInternal(JDBCRealm.java:794)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1109)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:302)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:732)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:684)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:456)
+Caused by: java.net.UnknownHostException: hiq-lap3\sqlexpress
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.sourceforge.jtds.jdbc.SharedSocket.createSocketForJDBC3(SharedSocket.java:289)
+	at net.sourceforge.jtds.jdbc.SharedSocket.<init>(SharedSocket.java:250)
+	at net.sourceforge.jtds.jdbc.ConnectionJDBC2.<init>(ConnectionJDBC2.java:297)
+	... 19 more
+
+Jul 26, 2013 3:28:25 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Jul 26, 2013 3:28:29 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jul 26, 2013 3:28:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Jul 26, 2013 3:28:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Jul 26, 2013 3:28:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Jul 26, 2013 3:28:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Jul 26, 2013 3:28:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Jul 26, 2013 3:28:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:28:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:28:30 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4720 ms
+Jul 26, 2013 3:29:30 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/Base]
+Jul 26, 2013 3:29:31 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Jul 26, 2013 3:29:31 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at org.glassfish.hk2.utilities.ServiceLocatorUtilities$2.loadClass(ServiceLocatorUtilities.java:99)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.loadClass(ServiceLocatorImpl.java:1707)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:368)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.HttpHeadersInjectee$$EnhancerByCGLIB$$f5248c81.finalize(<generated>)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Unknown Source)
+	at java.lang.ref.Finalizer.access$100(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+Jul 26, 2013 3:29:31 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.lang.Class.getDeclaredConstructors(Unknown Source)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.HttpHeadersInjectee$$EnhancerByCGLIB$$f5248c81.finalize(<generated>)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Unknown Source)
+	at java.lang.ref.Finalizer.access$100(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+Jul 26, 2013 3:29:31 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.jvnet.hk2.internal.ErrorResults.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at org.jvnet.hk2.internal.NarrowResults.addError(NarrowResults.java:63)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1772)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.HttpHeadersInjectee$$EnhancerByCGLIB$$f5248c81.finalize(<generated>)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Unknown Source)
+	at java.lang.ref.Finalizer.access$100(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+Jul 26, 2013 3:29:31 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.lang.Class.getDeclaredConstructors(Unknown Source)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.UriInfoInjectee$$EnhancerByCGLIB$$d36c9849.finalize(<generated>)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Unknown Source)
+	at java.lang.ref.Finalizer.access$100(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+Jul 26, 2013 3:29:31 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.lang.Class.getDeclaredConstructors(Unknown Source)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.RequestInjectee$$EnhancerByCGLIB$$9f5943f.finalize(<generated>)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Unknown Source)
+	at java.lang.ref.Finalizer.access$100(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+Jul 26, 2013 3:29:31 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.lang.Class.getDeclaredConstructors(Unknown Source)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.SecurityContextInjectee$$EnhancerByCGLIB$$95875abf.finalize(<generated>)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Unknown Source)
+	at java.lang.ref.Finalizer.access$100(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+Jul 26, 2013 3:29:33 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jul 26, 2013 3:29:42 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jul 26, 2013 3:29:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:29:43 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:29:43 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 26, 2013 3:29:43 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:29:43 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:29:43 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:29:43 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:29:45 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Jul 26, 2013 3:29:45 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jul 26, 2013 3:29:47 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Jul 26, 2013 3:29:47 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:29:47 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:29:47 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1951 ms
+Jul 26, 2013 3:29:47 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 26, 2013 3:29:47 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jul 26, 2013 3:29:48 PM org.apache.catalina.realm.JDBCRealm startInternal
+SEVERE: Exception opening database connection
+java.sql.SQLException: Network error IOException: Connection refused: connect
+	at net.sourceforge.jtds.jdbc.ConnectionJDBC2.<init>(ConnectionJDBC2.java:372)
+	at net.sourceforge.jtds.jdbc.ConnectionJDBC3.<init>(ConnectionJDBC3.java:50)
+	at net.sourceforge.jtds.jdbc.Driver.connect(Driver.java:178)
+	at org.apache.catalina.realm.JDBCRealm.open(JDBCRealm.java:716)
+	at org.apache.catalina.realm.JDBCRealm.startInternal(JDBCRealm.java:794)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1109)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:302)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:732)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:684)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:456)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.sourceforge.jtds.jdbc.SharedSocket.createSocketForJDBC3(SharedSocket.java:289)
+	at net.sourceforge.jtds.jdbc.SharedSocket.<init>(SharedSocket.java:250)
+	at net.sourceforge.jtds.jdbc.ConnectionJDBC2.<init>(ConnectionJDBC2.java:297)
+	... 19 more
+
+Jul 26, 2013 3:29:48 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Jul 26, 2013 3:29:51 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jul 26, 2013 3:29:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Jul 26, 2013 3:29:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Jul 26, 2013 3:29:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Jul 26, 2013 3:29:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Jul 26, 2013 3:29:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Jul 26, 2013 3:29:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:29:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:29:52 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5641 ms
+Jul 26, 2013 3:33:43 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:33:43 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:33:43 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 26, 2013 3:33:43 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:33:43 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:33:43 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:33:43 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:37:45 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Jul 26, 2013 3:37:45 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jul 26, 2013 3:37:47 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Jul 26, 2013 3:37:47 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:37:47 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:37:47 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1932 ms
+Jul 26, 2013 3:37:47 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 26, 2013 3:37:47 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jul 26, 2013 3:37:48 PM org.apache.catalina.realm.JDBCRealm startInternal
+SEVERE: Exception opening database connection
+java.sql.SQLException: Network error IOException: Connection refused: connect
+	at net.sourceforge.jtds.jdbc.ConnectionJDBC2.<init>(ConnectionJDBC2.java:372)
+	at net.sourceforge.jtds.jdbc.ConnectionJDBC3.<init>(ConnectionJDBC3.java:50)
+	at net.sourceforge.jtds.jdbc.Driver.connect(Driver.java:178)
+	at org.apache.catalina.realm.JDBCRealm.open(JDBCRealm.java:716)
+	at org.apache.catalina.realm.JDBCRealm.startInternal(JDBCRealm.java:794)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1109)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:302)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:732)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:684)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:456)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.sourceforge.jtds.jdbc.SharedSocket.createSocketForJDBC3(SharedSocket.java:289)
+	at net.sourceforge.jtds.jdbc.SharedSocket.<init>(SharedSocket.java:250)
+	at net.sourceforge.jtds.jdbc.ConnectionJDBC2.<init>(ConnectionJDBC2.java:297)
+	... 19 more
+
+Jul 26, 2013 3:37:48 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Jul 26, 2013 3:37:52 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jul 26, 2013 3:37:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Jul 26, 2013 3:37:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Jul 26, 2013 3:37:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Jul 26, 2013 3:37:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Jul 26, 2013 3:37:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Jul 26, 2013 3:37:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:37:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:37:57 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9617 ms
+Jul 26, 2013 3:39:29 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:39:29 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:39:29 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 26, 2013 3:39:29 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:39:29 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:39:30 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:39:30 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:39:39 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Jul 26, 2013 3:39:39 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jul 26, 2013 3:39:40 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Jul 26, 2013 3:39:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:39:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:39:41 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1826 ms
+Jul 26, 2013 3:39:41 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 26, 2013 3:39:41 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jul 26, 2013 3:39:41 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Jul 26, 2013 3:39:44 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jul 26, 2013 3:39:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Jul 26, 2013 3:39:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Jul 26, 2013 3:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Jul 26, 2013 3:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Jul 26, 2013 3:39:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Jul 26, 2013 3:39:46 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:39:46 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:39:46 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5143 ms
+Jul 26, 2013 3:40:56 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/Base]
+Jul 26, 2013 3:40:56 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Jul 26, 2013 3:40:57 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at org.glassfish.hk2.utilities.ServiceLocatorUtilities$2.loadClass(ServiceLocatorUtilities.java:99)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.loadClass(ServiceLocatorImpl.java:1707)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:368)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.HttpHeadersInjectee$$EnhancerByCGLIB$$979fbcb6.finalize(<generated>)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Unknown Source)
+	at java.lang.ref.Finalizer.access$100(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+Jul 26, 2013 3:40:57 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.lang.Class.getDeclaredConstructors(Unknown Source)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.HttpHeadersInjectee$$EnhancerByCGLIB$$979fbcb6.finalize(<generated>)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Unknown Source)
+	at java.lang.ref.Finalizer.access$100(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+Jul 26, 2013 3:40:57 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.jvnet.hk2.internal.ErrorResults.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at org.jvnet.hk2.internal.NarrowResults.addError(NarrowResults.java:63)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1772)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.HttpHeadersInjectee$$EnhancerByCGLIB$$979fbcb6.finalize(<generated>)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Unknown Source)
+	at java.lang.ref.Finalizer.access$100(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+Jul 26, 2013 3:40:57 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.lang.Class.getDeclaredConstructors(Unknown Source)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.UriInfoInjectee$$EnhancerByCGLIB$$75e7c87e.finalize(<generated>)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Unknown Source)
+	at java.lang.ref.Finalizer.access$100(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+Jul 26, 2013 3:40:57 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.lang.Class.getDeclaredConstructors(Unknown Source)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.RequestInjectee$$EnhancerByCGLIB$$ac70c474.finalize(<generated>)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Unknown Source)
+	at java.lang.ref.Finalizer.access$100(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+Jul 26, 2013 3:40:57 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.glassfish.hk2.internal.PerThreadContext$1.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1600)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1559)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.lang.Class.getDeclaredConstructors(Unknown Source)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructorKeys(Utilities.java:1141)
+	at org.jvnet.hk2.internal.Utilities.getAllConstructors(Utilities.java:1127)
+	at org.jvnet.hk2.internal.Utilities.findProducerConstructor(Utilities.java:1046)
+	at org.jvnet.hk2.internal.DefaultClassAnalyzer.getConstructor(DefaultClassAnalyzer.java:73)
+	at org.glassfish.jersey.internal.inject.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:141)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:155)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:122)
+	at org.jvnet.hk2.internal.ClazzCreator.<init>(ClazzCreator.java:175)
+	at org.jvnet.hk2.internal.SystemDescriptor.internalReify(SystemDescriptor.java:640)
+	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:596)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:373)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.narrow(ServiceLocatorImpl.java:1769)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.internalGetAllServiceHandles(ServiceLocatorImpl.java:1092)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getAllServiceHandles(ServiceLocatorImpl.java:1039)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1018)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl$5.run(ServiceLocatorImpl.java:1014)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.protectedGetAllServiceHandles(ServiceLocatorImpl.java:1014)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.resolveContext(ServiceLocatorImpl.java:1672)
+	at org.jvnet.hk2.internal.MethodInterceptorImpl.intercept(MethodInterceptorImpl.java:76)
+	at org.glassfish.jersey.internal.inject.SecurityContextInjectee$$EnhancerByCGLIB$$38028af4.finalize(<generated>)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Unknown Source)
+	at java.lang.ref.Finalizer.access$100(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+Jul 26, 2013 3:40:59 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jul 26, 2013 3:41:18 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:41:18 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:41:18 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 26, 2013 3:41:18 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:41:18 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:41:18 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:41:18 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:41:39 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Jul 26, 2013 3:41:39 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jul 26, 2013 3:41:40 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Jul 26, 2013 3:41:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:41:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:41:40 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1938 ms
+Jul 26, 2013 3:41:40 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 26, 2013 3:41:40 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.41
+Jul 26, 2013 3:41:41 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor F:\java\dinesh\apache-tomcat-7.0.41\conf\Catalina\localhost\Base.xml
+Jul 26, 2013 3:41:44 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-14 20:07:34...
+Jul 26, 2013 3:41:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\docs
+Jul 26, 2013 3:41:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\examples
+Jul 26, 2013 3:41:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\host-manager
+Jul 26, 2013 3:41:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\manager
+Jul 26, 2013 3:41:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\java\dinesh\apache-tomcat-7.0.41\webapps\ROOT
+Jul 26, 2013 3:41:45 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jul 26, 2013 3:41:46 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jul 26, 2013 3:41:46 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5082 ms

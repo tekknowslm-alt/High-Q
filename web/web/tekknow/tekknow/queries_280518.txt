@@ -1,0 +1,40 @@
+
+select product_name,p1.product_code, case unit_code when 1 then sum(qty)-max_qty  when 2 then 0  end as  stk ,case unit_code when 2 then sum(mtrs)-max_qty  when 1 then 0  end as stk_mtrs,
+
+v2.rate,
+(case unit_code when 1 then sum(qty)-max_qty  when 2 then sum(mtrs)-max_qty   end)*v2.rate as  amount  from (select sum(case unit_code when 1 then qty  when 2 then mtrs end),product_code v_stock v where $(fromdate) group by product_code) v1,
+product_mast p1,v_purc_rate v2  where 
+
+  v1.product_code=p1.product_code and v1.product_code=v2.product_code and $(fromdate)  
+ group by product_name,v2.rate,p1.product_code,unit_code,max_qty having   (case unit_code when 1 then sum(qty)-max_qty  when 2 then 0  end)>0
+ or (case unit_code when 2 then sum(mtrs)-max_qty  when 1 then 0  end )>0 <<SF>>
+
+
+
+select count('x') cnt from (select 'x'  from v_stock v1,product_mast p1,v_purc_rate v2  where  v1.product_code=p1.product_code and v1.product_code=v2.product_code and date(dt)<='2018-05-28'   
+group by product_name,v2.rate,p1.product_code,unit_code,max_qty having   (case unit_code when 1 then sum(qty)-max_qty  when 2 then 0  end)>0 or (case unit_code when 2 then sum(mtrs)-max_qty  when 1 then 0  end )>0 ) a
+
+
+
+  v1.product_code=p1.product_code and v1.product_code=v2.product_code and $(fromdate)   
+group by product_name,v2.rate,p1.product_code,unit_code,max_qty having   (case unit_code when 1 then sum(qty)-max_qty  when 2 then 0  end)>0 or (case when unit_code =2 then sum(mtrs)-max_qty  when unit_code=1 then 0  end )>0 <<SF>>
+
+
+select product_name,p1.product_code, case when unit_code=1 then (qty-max_qty) else 0 end as  stk ,case when unit_code =2 then (qty-max_qty ) else 0  end as stk_mtrs,v2.rate,
+(qty-max_qty)*v2.rate as  amount  from (select sum(case  when unit_code=1 then qty  when unit_code=2 then mtrs end) qty,product_code v_stock v where dt<='2018-05-28' group by product_code) v1,
+product_mast p1,v_purc_rate v2  where   v1.product_code=p1.product_code and v1.product_code=v2.product_code 
+ and ( qty-max_qty)>0
+
+
+
+select product_name,p1.product_code, case when unit_code=1 then (qty-max_qty) else 0 end  stk ,case when unit_code =2 then (qty-max_qty) else 0  end as stk_mtrs,v2.rate,(qty-max_qty)*v2.rate as  amount  from (select sum(case  when unit_code=1 then qty  when unit_code=2 then mtrs end) qty,p.product_code from  v_stock v inner join product_mast p on v.product_code=p.product_code where $(fromdate) group by p.product_code) v1,product_mast p1,v_purc_rate v2  where   v1.product_code=p1.product_code and v1.product_code=v2.product_code  and ( qty-max_qty)>0 <<SF>>
+
+
+
+
+select product_name,p1.product_code, case unit_code when 1 then sum(qty)-max_qty  when 2 then 0  end as  stk ,case unit_code when 2 then sum(mtrs)-max_qty  when 1 then 0  end as stk_mtrs,v2.rate,(case unit_code when 1 then sum(qty)-max_qty  when 2 then sum(mtrs)-max_qty   end)*v2.rate as  amount  from v_stock v1,product_mast p1,v_purc_rate v2  where 
+  v1.product_code=p1.product_code and v1.product_code=v2.product_code and $(fromdate)   group by product_name,v2.rate,p1.product_code,unit_code,max_qty having   (case unit_code when 1 then sum(qty)-max_qty  when 2 then 0  end)>0 or (case unit_code when 2 then sum(mtrs)-max_qty  when 1 then 0  end )>0 <<SF>>
+
+(case unit_code when 1 then sum(qty)-max_qty  when 2 then sum(mtrs)-max_qty   end)*v2.rate
+
+(qty-max_qty )*v2.rate

@@ -1,0 +1,18 @@
+alter view v_stock_ledger as select 1 as sno,inward_date as dt,inward_no,product_code,'' as party,qty as inward_qty,mtrs as inward_mtrs,0 as outward_qty,0 as outward_mtrs,0 as sold_qty,
+0 as sold_mtrs,rate as purc_rate,0 as sales_rate,0 as disc_rate from inward_det i1,inward i2 where i1.inward_code=i2.inward_code and ifnull(status,'N')<>'C' 
+
+union ALL
+
+select 2,outward_date,outward_no,o1.product_code,'',0,0,qty,mtrs,0,0,p1.purc_rate,0,0 from outward_det o1,outward o2,product_mast p1 where o1.product_code=p1.product_code and 
+ o1.outward_code=o2.outward_code    and ifnull(status,'N')<>'C' 
+
+union all 
+
+select 3,bill_date,bill_no,design_code,concat(ledger_name,' ',branch),0,0,0,0,pcs,mtrs, 0,rate,round(rate-(rate* disc_per/100),2) from f_invoice_det f1,
+f_invoice f2,ledger_mast l1 where f1.invoice_code=f2.invoice_code and f2.ledger_code=l1.ledger_code and f2.reduce_stock='Y'  and ifnull(status,'N')<>'C' and f1.dc_code=0 
+
+union all 
+
+select 4,bill_date,bill_no,product_code1,concat(ledger_name,' ',branch),0,0,0,0,pcs,mtrs, 0,rate,round(rate-(rate* disc_per/100),2) from dc_det f1,
+dc f2,ledger_mast l1 where f1.invoice_code=f2.invoice_code and f2.ledger_code=l1.ledger_code and f2.reduce_stock='Y'  and ifnull(status,'N')<>'C'  
+

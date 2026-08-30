@@ -1,0 +1,21 @@
+alter view v_stock as SELECT inward_date as dt,product_code,qty,mtrs FROM inward i1,inward_det i2 where i1.inward_code=i2.inward_code and ifnull(status,'N')<>'C' 
+
+union all 
+
+SELECT outward_date,product_code,qty*-1,mtrs *-1   FROM outward i1,outward_det i2 where i1.outward_code=i2.outward_code  and ifnull(status,'N')<>'C' 
+
+union all 
+
+SELECT bill_date,design_code,pcs*-1,mtrs*-1  FROM f_invoice f1,f_invoice_det f2 where f1.invoice_code=f2.invoice_code and f2.dc_code=0 and ifnull(status,'N')<>'C' and f1.reduce_stock='Y' 
+
+union all 
+
+SELECT bill_date,product_code1,pcs*-1,mtrs*-1  FROM dc f1,dc_det f2 where f1.invoice_code=f2.invoice_code   and ifnull(status,'N')<>'C' and f1.reduce_stock='Y'
+
+
+
+
+inward :-    600050
+outward :-   600051
+finvoice :-  600049
+dc       :-  600011

@@ -1,0 +1,19 @@
+create view v_purc_tax as select p1.tran_code as purc_code,1 row_type,bill_no as bill_no, bill_date,ledger_name,l1.ledger_code as ledger_code,branch,qty,unit_name,amount,freight ,discount,cgst_amount,sgst_amount,igst_amount,net_amount as total_amt ,c_code  from 
+
+ledger_mast l1,purc_sale p1,purc_sale_det p2  where  p1.tran_code=p2.tran_code and p2.ledger_code=l1.ledger_code and tran_type='P' and ifnull(status,'N')<>'C'  
+
+union all  
+
+select p1.tran_code as purc_code,1 row_type,bill_no, bill_date,ledger_name,l1.ledger_code,branch,qty,unit_name,amount*-1 as  amount,freight*-1,discount*-1,cgst_amount*-1,sgst_amount*-1,igst_amount*-1,net_amount*-1 ,c_code  from ledger_mast l1,purc_sale p1,purc_sale_det p2  where  p1.tran_code=p2.tran_code and p2.ledger_code=l1.ledger_code and tran_type='D' and ifnull(status,'N')<>'C'  
+
+union all 
+
+select p1.invoice_code,2,bill_no, bill_date,ledger_name,l1.ledger_code,branch,ifnull(sum(pcs),0),unit_name,tot *-1 as  amount,0,discount*-1,cgst_amount*-1,sgst_amount*-1,igst_amount*-1,total_amt*-1 ,c_code  from ledger_mast l1,purc_ret p1,purc_ret_det p2,unit_mast p3 where p1.invoice_code=p2.invoice_code and p2.unit_code=p3.unit_code and p1.ledger_code=l1.ledger_code and ifnull(status,'N')<>'C' group by bill_no,bill_date,ledger_name,l1.ledger_code,branch,discount,cgst_amount,sgst_amount,igst_amount,total_amt,c_code
+
+union all 
+
+select p1.inv_code as purc_code,3 row_type,party_inv_no as bill_no, party_inv_date,ledger_name,l1.ledger_code as ledger_code,branch,sum(qty),unit_name,sum(amount),0 ,discount,cgst_amount,sgst_amount,igst_amount,total_amount as total_amt ,c_code  from ledger_mast l1,purc_inv p1,purc_inv_det p2,unit_mast u1  where  p2.unit_code=u1.unit_code and p1.inv_code=p2.inv_code and p1.ledger_code=l1.ledger_code and ifnull(status,'N')<>'C' and trim(party_inv_no)<>'' and transaction_type='I' group by party_inv_no,party_inv_date,ledger_name,branch,l1.ledger_code,discount,cgst_amount,sgst_amount,igst_amount,total_amt,c_code
+
+union all 
+ 
+select p1.inv_code,3, inv_no as bill_no, inv_date,ledger_name,l1.ledger_code as ledger_code,branch,sum(qty),unit_name,sum(amount),0 ,discount,cgst_amount,sgst_amount,igst_amount,total_amount as total_amt ,c_code  from ledger_mast l1,purc_inv p1,purc_inv_det p2,unit_mast u1  where  p2.unit_code=u1.unit_code and p1.inv_code=p2.inv_code and p1.ledger_code=l1.ledger_code and ifnull(status,'N')<>'C' and transaction_type='B' group by inv_no,inv_date,ledger_name,branch,l1.ledger_code,discount,cgst_amount,sgst_amount,igst_amount,total_amt,c_code

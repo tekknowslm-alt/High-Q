@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [26/Dec/2019:10:45:53 +0530] "GET /kannika HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Dec/2019:10:45:53 +0530] "GET /kannika/ HTTP/1.1" 200 2883
+0:0:0:0:0:0:0:1 - - [26/Dec/2019:10:51:49 +0530] "POST /kannika/j_security_check HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - admin [26/Dec/2019:10:51:50 +0530] "GET /kannika/ HTTP/1.1" 200 10738
+0:0:0:0:0:0:0:1 - admin [26/Dec/2019:10:51:51 +0530] "GET /kannika/service/ajax?ic=0&id=usermenu&login_id=admin HTTP/1.1" 200 8667
+0:0:0:0:0:0:0:1 - admin [26/Dec/2019:10:51:51 +0530] "GET /kannika/finvoice.do HTTP/1.1" 200 58329
+0:0:0:0:0:0:0:1 - admin [26/Dec/2019:10:51:51 +0530] "GET /kannika/service/ajax?ic=0&id=company HTTP/1.1" 200 123
+0:0:0:0:0:0:0:1 - admin [26/Dec/2019:10:51:51 +0530] "GET /kannika/service/ajax?id=sizing_inv_no&ro=false&ic=0&companycode=3 HTTP/1.1" 200 33
+0:0:0:0:0:0:0:1 - - [26/Dec/2019:10:51:51 +0530] "GET /Fruits/images/drag-handle.png HTTP/1.1" 404 1009
+0:0:0:0:0:0:0:1 - admin [26/Dec/2019:10:52:09 +0530] "GET /kannika/service/ajax?id=sizing_inv_no&ro=false&ic=0&companycode=2 HTTP/1.1" 200 33
+0:0:0:0:0:0:0:1 - admin [26/Dec/2019:10:52:14 +0530] "GET /kannika/service/ajax?id=sizing_inv_no&ro=false&ic=0&companycode=1 HTTP/1.1" 200 33
+0:0:0:0:0:0:0:1 - admin [26/Dec/2019:10:52:19 +0530] "GET /kannika/service/ajax?&id=finvoice_list&companycode=1&cs=0&F1=&ic=1&page=1 HTTP/1.1" 200 2765
+0:0:0:0:0:0:0:1 - admin [26/Dec/2019:10:52:21 +0530] "GET /kannika/service/ajax?&id=finvoice_list&companycode=1&cs=0&F2=&ic=0&page=2 HTTP/1.1" 200 2355
+0:0:0:0:0:0:0:1 - admin [26/Dec/2019:10:52:22 +0530] "GET /kannika/service/screen/data?screencode=600049&code=35760 HTTP/1.1" 200 3014
+0:0:0:0:0:0:0:1 - admin [26/Dec/2019:10:52:22 +0530] "GET /kannika/service/ajax?id=sizing_inv_no&ro=false&ic=0&companycode=1 HTTP/1.1" 200 33
+0:0:0:0:0:0:0:1 - admin [26/Dec/2019:10:52:25 +0530] "GET /kannika/service/ajax?id=sizing_inv_no&ro=false&ic=0&companycode=1 HTTP/1.1" 200 33

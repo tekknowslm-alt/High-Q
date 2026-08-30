@@ -1,0 +1,1 @@
+insert into stock(dt,product_code,qty,mtrs,vh_ref_type,vh_ref_code)select bill_date as dt, design_code as product_code, pcs * -1 as qty,mtrs * -1 as mtrs,'600049' vh_ref_type,f1.invoice_code vh_ref_code from f_invoice f1,f_invoice_det f2 where f1.invoice_code=f2.invoice_code and f2.dc_code=0 and f1.reduce_stock='Y'  and ifnull(status,'N')<>'C'

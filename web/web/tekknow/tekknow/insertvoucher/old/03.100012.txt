@@ -1,0 +1,9 @@
+insert into voucher_detail(branchcode,vh_no,v_type,vh_date,vh_prefix,vh_seq_no,vd_ledger_code,vd_dramount,vd_cramount,vh_status,ledger_name,branch,narration,vh_ref_code,vh_ref_type)
+
+select `o1`.`c_code` AS `c_code`,'' AS `Name_exp_28`,'OP' AS `OP`,`o1`.`op_date` AS `op_date`,'OP' AS `OP`,'' AS `Name_exp_32`,`o2`.`ledger_code` AS `ledger_code`,`o2`.`debit` AS `debit`,`o2`.`credit` AS `credit`,'Y' AS `Y`,'OP. BALANCE' AS `OP. BALANCE`,'' AS `Name_exp_38`,'' AS `Name_exp_39`,o1.op_code,100012 reftype from ((`op_balance` `o1` join `op_balance_det` `o2`) join `op_date` `o3`) where ((`o1`.`op_code` = `o2`.`op_code`) and (`o1`.`op_date` >= cast('2019-03-31' as date)) and (ifnull(`o1`.`status`,'N') <> 'C')) 
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+insert into voucher_detail(branchcode,vh_no,v_type,vh_date,vh_prefix,vh_seq_no,vd_ledger_code,vd_dramount,vd_cramount,vh_status,ledger_name,branch,narration,vh_ref_code,vh_ref_type)
+
+select `s1`.`c_code` AS `c_code`,`s1`.`pay_no` AS `pay_no`,'SALARY' AS `SALARY`,`s1`.`pay_date` AS `pay_date`,'SALARY' AS `SALARY`,`s1`.`pay_no` AS `pay_no`,`a1`.`salary_ledger_code` AS `salary_ledger_code`,`s2`.`salary` AS `salary`,0 AS `0`,'Y' AS `Y`,concat(`l1`.`ledger_name`,', ( ',`e1`.`emp_name`,' )') AS `concat(ledger_name,', ( ' , emp_name ,' )')`,`l1`.`branch` AS `branch`,`s1`.`notes` AS `notes`,s1.salary_code,600056 reftype from ((((`salary` `s1` join `salary_det` `s2`) join `emp_det` `e1`) join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`s1`.`salary_code` = `s2`.`salary_code`) and (`s2`.`emp_det_code` = `e1`.`emp_det_code`) and (`s1`.`ledger_code` = `l1`.`ledger_code`) and (`s2`.`salary` <> 0) and (ifnull(`s1`.`status`,'N') <> 'C')) 
+
+union all 
+
+select `s1`.`c_code` AS `c_code`,`s1`.`pay_no` AS `pay_no`,'W.BETA' AS `W.BETA`,`s1`.`pay_date` AS `pay_date`,'W.BETA' AS `W.BETA`,`s1`.`pay_no` AS `pay_no`,`a1`.`beta_ledger_code` AS `beta_ledger_code`,`s2`.`beta` AS `beta`,0 AS `0`,'Y' AS `Y`,concat(`l1`.`ledger_name`,', ( ',`e1`.`emp_name`,' )') AS `concat(ledger_name,', ( ' , emp_name ,' )')`,`l1`.`branch` AS `branch`,`s1`.`notes` AS `notes`,s1.salary_code,600056 reftype  from ((((`salary` `s1` join `salary_det` `s2`) join `emp_det` `e1`) join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`s1`.`salary_code` = `s2`.`salary_code`) and (`s2`.`emp_det_code` = `e1`.`emp_det_code`) and (`s1`.`ledger_code` = `l1`.`ledger_code`) and (`s2`.`beta` <> 0) and (ifnull(`s1`.`status`,'N') <> 'C')) 
+
+union all 
+
+select `s1`.`c_code` AS `c_code`,`s1`.`pay_no` AS `pay_no`,'INCENTIVE' AS `INCENTIVE`,`s1`.`pay_date` AS `pay_date`,'INCENTIVE' AS `INCENTIVE`,`s1`.`pay_no` AS `pay_no`,`a1`.`incentive_ledger_code` AS `incentive_ledger_code`,`s2`.`incentive` AS `incentive`,0 AS `0`,'Y' AS `Y`,concat(`l1`.`ledger_name`,', ( ',`e1`.`emp_name`,' )') AS `concat(ledger_name,', ( ' , emp_name ,' )')`,`l1`.`branch` AS `branch`,`s1`.`notes` AS `notes`,s1.salary_code,600056 reftype  from ((((`salary` `s1` join `salary_det` `s2`) join `emp_det` `e1`) join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`s1`.`salary_code` = `s2`.`salary_code`) and (`s2`.`emp_det_code` = `e1`.`emp_det_code`) and (`s1`.`ledger_code` = `l1`.`ledger_code`) and (`s2`.`incentive` <> 0) and (ifnull(`s1`.`status`,'N') <> 'C')) 
+
+union all 
+
+select `s1`.`c_code` AS `c_code`,`s1`.`pay_no` AS `pay_no`,'BONUS' AS `BONUS`,`s1`.`pay_date` AS `pay_date`,'BONUS' AS `BONUS`,`s1`.`pay_no` AS `pay_no`,`a1`.`bonus_ledger_code` AS `bonus_ledger_code`,`s2`.`bonus` AS `bonus`,0 AS `0`,'Y' AS `Y`,concat(`l1`.`ledger_name`,', ( ',`e1`.`emp_name`,' )') AS `concat(ledger_name,', ( ' , emp_name ,' )')`,`l1`.`branch` AS `branch`,`s1`.`notes` AS `notes`,s1.salary_code,600056 reftype  from ((((`salary` `s1` join `salary_det` `s2`) join `emp_det` `e1`) join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`s1`.`salary_code` = `s2`.`salary_code`) and (`s2`.`emp_det_code` = `e1`.`emp_det_code`) and (`s1`.`ledger_code` = `l1`.`ledger_code`) and (`s2`.`bonus` <> 0) and (ifnull(`s1`.`status`,'N') <> 'C')) 
+
+union all 
+
+select `s1`.`c_code` AS `c_code`,`s1`.`pay_no` AS `pay_no`,'ADV.PAID' AS `ADV.PAID`,`s1`.`pay_date` AS `pay_date`,'ADV.PAID' AS `ADV.PAID`,`s1`.`pay_no` AS `pay_no`,`a1`.`advance_ledger_code` AS `advance_ledger_code`,`s2`.`advance` AS `advance`,0 AS `0`,'Y' AS `Y`,concat(`l1`.`ledger_name`,', ( ',`e1`.`emp_name`,' )') AS `concat(ledger_name,', ( ' , emp_name ,' )')`,`l1`.`branch` AS `branch`,`s1`.`notes` AS `notes`,s1.salary_code,600056 reftype  from ((((`salary` `s1` join `salary_det` `s2`) join `emp_det` `e1`) join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`s1`.`salary_code` = `s2`.`salary_code`) and (`s2`.`emp_det_code` = `e1`.`emp_det_code`) and (`s1`.`ledger_code` = `l1`.`ledger_code`) and (`s2`.`advance` > 0) and (ifnull(`s1`.`status`,'N') <> 'C')) 
+
+union all 
+
+select `s1`.`c_code` AS `c_code`,`s1`.`pay_no` AS `pay_no`,'ADV.PAID' AS `ADV.PAID`,`s1`.`pay_date` AS `pay_date`,'ADV.DED' AS `ADV.DED`,`s1`.`pay_no` AS `pay_no`,`a1`.`advance_ledger_code` AS `advance_ledger_code`,0 AS `0`,(`s2`.`advance` * -(1)) AS `s2.advance*-1`,'Y' AS `Y`,concat(`l1`.`ledger_name`,', ( ',`e1`.`emp_name`,' )') AS `concat(ledger_name,', ( ' , emp_name ,' )')`,`l1`.`branch` AS `branch`,`s1`.`notes` AS `notes`,s1.salary_code,600056 reftype  from ((((`salary` `s1` join `salary_det` `s2`) join `emp_det` `e1`) join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`s1`.`salary_code` = `s2`.`salary_code`) and (`s2`.`emp_det_code` = `e1`.`emp_det_code`) and (`s1`.`ledger_code` = `l1`.`ledger_code`) and (`s2`.`advance` < 0) and (ifnull(`s1`.`status`,'N') <> 'C')) 
+
+
+union all 
+	
+select `s1`.`c_code` AS `c_code`,`s1`.`pay_no` AS `pay_no`,'SALARY' AS `SALARY`,`s1`.`pay_date` AS `pay_date`,'SALARY' AS `SALARY`,`s1`.`pay_no` AS `pay_no`,`s1`.`ledger_code` AS `ledger_code`,0 AS `0`,`s2`.`salary` AS `salary`,'Y' AS `Y`,concat(`l1`.`ledger_name`,', ( ',`e1`.`emp_name`,' )') AS `concat(ledger_name,', ( ' , emp_name ,' )')`,`l1`.`branch` AS `branch`,`s1`.`notes` AS `notes`,s1.salary_code,600056 reftype  from ((((`salary` `s1` join `salary_det` `s2`) join `emp_det` `e1`) join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`s1`.`salary_code` = `s2`.`salary_code`) and (`s2`.`emp_det_code` = `e1`.`emp_det_code`) and (`a1`.`salary_ledger_code` = `l1`.`ledger_code`) and (`s2`.`salary` <> 0) and (ifnull(`s1`.`status`,'N') <> 'C')) 
+
+union all 
+
+select `s1`.`c_code` AS `c_code`,`s1`.`pay_no` AS `pay_no`,'W.BETA' AS `W.BETA`,`s1`.`pay_date` AS `pay_date`,'W.BETA' AS `W.BETA`,`s1`.`pay_no` AS `pay_no`,`s1`.`ledger_code` AS `ledger_code`,0 AS `0`,`s2`.`beta` AS `beta`,'Y' AS `Y`,concat(`l1`.`ledger_name`,', ( ',`e1`.`emp_name`,' )') AS `concat(ledger_name,', ( ' , emp_name ,' )')`,`l1`.`branch` AS `branch`,`s1`.`notes` AS `notes`,s1.salary_code,600056 reftype  from ((((`salary` `s1` join `salary_det` `s2`) join `emp_det` `e1`) join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`s1`.`salary_code` = `s2`.`salary_code`) and (`s2`.`emp_det_code` = `e1`.`emp_det_code`) and (`a1`.`beta_ledger_code` = `l1`.`ledger_code`) and (`s2`.`beta` <> 0) and (ifnull(`s1`.`status`,'N') <> 'C')) 
+
+union all 
+
+select `s1`.`c_code` AS `c_code`,`s1`.`pay_no` AS `pay_no`,'INCENTIVE' AS `INCENTIVE`,`s1`.`pay_date` AS `pay_date`,'INCENTIVE' AS `INCENTIVE`,`s1`.`pay_no` AS `pay_no`,`s1`.`ledger_code` AS `ledger_code`,0 AS `0`,`s2`.`incentive` AS `incentive`,'Y' AS `Y`,concat(`l1`.`ledger_name`,', ( ',`e1`.`emp_name`,' )') AS `concat(ledger_name,', ( ' , emp_name ,' )')`,`l1`.`branch` AS `branch`,`s1`.`notes` AS `notes`,s1.salary_code,600056 reftype  from ((((`salary` `s1` join `salary_det` `s2`) join `emp_det` `e1`) join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`s1`.`salary_code` = `s2`.`salary_code`) and (`s2`.`emp_det_code` = `e1`.`emp_det_code`) and (`a1`.`incentive_ledger_code` = `l1`.`ledger_code`) and (`s2`.`incentive` <> 0) and (ifnull(`s1`.`status`,'N') <> 'C')) 
+
+union all 
+
+select `s1`.`c_code` AS `c_code`,`s1`.`pay_no` AS `pay_no`,'BONUS' AS `BONUS`,`s1`.`pay_date` AS `pay_date`,'BONUS' AS `BONUS`,`s1`.`pay_no` AS `pay_no`,`s1`.`ledger_code` AS `ledger_code`,0 AS `0`,`s2`.`bonus` AS `bonus`,'Y' AS `Y`,concat(`l1`.`ledger_name`,', ( ',`e1`.`emp_name`,' )') AS `concat(ledger_name,', ( ' , emp_name ,' )')`,`l1`.`branch` AS `branch`,`s1`.`notes` AS `notes`,s1.salary_code,600056 reftype  from ((((`salary` `s1` join `salary_det` `s2`) join `emp_det` `e1`) join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`s1`.`salary_code` = `s2`.`salary_code`) and (`s2`.`emp_det_code` = `e1`.`emp_det_code`) and (`a1`.`bonus_ledger_code` = `l1`.`ledger_code`) and (`s2`.`bonus` <> 0) and (ifnull(`s1`.`status`,'N') <> 'C')) 
+
+union all 
+
+
+select `s1`.`c_code` AS `c_code`,`s1`.`pay_no` AS `pay_no`,'ADV.PAID' AS `ADV.PAID`,`s1`.`pay_date` AS `pay_date`,'ADV.PAID' AS `ADV.PAID`,`s1`.`pay_no` AS `pay_no`,`s1`.`ledger_code` AS `ledger_code`,0 AS `0`,`s2`.`advance` AS `advance`,'Y' AS `Y`,concat(`l1`.`ledger_name`,', ( ',`e1`.`emp_name`,' )') AS `concat(ledger_name,', ( ' , emp_name ,' )')`,`l1`.`branch` AS `branch`,`s1`.`notes` AS `notes`,s1.salary_code,600056 reftype  from ((((`salary` `s1` join `salary_det` `s2`) join `emp_det` `e1`) join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`s1`.`salary_code` = `s2`.`salary_code`) and (`s2`.`emp_det_code` = `e1`.`emp_det_code`) and (`a1`.`advance_ledger_code` = `l1`.`ledger_code`) and (`s2`.`advance` > 0) and (ifnull(`s1`.`status`,'N') <> 'C')) 
+
+union all 
+
+select `s1`.`c_code` AS `c_code`,`s1`.`pay_no` AS `pay_no`,'ADV.PAID' AS `ADV.PAID`,`s1`.`pay_date` AS `pay_date`,'ADV.DED' AS `ADV.DED`,`s1`.`pay_no` AS `pay_no`,`s1`.`ledger_code` AS `ledger_code`,(`s2`.`advance` * -(1)) AS `s2.advance*-1`,0 AS `0`,'Y' AS `Y`,concat(`l1`.`ledger_name`,', ( ',`e1`.`emp_name`,' )') AS `concat(ledger_name,', ( ' , emp_name ,' )')`,`l1`.`branch` AS `branch`,`s1`.`notes` AS `notes`,s1.salary_code,600056 reftype  from ((((`salary` `s1` join `salary_det` `s2`) join `emp_det` `e1`) join `ledger_mast` `l1`) join `account_settings` `a1`) where ((`s1`.`salary_code` = `s2`.`salary_code`) and (`s2`.`emp_det_code` = `e1`.`emp_det_code`) and (`a1`.`advance_ledger_code` = `l1`.`ledger_code`) and (`s2`.`advance` < 0) and (ifnull(`s1`.`status`,'N') <> 'C')) 
+

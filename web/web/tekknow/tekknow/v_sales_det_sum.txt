@@ -1,0 +1,1 @@
+create view v_sales_det_sum as select invoice_code,sum(mtrs) mtrs,sum(pcs) pcs,sum(amount) as sales_amount from f_invoice_det group by invoice_code
