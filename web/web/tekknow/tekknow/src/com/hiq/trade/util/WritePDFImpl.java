@@ -577,11 +577,11 @@ public class WritePDFImpl extends com.core.report.WritePDF
         float snoWidth = pageWidth * 5.0F / 100.0F;
         float descWidth = pageWidth * 49.0F / 100.0F;
         float hsnWidth = pageWidth * 8.0F / 100.0F;
-        float qtyWidth = pageWidth * 6.0F / 100.0F;
-        float rateWidth = pageWidth * 6.0F / 100.0F;
-        float discWidth = pageWidth * 6.0F / 100.0F;
+        float qtyWidth = pageWidth * 4.0F / 100.0F;
+        float rateWidth = pageWidth * 8.5F / 100.0F;
+        float discWidth = pageWidth * 4.5F / 100.0F;
         float unitWidth = pageWidth * 7.0F / 100.0F;
-        float amtWidth = pageWidth * 12.0F / 100.0F;
+        float amtWidth = pageWidth * 14.0F / 100.0F;
 
         ArrayList<HashMap<String, String>> c = new ArrayList<HashMap<String, String>>();
         HashMap<String, String> c1 = new HashMap<String, String>();
@@ -649,7 +649,7 @@ public class WritePDFImpl extends com.core.report.WritePDF
 
         c1 = new HashMap<String, String>();
         c1.put("margin", "2");
-        c1.put("width", String.valueOf(amtWidth + 2.0F));
+        c1.put("width", String.valueOf(amtWidth));
         c1.put("caption", "Amount");
         c1.put("name", "amount");
         c1.put("align", "r");
@@ -677,7 +677,7 @@ public class WritePDFImpl extends com.core.report.WritePDF
         float rightHeight = rightRows * 13.0F;
 
         float taxSectionHeight = Math.max(47.0F + (hsnCount * 13.0F), rightHeight);
-        float typ = 110.0F + taxSectionHeight;
+        float typ = 120.0F + taxSectionHeight;
 
         float cyp = getCurrentYPos();
         typ = createTableLines(c, cyp - typ, getPageWidth() - 
@@ -690,7 +690,7 @@ public class WritePDFImpl extends com.core.report.WritePDF
         setCurrentYPos(cy);
 
         pstmt = conn.prepareStatement(
-          "select @rowno:=@rowno+1 sd_sno,d.* from (select p1.product_name itemdescription,concat('(',descr,')') descr,p1.hsn_code hsncode, case when f1.mtrs=0 then '' else f1.mtrs end mtrs,unit_name unit,format(round(rate,2),2,'en_IN') rate,format(round(spl_disc,2),2,'en_IN') spl_disc,format(round(amount,2),2,'en_IN') amount,pcs as quantity from f_invoice_det f1,product_mast p1,unit_mast u1 where f1.design_code=p1.product_code and f1.unit_code=u1.unit_code and f1.invoice_code=" + 
+          "select @rowno:=@rowno+1 sd_sno,d.* from (select p1.product_name itemdescription,concat('(',descr,')') descr,p1.hsn_code hsncode, case when f1.mtrs=0 then '' else f1.mtrs end mtrs,unit_name unit,format(round(rate,2),2,'en_IN') rate,case when ifnull(f1.spl_disc,0)=0 then '0' when f1.spl_disc = floor(f1.spl_disc) then cast(cast(f1.spl_disc as signed) as char) else trim(trailing '0' from cast(round(f1.spl_disc,2) as char)) end spl_disc,format(round(amount,2),2,'en_IN') amount,case when ifnull(f1.pcs,0)=0 then '' when f1.pcs = floor(f1.pcs) then cast(cast(f1.pcs as signed) as char) else trim(trailing '0' from cast(round(f1.pcs,2) as char)) end as quantity from f_invoice_det f1,product_mast p1,unit_mast u1 where f1.design_code=p1.product_code and f1.unit_code=u1.unit_code and f1.invoice_code=" + 
           invoiceNo + 
           " order by f1.sno) d inner join (SELECT @rowno:=0) sno on 1=1");
 
@@ -704,7 +704,7 @@ public class WritePDFImpl extends com.core.report.WritePDF
         pstmt = null;
 
         pstmt = conn.prepareStatement(
-          "select '' sd_sno,'E. & O.E.                                                             Total ' itemdescription,'' descr,'' hsncode,ifnull(sum(pcs),0) quantity,'' unit,'' rate,'' spl_disc,format(ifnull(sum(amount),0),2,'en_IN') amount,ifnull(sum(pcs),0) as pcs,ifnull(sum(mtrs),0) mtrs from f_invoice_det f1 where invoice_code=" + 
+          "select '' sd_sno,'E. & O.E.                                                             Total ' itemdescription,'' descr,'' hsncode,case when ifnull(sum(pcs),0)=0 then '' when ifnull(sum(pcs),0) = floor(ifnull(sum(pcs),0)) then cast(cast(ifnull(sum(pcs),0) as signed) as char) else trim(trailing '0' from cast(round(ifnull(sum(pcs),0),2) as char)) end quantity,'' unit,'' rate,'' spl_disc,format(ifnull(sum(amount),0),2,'en_IN') amount,ifnull(sum(pcs),0) as pcs,ifnull(sum(mtrs),0) mtrs from f_invoice_det f1 where invoice_code=" + 
           invoiceNo);
         pstmt.clearParameters();
 
@@ -729,9 +729,9 @@ public class WritePDFImpl extends com.core.report.WritePDF
         float dividerAmtX = dividerX + discWidth + unitWidth;
         float rightMargin = getPageWidth() - getPageMarginRight();
 
-        // 1. Render Tax Summary on Left (3/4 width) starting at typ down to 110.0F
-        TaxSummaryResult taxRes = renderTaxSummary(conn, invoiceNo, typ, leftWidth, 110.0F);
-        float taxSummaryEndY = 110.0F;
+        // 1. Render Tax Summary on Left (3/4 width) starting at typ down to 120.0F
+        TaxSummaryResult taxRes = renderTaxSummary(conn, invoiceNo, typ, leftWidth, 120.0F);
+        float taxSummaryEndY = 120.0F;
 
         // 2. Right: Taxes (Taxable Value, Discount, CGST, SGST, Freight)
         // Starting at typ (same horizontal level as Tax Summary)
@@ -808,31 +808,31 @@ public class WritePDFImpl extends com.core.report.WritePDF
           taxRowY -= 13.0F;
         }
 
-        // Right-side vertical lines down to 110.0F
-        drawLine(dividerX, typ, dividerX, 110.0F);
-        drawLine(dividerAmtX, typ, dividerAmtX, 110.0F);
-        drawLine(rightMargin, typ, rightMargin, 110.0F);
+        // Right-side vertical lines down to 120.0F
+        drawLine(dividerX, typ, dividerX, 120.0F);
+        drawLine(dividerAmtX, typ, dividerAmtX, 120.0F);
+        drawLine(rightMargin, typ, rightMargin, 120.0F);
 
-        // Solid horizontal line across full page width at 110.0F
-        drawLine(getPageMarginLeft(), 110.0F, rightMargin, 110.0F);
+        // Solid horizontal line across full page width at 120.0F
+        drawLine(getPageMarginLeft(), 120.0F, rightMargin, 120.0F);
 
-        // 3. Row: Rupees in Words (Left) & Net Amount (Right) - (from 110.0F down to 90.0F)
+        // 3. Row: Rupees in Words (Left) & Net Amount (Right) - (from 120.0F down to 98.0F)
         java.math.BigDecimal amt = java.math.BigDecimal.valueOf(rs1.getDouble("wordnetamt"));
         String amountInWords = "Rupees " + NumberToWord.convertNumberToWords(amt) + " Only.";
-        drawCellText(amountInWords, getPageMarginLeft() + 4.0F, 96.0F, leftWidth - 8.0F, "l", PDType1Font.TIMES_BOLD, 9.0F);
+        drawCellText(amountInWords, getPageMarginLeft() + 4.0F, 104.5F, leftWidth - 8.0F, "l", PDType1Font.TIMES_BOLD, 9.0F);
 
-        drawCellText("Net Amount:", dividerX, 96.0F, dividerAmtX - dividerX - 4.0F, "r", PDType1Font.TIMES_BOLD, 10.0F);
-        drawCellText(rs1.getString("sh_net_amount"), dividerAmtX, 96.0F, amtW, "r", PDType1Font.TIMES_BOLD, 12.0F);
+        drawCellText("Net Amount:", dividerX, 104.5F, dividerAmtX - dividerX - 4.0F, "r", PDType1Font.TIMES_BOLD, 10.0F);
+        drawCellText(rs1.getString("sh_net_amount"), dividerAmtX, 104.5F, amtW, "r", PDType1Font.TIMES_BOLD, 12.0F);
 
-        // Vertical dividers & bottom horizontal line for Net Amount row down to 90.0F
-        drawLine(getPageMarginLeft(), 110.0F, getPageMarginLeft(), 90.0F);
-        drawLine(dividerX, 110.0F, dividerX, 90.0F);
-        drawLine(dividerAmtX, 110.0F, dividerAmtX, 90.0F);
-        drawLine(rightMargin, 110.0F, rightMargin, 90.0F);
-        drawLine(getPageMarginLeft(), 90.0F, rightMargin, 90.0F);
+        // Vertical dividers & bottom horizontal line for Net Amount row down to 98.0F
+        drawLine(getPageMarginLeft(), 120.0F, getPageMarginLeft(), 98.0F);
+        drawLine(dividerX, 120.0F, dividerX, 98.0F);
+        drawLine(dividerAmtX, 120.0F, dividerAmtX, 98.0F);
+        drawLine(rightMargin, 120.0F, rightMargin, 98.0F);
+        drawLine(getPageMarginLeft(), 98.0F, rightMargin, 98.0F);
 
-        // 4. Row: Bank Details & Notes (Left) + Signatory (Right) - (from 90.0F down to 36.0F)
-        float bottomBoxY = 36.0F;
+        // 4. Row: Bank Details & Notes (Left) + Signatory (Right) - (from 98.0F down to 44.0F)
+        float bottomBoxY = 44.0F;
 
         String bName = rs1.getString("bankname");
         if (bName == null || bName.trim().isEmpty()) bName = "BANK OF BARODA";
@@ -847,23 +847,23 @@ public class WritePDFImpl extends com.core.report.WritePDF
         if (noteVal == null || "null".equalsIgnoreCase(noteVal.trim())) noteVal = "";
 
         // Bank Details on Left (Notes kept down at the bottom)
-        drawText(PDType1Font.TIMES_ROMAN, 9.0F, getPageMarginLeft() + 4.0F, 78.5F, "Bank Name  : " + bName);
-        drawText(PDType1Font.TIMES_ROMAN, 9.0F, getPageMarginLeft() + 4.0F, 67.0F, "A/c No.        : " + bAc);
-        drawText(PDType1Font.TIMES_ROMAN, 9.0F, getPageMarginLeft() + 4.0F, 55.5F, "IFSC Code   : " + bIfsc + ", Branch: " + bBranch);
-        drawText(PDType1Font.TIMES_BOLD, 8.5F, getPageMarginLeft() + 4.0F, 44.0F, "Notes: " + noteVal);
+        drawText(PDType1Font.TIMES_ROMAN, 9.0F, getPageMarginLeft() + 4.0F, 86.5F, "Bank Name  : " + bName);
+        drawText(PDType1Font.TIMES_ROMAN, 9.0F, getPageMarginLeft() + 4.0F, 75.0F, "A/c No.        : " + bAc);
+        drawText(PDType1Font.TIMES_ROMAN, 9.0F, getPageMarginLeft() + 4.0F, 63.5F, "IFSC Code   : " + bIfsc + ", Branch: " + bBranch);
+        drawText(PDType1Font.TIMES_BOLD, 8.5F, getPageMarginLeft() + 4.0F, 52.0F, "Notes: " + noteVal);
 
         // Company Signatory on Right
         float sigWidth = rightMargin - dividerX;
-        drawCellText("For " + rs1.getString("comp_name"), dividerX, 78.5F, sigWidth, "c", PDType1Font.TIMES_BOLD, 8.5F);
-        drawCellText("Authorized Signatory", dividerX, 44.0F, sigWidth, "c", PDType1Font.TIMES_BOLD, 8.5F);
+        drawCellText("For " + rs1.getString("comp_name"), dividerX, 86.5F, sigWidth, "c", PDType1Font.TIMES_BOLD, 8.5F);
+        drawCellText("Authorized Signatory", dividerX, 52.0F, sigWidth, "c", PDType1Font.TIMES_BOLD, 8.5F);
 
         // Box lines for Bank & Signatory down to bottomBoxY
-        drawLine(getPageMarginLeft(), 90.0F, getPageMarginLeft(), bottomBoxY);
-        drawLine(dividerX, 90.0F, dividerX, bottomBoxY);
-        drawLine(rightMargin, 90.0F, rightMargin, bottomBoxY);
+        drawLine(getPageMarginLeft(), 98.0F, getPageMarginLeft(), bottomBoxY);
+        drawLine(dividerX, 98.0F, dividerX, bottomBoxY);
+        drawLine(rightMargin, 98.0F, rightMargin, bottomBoxY);
         drawLine(getPageMarginLeft(), bottomBoxY, rightMargin, bottomBoxY);
 
-        // 5. Bottom Jurisdiction Notes at 22.0F
+        // 5. Bottom Jurisdiction Notes at 30.0F
         titles.clear();
         title = new HashMap<String, String>();
         title.put("size", "8");
@@ -872,7 +872,7 @@ public class WritePDFImpl extends com.core.report.WritePDF
         title.put("align", "c");
         title.put("font", "b");
         titles.add(title);
-        createTitle(getPageMarginLeft(), 22.0F, titles);
+        createTitle(getPageMarginLeft(), 30.0F, titles);
 
         titles.clear();
         title = new HashMap<String, String>();
@@ -882,7 +882,7 @@ public class WritePDFImpl extends com.core.report.WritePDF
         title.put("align", "c");
         title.put("font", "b");
         titles.add(title);
-        createTitle(getPageMarginLeft() + getContentWidth() / 2.0F, 22.0F, titles);
+        createTitle(getPageMarginLeft() + getContentWidth() / 2.0F, 30.0F, titles);
 
         closeContent();
       }
