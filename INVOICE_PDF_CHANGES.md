@@ -26,15 +26,14 @@ Allocates 100% of printable width (`575.28 pt`):
 | `sd_sno` | `SNo` | 5.0% | Center | Row counter (`@rowno:=@rowno+1`) |
 | `itemdescription` | `Description` | 49.0% | Left | `product_mast.product_name` (+ description if present) |
 | `hsncode` | `HSN` | 8.0% | Center | `product_mast.hsn_code` |
-| `quantity` | `Qty` | 4.0% | Center | `case when f1.pcs = floor(f1.pcs) then cast(cast(f1.pcs as signed) as char) ...` (no trailing decimals) |
-| `rate` | `Rate` | 8.5% | Right | `format(round(rate,2),2,'en_IN') rate` (expanded width for numbers like `22,123.88`) |
-| `spl_disc` | `Dis%` | 4.5% | Right | `case when f1.spl_disc = floor(f1.spl_disc) then cast(cast(f1.spl_disc as signed) as char) ...` (`0`, `1`, `99` without trailing decimals) |
+| `quantity` | `Qty` | 6.0% | Center | `f_invoice_det.pcs` |
+| `rate` | `Rate` | 6.0% | Right | `f_invoice_det.rate` |
+| `spl_disc` | `Dis%` | 6.0% | Right | `f_invoice_det.spl_disc` |
 | `unit` | `Unit` | 7.0% | Center | `unit_mast.unit_name` |
-| `amount` | `Amount` | 14.0% | Right | `f_invoice_det.amount` |
+| `amount` | `Amount` | 12.0% + 2pt | Right | `f_invoice_det.amount` |
 
-- **Zero Trailing Decimals for Qty & Dis%**: Numbers like `1.000`, `36.000` render cleanly as `1`, `36`; discounts like `0.00`, `5.00` render as `0`, `5`.
-- **Expanded Rate Space**: Rate column expanded to 8.5% (~48.9 pt) to comfortably accommodate larger unit rates (e.g. `2,345.78`, `22,123.88`).
-- **`E. & O.E. Total` Row**: Displays `E. & O.E.` / `Total`, aggregate `Qty` (without trailing decimals), and aggregate `Amount`.
+- **No HSN Grouping in Line Items**: Each item in `f_invoice_det` renders as an individual row without grouping, even when items share the same HSN code.
+- **`E. & O.E. Total` Row**: Displays `E. & O.E.` / `Total`, aggregate `Qty`, and aggregate `Amount`.
 
 ---
 
@@ -65,46 +64,46 @@ Directly below the line items table, the lower section is divided into three tig
 ```
 
 ### Row 1: Tax Summary (Left 3/4) + Taxable Value & Taxes (Right 1/4)
-- **Top**: `typ` (dynamically calculated as `120.0F + taxSectionHeight`, where `taxSectionHeight = Math.max(47.0F + (hsnCount * 13.0F), rightHeight)`).
-- **Bottom**: `120.0F`.
-- **Left Column (3/4 Width, ~428.6 pt)**:
-  - `Tax Summary:` table with HSN rows and `TOTAL` row ending cleanly at `120.0F`.
-- **Right Column (1/4 Width, ~146.7 pt)**:
+- **Top**: `typ` (dynamically calculated as `110.0F + taxSectionHeight`, where `taxSectionHeight = Math.max(47.0F + (hsnCount * 13.0F), rightHeight)`).
+- **Bottom**: `110.0F`.
+- **Left Column (3/4 Width, ~425.7 pt)**:
+  - `Tax Summary:` table with HSN rows and `TOTAL` row ending cleanly at `110.0F`.
+- **Right Column (1/4 Width, ~149.5 pt)**:
   - `Taxable Value` (gross amount)
   - `Discount` (if applicable)
   - `CGST` & `SGST` (IGST automatically converted into 50% CGST + 50% SGST)
   - `Freight` (if applicable)
-- **Border**: Full horizontal line across page at `120.0F`.
+- **Border**: Full horizontal line across page at `110.0F`.
 
 ### Row 2: Totals Row (`Rupees ... Only` & `Net Amount`)
-- **Top**: `120.0F`.
-- **Bottom**: `98.0F` (Height: 22.0 pt).
+- **Top**: `110.0F`.
+- **Bottom**: `90.0F` (Height: 20.0 pt).
 - **Left Column**:
-  - `Rupees <Amount in Words> Only.` in `Times-Bold` 9 pt, vertically centered at `Y = 104.5F`.
+  - `Rupees <Amount in Words> Only.` in `Times-Bold` 9 pt, vertically centered at `Y = 96.0F`.
 - **Right Column**:
-  - `Net Amount:` in `Times-Bold` 10 pt right-aligned before amount divider at `Y = 104.5F`.
-  - `<net_amount>` in `Times-Bold` 12 pt right-aligned in amount column at `Y = 104.5F`.
-- **Border**: Full horizontal line across page at `98.0F`. Generous padding prevents any line collision.
+  - `Net Amount:` in `Times-Bold` 10 pt right-aligned before amount divider.
+  - `<net_amount>` in `Times-Bold` 12 pt right-aligned in amount column.
+- **Border**: Full horizontal line across page at `90.0F`.
 
 ### Row 3: Bank Details & Notes (Left) + Company Signatory (Right)
-- **Top**: `98.0F`.
-- **Bottom**: `44.0F` (Height: 54.0 pt).
+- **Top**: `90.0F`.
+- **Bottom**: `36.0F` (Height: 54.0 pt).
 - **Left Column (Bank Details & Notes kept down)**:
-  - `Bank Name  : BANK OF BARODA` (Y = 86.5F)
-  - `A/c No.        : 06080200000494` (Y = 75.0F)
-  - `IFSC Code   : BARB0SALEMX, Branch: Salem Main` (Y = 63.5F)
-  - `Notes: <note>` (Y = 52.0F) -> Notes placed at the bottom.
+  - `Bank Name  : BANK OF BARODA` (Y = 78.5F)
+  - `A/c No.        : 06080200000494` (Y = 67.0F)
+  - `IFSC Code   : BARB0SALEMX, Branch: Salem Main` (Y = 55.5F)
+  - `Notes: <note>` (Y = 44.0F) -> Notes placed at the bottom.
 - **Right Column (Signatory)**:
-  - `For <Company Name>` (e.g. `For TEKKNOW ENGINEERING COMPANY`) in `Times-Bold` 8.5 pt, centered at `Y = 86.5F`.
+  - `For <Company Name>` (e.g. `For TEKKNOW ENGINEERING COMPANY`) in `Times-Bold` 8.5 pt, centered at `Y = 78.5F`.
   - Open space for physical stamp and signature.
-  - `Authorized Signatory` in `Times-Bold` 8.5 pt, centered at `Y = 52.0F`.
-- **Border**: Full horizontal line across page at `44.0F`.
+  - `Authorized Signatory` in `Times-Bold` 8.5 pt, centered at `Y = 44.0F`.
+- **Border**: Full horizontal line across page at `36.0F`.
 
-### Row 4: Jurisdiction Footer (Below 44.0 pt)
-- Rendered at `Y = 30.0F` (raised from 22.0F to eliminate hardware bottom-edge clipping on physical printers):
+### Row 4: Jurisdiction Footer (Below 36.0 pt)
+- Rendered at `Y = 22.0F`:
   - Left: `Goods once sold cannot be taken back or exchanged.` (`Times-Bold` 8 pt, centered in left half).
   - Right: `Subject to Salem Jurisdiction.` (`Times-Bold` 8 pt, centered in right half).
-- Baseline sits comfortably at `Y = 20.0F` (>7 mm from physical paper bottom).
+- Bottom page margin: `10.0F`.
 
 ---
 
@@ -144,8 +143,7 @@ Context reload:
 
 | Invoice No | Copy Type | Verification Point | Status |
 | :--- | :--- | :--- | :--- |
-| **37050** | Original | Qty integer `1`; Dis% `0`; Rate widened; Net Amount moved up with clean padding; Footer at 30.0F | Verified via `test_new_370501.jpg` |
-| **37050** | Duplicate | `TAX INVOICE (DUPLICATE COPY)`; identical updated column widths, formatting, and spacing | Verified via `test_new_37050_dup1.jpg` |
-| **37050** | Transport | `TAX INVOICE (TRANSPORT COPY)`; identical updated column widths, formatting, and spacing | Verified via `test_new_37050_trans1.jpg` |
-| **37038** | Original | Single item; dynamic `typ` for 1 HSN row; Qty `3`; Dis% `0`; Net Amount cleanly centered; Footer at 30.0F | Verified via `test_new_370381.jpg` |
-| **37053** | Original | Multi-item stress test: Rate `22,123.88` & `2,345.78` fit cleanly; Dis% `5`, `99`, `0`; Qty integer `2`, `22` | Verified via `test_new_370531.jpg` |
+| **37050** | Original | Taxable Value 32.80; `CGST @ 9.00%` (2.95) & `SGST @ 9.00%` (2.95); `Rupees Thirty Nine Only.` & `Net Amount: 39.00` above Bank details; `Notes:` at bottom; zero dead whitespace | Verified via `invoice_37050_v13.png` |
+| **37050** | Duplicate | `TAX INVOICE (DUPLICATE COPY)`; identical rearranged layout and dynamic spacing | Verified via `invoice_37050_dup_v13.png` |
+| **37050** | Transport | `TAX INVOICE (TRANSPORT COPY)`; identical rearranged layout and dynamic spacing | Verified via `invoice_37050_trans_v13.png` |
+| **37038** | Original | Single item; dynamic `typ` for 1 HSN row; `Rupees Eleven Only.` & `Net Amount: 11.00`; Bank details & Notes | Verified via `invoice_37038_v12.png` |
