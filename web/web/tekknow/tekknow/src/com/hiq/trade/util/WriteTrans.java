@@ -575,10 +575,10 @@ public class WriteTrans extends com.core.report.WritePDF
 
         float pageWidth = getPageWidth() - getPageMarginLeft() - getPageMarginRight();
         float snoWidth = pageWidth * 5.0F / 100.0F;
-        float descWidth = pageWidth * 49.0F / 100.0F;
+        float descWidth = pageWidth * 45.0F / 100.0F;
         float hsnWidth = pageWidth * 8.0F / 100.0F;
         float qtyWidth = pageWidth * 6.0F / 100.0F;
-        float rateWidth = pageWidth * 6.0F / 100.0F;
+        float rateWidth = pageWidth * 10.0F / 100.0F;
         float discWidth = pageWidth * 6.0F / 100.0F;
         float unitWidth = pageWidth * 7.0F / 100.0F;
         float amtWidth = pageWidth * 12.0F / 100.0F;
@@ -690,7 +690,7 @@ public class WriteTrans extends com.core.report.WritePDF
         setCurrentYPos(cy);
 
         pstmt = conn.prepareStatement(
-          "select @rowno:=@rowno+1 sd_sno,d.* from (select p1.product_name itemdescription,concat('(',descr,')') descr,p1.hsn_code hsncode, case when f1.mtrs=0 then '' else f1.mtrs end mtrs,unit_name unit,format(round(rate,2),2,'en_IN') rate,format(round(spl_disc,2),2,'en_IN') spl_disc,format(round(amount,2),2,'en_IN') amount,pcs as quantity from f_invoice_det f1,product_mast p1,unit_mast u1 where f1.design_code=p1.product_code and f1.unit_code=u1.unit_code and f1.invoice_code=" + 
+          "select @rowno:=@rowno+1 sd_sno,d.* from (select p1.product_name itemdescription,concat('(',descr,')') descr,p1.hsn_code hsncode, case when f1.mtrs=0 then '' else f1.mtrs end mtrs,unit_name unit,format(round(rate,2),2,'en_IN') rate,format(round(spl_disc,2),2,'en_IN') spl_disc,format(round(amount,2),2,'en_IN') amount,format(ifnull(f1.pcs,0),3) as quantity from f_invoice_det f1,product_mast p1,unit_mast u1 where f1.design_code=p1.product_code and f1.unit_code=u1.unit_code and f1.invoice_code=" + 
           invoiceNo + 
           " order by f1.sno) d inner join (SELECT @rowno:=0) sno on 1=1");
 
@@ -704,7 +704,7 @@ public class WriteTrans extends com.core.report.WritePDF
         pstmt = null;
 
         pstmt = conn.prepareStatement(
-          "select '' sd_sno,'E. & O.E.                                                             Total ' itemdescription,'' descr,'' hsncode,ifnull(sum(pcs),0) quantity,'' unit,'' rate,'' spl_disc,format(ifnull(sum(amount),0),2,'en_IN') amount,ifnull(sum(pcs),0) as pcs,ifnull(sum(mtrs),0) mtrs from f_invoice_det f1 where invoice_code=" + 
+          "select '' sd_sno,'E. & O.E.                                                             Total ' itemdescription,'' descr,'' hsncode,format(ifnull(sum(pcs),0),3) quantity,'' unit,'' rate,'' spl_disc,format(ifnull(sum(amount),0),2,'en_IN') amount,ifnull(sum(pcs),0) as pcs,ifnull(sum(mtrs),0) mtrs from f_invoice_det f1 where invoice_code=" + 
           invoiceNo);
         pstmt.clearParameters();
 

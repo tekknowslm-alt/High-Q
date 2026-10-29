@@ -24,11 +24,11 @@ Allocates 100% of printable width (`575.28 pt`):
 | Column Name | Caption | Width % | Alignment | Field Source / Description |
 | :--- | :--- | :--- | :--- | :--- |
 | `sd_sno` | `SNo` | 5.0% | Center | Row counter (`@rowno:=@rowno+1`) |
-| `itemdescription` | `Description` | 49.0% | Left | `product_mast.product_name` (+ description if present) |
+| `itemdescription` | `Description` | 45.0% | Left | `product_mast.product_name` (+ description if present) |
 | `hsncode` | `HSN` | 8.0% | Center | `product_mast.hsn_code` |
-| `quantity` | `Qty` | 6.0% | Center | `f_invoice_det.pcs` |
-| `rate` | `Rate` | 6.0% | Right | `f_invoice_det.rate` |
-| `spl_disc` | `Dis%` | 6.0% | Right | `f_invoice_det.spl_disc` |
+| `quantity` | `Qty` | 6.0% | Center | `f_invoice_det.pcs` (decimal formatting preserved) |
+| `rate` | `Rate` | 10.0% | Right | `f_invoice_det.rate` (widened to accommodate large numbers) |
+| `spl_disc` | `Dis%` | 6.0% | Right | `f_invoice_det.spl_disc` (decimal formatting preserved) |
 | `unit` | `Unit` | 7.0% | Center | `unit_mast.unit_name` |
 | `amount` | `Amount` | 12.0% + 2pt | Right | `f_invoice_det.amount` |
 
