@@ -577,8 +577,8 @@ public class WriteDuplicate extends com.core.report.WritePDF
         float snoWidth = pageWidth * 5.0F / 100.0F;
         float descWidth = pageWidth * 45.0F / 100.0F;
         float hsnWidth = pageWidth * 8.0F / 100.0F;
-        float qtyWidth = pageWidth * 6.0F / 100.0F;
-        float rateWidth = pageWidth * 10.0F / 100.0F;
+        float qtyWidth = pageWidth * 8.0F / 100.0F;
+        float rateWidth = pageWidth * 8.0F / 100.0F;
         float discWidth = pageWidth * 6.0F / 100.0F;
         float unitWidth = pageWidth * 7.0F / 100.0F;
         float amtWidth = pageWidth * 12.0F / 100.0F;
